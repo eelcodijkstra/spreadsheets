@@ -1,0 +1,111 @@
+H1S3
+====
+
+Formules
+--------
+
+Het belangrijkste doel van spreadsheets is om automatisch berekeningen uit te voeren.
+Hiervoor gebruik je een *formule* als celwaarde.
+Een formule begint met `=` gevolgd door de eigenlijke rekenformule.
+In de formule kun je de getallen, tekst of logische waarden gebruiken, operatoren zoals +, - of \*,
+en verwijzingen naar cellen.
+
+Voorbeelden van eenvoudige formules:
+
+* =A4+A5
+* =SQRT(A5)
+* =B3*0,21
+
+Sommige functies gebruiken een reeks cellen als parameter.
+Een reeks opeenvolgende cellen geef je aan als: "begincel" ":" "eindcel",
+bijvoorbeeld:
+
+* A1:A10
+* A1:F1
+* A1:F10
+
+We gebruiken in de opdrachten het volgende spreadsheet-voorbeeld:
+
+.. raw:: html
+
+  <div>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=1578771306&amp;
+      single=true&amp;widget=true&amp;headers=true" width="600px" height="200px"></iframe>
+  </div>
+
+Absolute en relatieve celverwijzingen
+-------------------------------------
+
+Vaak gebruik je dezelfde formule in meerdere cellen,
+denk bijvoorbeeld aan een kolom waarin je de BTW-waarde uitrekent van het bruto-bedrag,
+of waarin je het bruto-bedrag en de BTW optelt tot het netto-bedrag.
+
+In zo'n geval wil je dat bij het kopiëren van de formule, eventueel met de vulgreep,
+de afstanden in de formule gelijk blijven.
+De berekening van het bruto-totaal in cel E2 is `=C2*D2`.
+Bij het kopiëren hiervan naar E3 moet dit worden: `=C3*D3`;
+enzovoorts, voor alle cellen daaronder.
+Dat is ook precies wat er gebeurt als je deze formules kopieert:
+
+* `=C2*D2` in cel `E2` zegt eigenlijk: vermenigvuldig de twee celwaarden links van deze cel.
+* de kopie in cel `E3` wordt dan: `=C3*D3`.
+
+De celverwijzingen in deze formules zijn *relatieve verwijzingen*:
+bij kopiëren blijven de afstanden tussen de invoercellen van de berekening en de resultaatcel gelijk.
+
+Soms willen we dat niet, zoals bijvoorbeeld in het geval van de BTW-berekening:
+deze waarde, in een enkele cel, is voor alle BTW-formules gelijk.
+We geven een absolute verwijzing aan door een `$` voor de kolomletter en/of het rijnummer te plaatsen.
+
+* `$D2` - absolute kolom, relatieve rij;
+* `D$2` - relatieve kolom, absolute rij;
+* `$D$2` - absolute kolom en absolute rij (absolute celverwijzing).
+* de formule voor de BTW-berekening in cel F2 `=E2*$I$1`.
+
+Namen: een waarde die je met een absolute verwijzing aangeeft kun je ook een naam geven.
+In een formule gebruik je dan de naam in plaats van de celverwijzing.
+Hiermee voorkom je bijvoorbeeld fouten door het vergeten van een `$`,
+en de formules worden beter leesbaar.
+
+*Opmerking:* ga na dat we als formule voor de bruto-totaalprijs ook hadden kunnen gebruiken: `=$C2*$D2`
+
+*Concept*:
+
+* het verschil tussen absolute en relatieve verwijzingen kom je op meer plaatsen in de informatica tegen;
+* het gebruik van relatieve verwijzingen zorgt ervoor dat een berekening gelijk blijft bij verplaatsing.
+
+  * gebruik van relatieve padnamen in een hiërarchish filesysteem: `./x/y` of `../x/y`
+  * gebruik van relatieve adressen in machinecode;
+
+* het gebruik van absolute verwijzingen zorgt ervoor dat je een (gedeeld) gegeven kunt vinden vanaf elke plek.
+
+  * gebruik van absolute padnamen in een hiërarchisch filesysteem: `/var/www/html`.
+  * gebruik van absolute adressering in machinecode;
+
+
+*Opdrachten*
+
+* selecteer cel D3 en vul cellen D4 en D5 met de vulgreep;
+  wat is de formule in cel D3? wat is de formule in cel D5?
+* selecteer cel E3 en vul de cellen D4 en E5 met de vulgreep;
+* selecteer cel F3 en vul de cellen F4 en F5 met de vulgreep;
+* vul de volgende gegevens in:
+
+  * (artikel), (aantal), (prijs/stuk)
+  * (artikel), (aantal), (prijs/stuk)
+
+* tussenvoegen van een rij; kopiëren van de voorgaande rij;
+  controleer de formules in de gekopieerde rij; en in de totaal-som.
+  pas de rangnummers aan met de vulgreep.
+* verwijderen van een rij; controleer weer de formules van de laatste rij.
+
+Functies
+--------
+
+In het voorbeeld hebben we ook een functie gebruikt voor het bepalen van de totaalprijs:
+de formule in cel G7 is: `=sum(G2:G6)`. `sum` is hierin de functie voor het sommeren van de opgegeven reeks cellen.
+Zoals eerder beschreven verwijst `G2:G6` naar de cellen G2, G3, ..., G6.
+
+* `sum` is een *reductie*-functie: deze vat een reeks waarden samen in een enkel resultaat.
+* andere voorbeelden van dergelijke reductiefuncties zijn: `count` (aantal), `avg` (average, gemiddelde),
+  `min`, `max`, `product`, `and` (voor logische waarden).

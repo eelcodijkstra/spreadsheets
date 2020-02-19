@@ -1,0 +1,34 @@
+H1S1
+====
+
+Spreadsheetprogramma's
+----------------------
+
+Het meest bekende spreadsheetprogramma op dit moment is Microsoft Excel,
+maar ook Google Sheets en Apple Numbers worden veel gebruikt.
+Daarnaast heb je nog open-source versies, zoals OpenOffice of OfficeeLibre.
+Deze module kun je met al deze programma's gebruiken.
+
+We veronderstellen dat je weet hoe je toepassingen kunt openen,
+en bestanden kunt aanmaken, openen en opslaan.
+
+Soms zijn er kleine verschillen tussen deze spreadsheetprogramma's.
+Dit geven we aan met: (???)
+
+Ook in andere omgevingen kom je vaak spreadsheets tegen:
+tekstverwerkers zoals Microsoft Word of Apple Pages bieden tabellen die je als spreadsheet kunt gebruiken.
+Dat is bijvoorbeeld handig als je een tabel met meetgegevens in een verslag moet opnemen.
+
+Over de geschiedenis van spreadsheets
+-------------------------------------
+
+Waarvoor worden spreadsheets gebruikt?
+--------------------------------------
+
+Hoe kun je spreadsheets gebruiken?
+----------------------------------
+
+* voor functies en grafieken
+* voor rekenen aan meetgegevens
+* voor simulaties
+* als database; rekenen aan gegevens?
