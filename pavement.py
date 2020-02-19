@@ -25,6 +25,12 @@ serving_dir = "./build/" + project_name
 # The destination directory for ``runestone deploy``.
 dest = "../../static"
 
+dynamic_pages = False
+if dynamic_pages:
+    dest = "./published"
+else:
+    dest = "../../static"
+
 options(
     sphinx=Bunch(docroot=".",),
 
@@ -46,7 +52,7 @@ options(
             'downloads_enabled': 'false',
             'enable_chatcodes': 'false',
             'allow_pairs': 'false',
-            'dynamic_pages': False,
+            'dynamic_pages': dynamic_pages,
             'use_services': 'false',
             'basecourse': project_name,
             'course_id': project_name,

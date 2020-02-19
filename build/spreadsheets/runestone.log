@@ -1075,3 +1075,26 @@ Aborted!
 Aborted!
 
 Aborted!
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /h2/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:34] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:34] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:34] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
