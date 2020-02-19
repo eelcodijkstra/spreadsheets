@@ -1,5 +1,7 @@
 H1S4
 ====
 
-Subkopje
---------
+Volgende stappen
+----------------
+
+* Enkele voorbeelden en oefeningen

@@ -111,6 +111,7 @@
     <script type="text/javascript" src="../_static/timeddnd.js?v=378F237E"></script>
     <script type="text/javascript" src="../_static/dragndrop-i18n.en.js?v=40C28531"></script>
     <script type="text/javascript" src="../_static/poll.js?v=45F04365"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
     <script type="text/javascript" src="../_static/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
@@ -126,7 +127,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="H2S2" href="h2s2.html" />
-    <link rel="prev" title="Hoofdstuk 2" href="h2.html" />
+    <link rel="prev" title="Hoofdstuk 2" href="toctree.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -313,7 +314,7 @@
         <!-- 
           
   <li id="relations-prev" title="Previous Chapter - Hoofdstuk 2" data-toggle="tooltip">
-    <a href="h2.html" >
+    <a href="toctree.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
   </li>
@@ -359,8 +360,69 @@
   
   <div class="section" id="h2s1">
 <h1>H2S1<a class="headerlink" href="#h2s1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="subkopje">
-<h2>Subkopje<a class="headerlink" href="#subkopje" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="functies-en-grafieken">
+<h2>Functies en grafieken<a class="headerlink" href="#functies-en-grafieken" title="Permalink to this headline">¶</a></h2>
+<p>We kunnen een functie met één parameter, <span class="math notranslate nohighlight">\(f(x) = ...x...\)</span>,
+in een spreadsheet uitrekenen voor een aantal waarden voor <span class="math notranslate nohighlight">\(x\)</span>.
+Dit is bruikbaar als het aantal punten niet al te groot is (enkele tientallen).
+De functiewaarden in deze punten kunnen we dan gebruiken voor het tekenen van een grafiek.</p>
+<p>Het spreadsheet-voorbeeld laat de functie <span class="math notranslate nohighlight">\(f(x) = x^2\)</span> zien,
+in het interval -10..10, uitgerekend voor veelvouden van 0.5.</p>
+</div>
+<div class="section" id="het-tekenen-van-grafieken">
+<h2>Het tekenen van grafieken<a class="headerlink" href="#het-tekenen-van-grafieken" title="Permalink to this headline">¶</a></h2>
+<p>Spreadsheetprogramma’s bieden mogelijkheden voor het tekenen van allerlei grafieken.
+In dit geval willen we een “gladde” lijngrafiek gebruiken.
+We willen daarbij ook de juiste bijschriften voor de assen.</p>
+<ul class="simple">
+<li><p>Opmerking: door de kolommen te selecteren en “Chart” te kiezen krijgen we in Google spreadsheets
+vrijwel direct de juiste grafiek. Alleen het bijschrift hoefde aangepast te worden.</p></li>
+<li></li>
+</ul>
+</div>
+<div class="section" id="meerdere-functies-in-een-grafiek">
+<h2>Meerdere functies in één grafiek<a class="headerlink" href="#meerdere-functies-in-een-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>Een volgende stap is om meerdere functies in één grafiek te tekenen.</p>
+<ul class="simple">
+<li><p>f(x) = expr</p></li>
+<li><p>tekenen van grafiek</p></li>
+<li><p>hoe kun je rekenen aan de functie? bijv. extrema?</p></li>
+<li><p>(afgeleide met de hand bepalen?)</p></li>
+</ul>
+</div>
+<div class="section" id="groei-van-functies">
+<h2>Groei van functies<a class="headerlink" href="#groei-van-functies" title="Permalink to this headline">¶</a></h2>
+<p>Met het volgende voorbeeld kun je experimenteren met de groei van functies.
+Hoe gedraagt een functie zich voor steeds grotere waarden?</p>
+<p>Deze kennen is onder meer relevant voor het gedrag van algoritmen:
+hoe gedraagt een algoritme zich als we het probleem groter maken,
+bijvoorbeeld als we in plaats van 100 elementen, 200 of 1000 elementen moeten sorteren?</p>
+<p>We beginnen met de vergelijking tussen de functies <span class="math notranslate nohighlight">\(f(x)=a*x\)</span> en <span class="math notranslate nohighlight">\(g(x)=b*x^2\)</span>.</p>
+<ul class="simple">
+<li><p>voor de constanten <span class="math notranslate nohighlight">\(a\)</span> en <span class="math notranslate nohighlight">\(b\)</span> gebruiken we <em>benoemde cellen</em>,
+we hoeven dan niet met absolute verwijzingen als <code class="code docutils literal notranslate"><span class="pre">$H$3</span></code> te werken.</p></li>
+<li><p>voor de waarden van <span class="math notranslate nohighlight">\(x\)</span> gebruiken we een formule: <code class="code docutils literal notranslate"><span class="pre">=A1+step</span></code>, enz.;
+hierin is <cite>step</cite> een benoemde cel.
+Door het gebruik van deze formule kunnen we eenvoudig het bereik aanpassen.</p></li>
+</ul>
+<p>Dit voorbeeld is typisch voor het gebruik van spreadsheets:
+je kunt experimenteren met berekeningen door de parameters aan te passen,
+en na te gaan hoe de resultaten van de berekeningen dan veranderen.</p>
+<p>Opdracht:</p>
+<ul class="simple">
+<li><p>voeg een derde functie toe: <span class="math notranslate nohighlight">\(h(x)=d*x*log(x)\)</span>.</p></li>
+<li><p>vergelijk het gedrag van <span class="math notranslate nohighlight">\(g(x)\)</span> en <span class="math notranslate nohighlight">\(h(x)\)</span>, voor grote waarden van <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
+<li><p>als beide functies het gedrag (de rekentijd) van verschillende sorteeralgoritmes weergeven,
+welk algoritme geef je dan de voorkeur?
+Spelen de waarden van de constanten <span class="math notranslate nohighlight">\(b\)</span> en <span class="math notranslate nohighlight">\(d\)</span> daarbij nog een belangrijke rol?</p></li>
+</ul>
+<p>Opmerkingen:</p>
+<ul class="simple">
+<li><p>het maakt niet uit welke basis je gebruikt voor de logaritme,
+bijvoorbeeld de natuurlijke logaritme, de 10-log, of de 2-log.
+Immers: <span class="math notranslate nohighlight">\(^{2}log(x) = ^{2}log(10)*^{10}log(x)\)</span>.
+Met andere woorden: we kunnen het verschil in de basis van de logaritme verwerken in de constante <span class="math notranslate nohighlight">\(d\)</span>.</p></li>
+</ul>
 </div>
 </div>
 
@@ -372,14 +434,14 @@
       
 <ul>
   <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - Hoofdstuk 2' data-toggle="tooltip">
-    <a href="h2.html" aria-label="Hoofdstuk 2">
+    <a href="toctree.html" aria-label="Hoofdstuk 2">
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
             <i class='prevNav glyphicon glyphicon-chevron-left'  style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black;"></i>
         </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="h2.html" aria-label="Hoofdstuk 2"></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="toctree.html" aria-label="Hoofdstuk 2"></a>
   
 <ul>
   <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - H2S2' data-toggle="tooltip" >

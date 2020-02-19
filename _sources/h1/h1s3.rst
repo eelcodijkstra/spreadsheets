@@ -3,7 +3,7 @@ H1S3
 
 .. rubric:: leerdoelen
 
-  * leren omgaan met formules en celverwijzingen 
+* leren omgaan met formules en celverwijzingen 
 
 Formules
 --------
