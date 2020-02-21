@@ -12,7 +12,7 @@ zoals je die in de verschillende programma’s (zoals Excel, Google Spreadsheets
 Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek programma tegenkomt.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    h1/toctree.rst
    h2/toctree.rst

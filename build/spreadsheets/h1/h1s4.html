@@ -111,6 +111,7 @@
     <script type="text/javascript" src="../_static/timeddnd.js?v=378F237E"></script>
     <script type="text/javascript" src="../_static/dragndrop-i18n.en.js?v=40C28531"></script>
     <script type="text/javascript" src="../_static/poll.js?v=45F04365"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
     <script type="text/javascript" src="../_static/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
@@ -125,8 +126,8 @@
     <script type="text/javascript" src="../_static/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hoofdstuk 2" href="../h2/toctree.html" />
-    <link rel="prev" title="H1S3" href="h1s3.html" />
+    <link rel="next" title="H1S5" href="h1s5.html" />
+    <link rel="prev" title="Formules en functies" href="h1s3.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -312,14 +313,14 @@
         
         <!-- 
           
-  <li id="relations-prev" title="Previous Chapter - H1S3" data-toggle="tooltip">
+  <li id="relations-prev" title="Previous Chapter - Formules en functies" data-toggle="tooltip">
     <a href="h1s3.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - Hoofdstuk 2' data-toggle="tooltip" >              
-    <a href="../h2/toctree.html" >
+  <li id="relations-next" title='Next Chapter - H1S5' data-toggle="tooltip" >              
+    <a href="h1s5.html" >
         <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
@@ -362,6 +363,72 @@
 <div class="section" id="volgende-stappen">
 <h2>Volgende stappen<a class="headerlink" href="#volgende-stappen" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
+<li><p>groei van functies</p>
+<ul>
+<li><p>voor grotere N, factoren en lagere-orde termen irrelevant -&gt; big-O notatie</p></li>
+<li><p>verschil tussen lineair en kwadratisch</p></li>
+<li><p>verschil tussen O(N log N) en O(N^2)</p></li>
+<li><p>exponentiële groei</p></li>
+</ul>
+</li>
+<li><p>modelleren en simuleren</p>
+<ul>
+<li><p>begrip toestand; begintoestand</p></li>
+<li><p>model in 1 regel spreadsheet, uitrekenen volgende toestand uit de vorige.</p></li>
+<li><p>inputs in aparte kolommen</p></li>
+</ul>
+</li>
+<li><p>richtlijnen voor simuleren:</p>
+<ul>
+<li><p>tijd is verticaal, van boven naar beneden</p></li>
+<li><p>gebruik 1 regel per toestand, voor het uitrekenen van de volgende uit de vorige.</p></li>
+<li><p>inputs in de eerste kolommen</p></li>
+<li><p>constanten, parameters in een apart blok, zo mogelijk benoemd. (voor groot model, op apart vel)</p></li>
+<li><p>NB: als je benoemde parameters gebruikt dan kun je dit blok ook eenvoudig verplaatsen,
+je hoeft evt. alleen de definities van de namen aan te passen.</p></li>
+<li><p>grafieken e.d. voor groot model ook op apart rekenvel</p></li>
+</ul>
+</li>
+<li><p>meetgegevens en formulieren; statistiek</p>
+<ul>
+<li><p>ook weer: 1 record/meting per regel</p></li>
+<li><p>samenvatten/grafieken op een apart vel
+(tenzij het om weinig gegevens gaat, die je niet hoeft uit te breiden)</p></li>
+<li><p>interpolatie? in een grafiek?</p></li>
+<li><p><a class="reference external" href="https://www.engineerexcel.com/linear-interpolation-in-excel/">https://www.engineerexcel.com/linear-interpolation-in-excel/</a>; o.a. gebruik van MATCH</p></li>
+<li><p><a class="reference external" href="https://www.wallstreetmojo.com/linear-interpolation-in-excel/">https://www.wallstreetmojo.com/linear-interpolation-in-excel/</a></p></li>
+<li><p><a class="reference external" href="https://exceloffthegrid.com/interpolate-values-using-the-forecast-function/">https://exceloffthegrid.com/interpolate-values-using-the-forecast-function/</a></p></li>
+<li><p><a class="reference external" href="http://www.colby.edu/chemistry/PChem/notes/linest.pdf">http://www.colby.edu/chemistry/PChem/notes/linest.pdf</a></p></li>
+<li><p>opmerking over grafieken: alle programma’s kunnen trendlijnen tekenen,
+maar in (i) Excel en OfficeLibre kun je het snijpunt voor x=0 (“intercept”) afdwingen,
+in Google Sheets en in Apple Numbers niet. Dit laatste maakt het voor natuurkundige toepassingen
+minder geschikt (met de hand uitrekenen???).</p></li>
+</ul>
+</li>
+<li><p>data en databases</p>
+<ul>
+<li><p>data in tabellen; tabel als relatie (relationele database)</p></li>
+<li><p>spreadsheet-tabel als relatie</p></li>
+<li><p>importeren van CSV-bestanden (en exporteren)</p></li>
+<li><p>autofilter</p></li>
+<li><p>filteren/selectie; groeperen en samenvatten; queries (?)</p></li>
+<li><p>gebruik van aparte sheet voor samenvatten e.d.; draaitabellen.
+(Kun je draaitabellen ook in formules uitdrukken? Ik heb altijd problemen met het interface…)</p></li>
+<li><p>redundantie in tabellen; beperkingen van spreadsheets;
+(Hoe geef je meerdere waarden in een kolom/cel aan?)</p></li>
+<li><p>voorbeelden: (i) giro, waar blijft mijn zakgeld? (ii) ledenadministratie van een vereniging;</p></li>
+</ul>
+</li>
+<li><p>richtlijnen voor data in tabellen:</p>
+<ul>
+<li><p>record per rij, kolommen met vaste betekenis (type)</p></li>
+<li><p>samenvatten op apart vel(len): je kunt dan gemakkelijker de data uitbreiden,
+en het werkt handiger als je veel rijen hebt (je hoeft dan niet steeds naar onder te scrollen).</p></li>
+<li><p>je kunt op verschillende elementen sorteren, maar zorg dat je een natuurlijke key hebt om
+weer de “normale” situatie te herstellen.
+(Dit kan een volgnummer zijn, een naam, of een datum, bijv.)</p></li>
+</ul>
+</li>
 <li><p>Enkele voorbeelden en oefeningen</p></li>
 </ul>
 </div>
@@ -374,26 +441,26 @@
   
       
 <ul>
-  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - H1S3' data-toggle="tooltip">
-    <a href="h1s3.html" aria-label="H1S3">
+  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - Formules en functies' data-toggle="tooltip">
+    <a href="h1s3.html" aria-label="Formules en functies">
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
             <i class='prevNav glyphicon glyphicon-chevron-left'  style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black;"></i>
         </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="h1s3.html" aria-label="H1S3"></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="h1s3.html" aria-label="Formules en functies"></a>
   
 <ul>
-  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - Hoofdstuk 2' data-toggle="tooltip" >
-    <a href="../h2/toctree.html" aria-label="Hoofdstuk 2">
+  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - H1S5' data-toggle="tooltip" >
+    <a href="h1s5.html" aria-label="H1S5">
       <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
           <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black; "></i>
       </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg navLink" id="navLinkBgRight" href="../h2/toctree.html" aria-label="Hoofdstuk 2">Next Section - Hoofdstuk 2</a>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="h1s5.html" aria-label="H1S5">Next Section - H1S5</a>
 
 <script type="text/javascript">
 
@@ -428,7 +495,7 @@
       
     </p>
     <p>
-        &copy; Copyright 2017 eelco.
+        &copy; Copyright 2020 eelco.
       Created using <a href="http://runestoneinteractive.org/">Runestone</a> 4.2.0.
     </p>
   </div>

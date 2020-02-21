@@ -1,5 +1,5 @@
-H1S2
-====
+Cellen en waarden
+=================
 
 .. rubric:: Voorbereiding
 
@@ -31,12 +31,13 @@ Het adres van een cel is de kolomletter gevolgd door het rijnummer.
   en rechts onder zie je een blokje: de vulgreep (zie verderop).
 * je selecteert een cel door met de muis in de cel te klikken;
 * je selecteert een reeks cellen door de eerste cel te selecteren, en dan met Shift-klik (of de rechter muisknop) in de laatste cel te klikken;
-* je selecteert een rij door op het rij-nummer te klikken;
-* je selecteerd een kolom door op de kolom-letter te klikken.
+* je selecteert een volledige rij door op het rij-nummer te klikken;
+* je selecteert een volledige kolom door op de kolom-letter te klikken.
 
 *Opdracht*
 
 * probeer elk van de bovenstaande mogelijkheden uit.
+  Oefen hiermee totdat je er handig in bent.
 
 Waarden: getal, tekst of logische waarde
 ----------------------------------------

@@ -1,8 +1,8 @@
 ***********
-Hallo daar!
+Hoofdstuk 1
 ***********
 
-Ik heb geen idee waar de foutmelding op slaat....
+
 
 .. toctree::
    :maxdepth: 2
@@ -11,3 +11,4 @@ Ik heb geen idee waar de foutmelding op slaat....
    h1s2.rst
    h1s3.rst
    h1s4.rst
+   h1s5.rst

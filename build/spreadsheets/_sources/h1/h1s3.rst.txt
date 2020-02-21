@@ -1,9 +1,9 @@
-H1S3
-====
+Formules en functies
+====================
 
 .. rubric:: leerdoelen
 
-* leren omgaan met formules en celverwijzingen 
+* leren omgaan met formules en celverwijzingen
 
 Formules
 --------

@@ -4,36 +4,7 @@ H2S1
 Functies en grafieken
 ---------------------
 
-We kunnen een functie met één parameter, :math:`f(x) = ...x...`,
-in een spreadsheet uitrekenen voor een aantal waarden voor :math:`x`.
-Dit is bruikbaar als het aantal punten niet al te groot is (enkele tientallen).
-De functiewaarden in deze punten kunnen we dan gebruiken voor het tekenen van een grafiek.
 
-Het spreadsheet-voorbeeld laat de functie :math:`f(x) = x^2` zien,
-in het interval -10..10, uitgerekend voor veelvouden van 0.5.
-
-Het tekenen van grafieken
--------------------------
-
-Spreadsheetprogramma's bieden mogelijkheden voor het tekenen van allerlei grafieken.
-In dit geval willen we een "gladde" lijngrafiek gebruiken.
-We willen daarbij ook de juiste bijschriften voor de assen.
-
-* Opmerking: door de kolommen te selecteren en "Chart" te kiezen krijgen we in Google spreadsheets
-  vrijwel direct de juiste grafiek. Alleen het bijschrift hoefde aangepast te worden.
-*
-
-Meerdere functies in één grafiek
---------------------------------
-
-Een volgende stap is om meerdere functies in één grafiek te tekenen.
-
-
-
-* f(x) = expr
-* tekenen van grafiek
-* hoe kun je rekenen aan de functie? bijv. extrema?
-* (afgeleide met de hand bepalen?)
 
 Groei van functies
 ------------------

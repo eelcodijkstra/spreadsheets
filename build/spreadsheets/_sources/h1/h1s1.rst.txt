@@ -1,5 +1,5 @@
-H1S1
-====
+Inleiding
+=========
 
 Spreadsheetprogramma's
 ----------------------
@@ -15,9 +15,10 @@ en bestanden kunt aanmaken, openen en opslaan.
 Soms zijn er kleine verschillen tussen deze spreadsheetprogramma's.
 Dit geven we aan met: (???)
 
-Ook in andere omgevingen kom je vaak spreadsheets tegen:
+Ook in andere programma's kom je vaak spreadsheets tegen:
 tekstverwerkers zoals Microsoft Word of Apple Pages bieden tabellen die je als spreadsheet kunt gebruiken.
-Dat is bijvoorbeeld handig als je een tabel met meetgegevens in een verslag moet opnemen.
+Dat is  handig als je een tabel met meetgegevens in een verslag moet opnemen,
+of als je een rekening of offerte met BTW-berekening moet maken.
 
 Over de geschiedenis van spreadsheets
 -------------------------------------

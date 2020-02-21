@@ -1,0 +1,1538 @@
+127.0.0.1 - - [17/Feb/2020 11:27:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:52] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:52] "GET /_static/matrixeq.css?v=58BC228F HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/fitb.css?v=3BA0E63E HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/video.css?v=E5385B3B HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/tabbedstuff.css?v=424F1CC9 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/parsons.css?v=2F3E13EE HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/codemirror.css?v=9CF75563 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/CodeChat.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jexcel.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/japp.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/datafile.css?v=C184EB8A HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/pytutor.css?v=239FC54E HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/prettify.css?v=2A364B6B HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/showEval.css?v=C6382F3 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/accessibility.css?v=DB047029 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/clickable.js?v=846DC076 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/matrixeq.js?v=D64CFA5A HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/dragndrop.css?v=1FF7F927 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/tabbedstuff.js?v=5BE6106 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js?v=8ABDFE7F HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js?v=599B42B0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/poll.css?v=E220AC33 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js?v=54B21948 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/runestonevideo.js?v=53E888DE HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/codemirror.js?v=25B54D0A HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webglinteractive.js?v=2B768384 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/javascript.js?v=6F38CA04 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/css.js?v=623153CE HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/japp.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jexcel.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/reveal.js?v=35AF34F1 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/prettify.js?v=CA7E8928 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/gas.js?v=129CE036 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/hammer.min.js?v=73056367 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/theme-overrides.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/lp.js?v=5E742BDC HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/mchoice.js?v=7B685250 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedmc.js?v=B010A457 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timed.js?v=FD1C5153 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/parsons.js?v=CE79120E HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.highlight.js?v=F1C496C8 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/runestonebase.js?v=4.2.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js?v=42F9EBEA HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/pytutor.js?v=82B022B9 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/d3.v2.min.js?v=836E01C HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/mchoice-i18n.en.js?v=354E6CD HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/sql.js?v=49D0BD74 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bookfuncs.js?v=24766D61 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/fitb.js?v=60630F3D HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/skulpt.min.js?v=BDC8551F HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/activecode.js?v=D5DC3460 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timed_activecode.js?v=1FA6F2AF HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/sql-wasm.js?v=44FE0709 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/dragndrop-i18n.en.js?v=40C28531 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/showEval.js?v=5B2DD7A6 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.js?v=88A1430F HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/poll.js?v=45F04365 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/dragndrop.js?v=86D99604 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.idle-timer.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.hotkey.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js?v=AE15A4A1 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/presenter_mode.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/user-highlights.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/theme.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.language.js?v=747279FF HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.parser.js?v=7B020E13 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.emitter.js?v=660E85C3 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/fitb-i18n.en.js?v=389ED00C HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/spreadsheet.js?v=ABDABEC0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedparsons.js?v=2EEA9E5A HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/parsons-i18n.en.js?v=A9C11155 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/animationbase.js?v=A043C3A7 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/shortanswer.js?v=8FCEE330 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timed_shortanswer.js?v=B3A117D7 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.ba-bbq.min.js?v=B64CF0A8 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/codelens.js?v=CABECD49 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/python.js?v=76B9CFA2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/activecode-i18n.en.js?v=65CA0724 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/skulpt-stdlib.js?v=5731007D HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/clike.js?v=4247C891 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/datafile.js?v=156D8707 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timeddnd.js?v=378F237E HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-fix.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jexcel.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/codemirror.css?v=9CF75563 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/CodeChat.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/japp.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/pytutor.css?v=239FC54E HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/prettify.css?v=2A364B6B HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/showEval.css?v=C6382F3 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/clickable.js?v=846DC076 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/matrixeq.js?v=D64CFA5A HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/tabbedstuff.js?v=5BE6106 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js?v=54B21948 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js?v=599B42B0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/runestonevideo.js?v=53E888DE HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js?v=8ABDFE7F HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/javascript.js?v=6F38CA04 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/css.js?v=623153CE HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/codemirror.js?v=25B54D0A HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/webglinteractive.js?v=2B768384 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/japp.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/reveal.js?v=35AF34F1 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/lp.js?v=5E742BDC HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/prettify.js?v=CA7E8928 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/gas.js?v=129CE036 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jexcel.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/js_lib/hammer.min.js?v=73056367 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/parsons.js?v=CE79120E HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/mchoice.js?v=7B685250 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timedmc.js?v=B010A457 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timed.js?v=FD1C5153 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/mchoice-i18n.en.js?v=354E6CD HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/d3.v2.min.js?v=836E01C HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/pytutor.js?v=82B022B9 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.highlight.js?v=F1C496C8 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/sql.js?v=49D0BD74 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/skulpt.min.js?v=BDC8551F HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js?v=42F9EBEA HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bookfuncs.js?v=24766D61 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/activecode.js?v=D5DC3460 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/sql-wasm.js?v=44FE0709 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/timed_activecode.js?v=1FA6F2AF HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/showEval.js?v=5B2DD7A6 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/dragndrop.js?v=86D99604 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/poll.js?v=45F04365 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/dragndrop-i18n.en.js?v=40C28531 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/user-highlights.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.idle-timer.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/jquery.hotkey.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/theme.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/presenter_mode.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:27:53] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:27:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/reveal.css?v=4A81D381 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/spreadsheet.css?v=B5F018A HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/clickable.css?v=58C4E18A HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:54] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:27:55] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:07] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /h1/h1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:14] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:14] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:17] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:20] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:20] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:20] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:20] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:20] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:22] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:25] "GET /h1/h1.html HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:25] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:25] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:53] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:49:53] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:54] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:54] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:49:58] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:49:58] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:49:58] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:51:54] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:12] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:52:12] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 11:52:15] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 11:52:15] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 11:52:15] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:05:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:03] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 12:07:46] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 13:51:53] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 13:51:56] "GET /h1/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:51:56] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:51:56] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:51:56] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:51:56] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:51:57] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:51:58] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:51:58] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:51:59] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:51:59] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:55:37] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:55:37] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:55:37] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:55:40] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:55:40] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:55:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:55:40] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:55:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 13:55:53] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:55:53] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:55:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:55:53] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:55:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 13:57:19] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 13:57:19] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:57:19] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 13:57:19] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 13:57:19] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 14:00:08] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:00:08] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 14:00:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 14:00:08] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 14:00:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:23:30] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 14:58:40] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:19:12] "GET /_static/basic.css HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:41:00] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:40] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:41] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 16:42:44] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 16:42:44] "GET /runestone/ajax/gethist.json?acid=spreadsheet-h1 HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 16:42:44] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:00:52] "GET /_static/skulpt.min.js.map HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:00:52] "GET /_static/js_lib/hammer.min.js.map HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:03:07] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:03:07] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:03:07] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:03:08] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:05:42] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:05:42] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:05:42] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:05:43] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:08:44] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:13] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:10:57] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:11:55] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:12:27] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:12:27] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:12:27] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:12:27] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:12:27] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:12:28] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:12:28] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:12:28] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:12:28] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:12:28] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:13:10] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:14:24] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:14:24] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:14:24] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:14:24] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:14:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:14:24] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:14:24] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:14:25] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:14:25] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:14:25] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:21:59] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:21:59] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:21:59] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 17:22:00] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:28:43] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:23:18] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 22:30:21] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:30:21] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:21] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:30:21] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:21] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:30:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:30:41] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:41] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:30:46] "GET /h1/h1s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:30:46] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:46] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:30:52] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:52] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:30:57] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:30:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:53:02] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:14] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:42] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /h1/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Feb/2020 22:58:49] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /h1/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:29] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 08:49:40] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 08:49:41] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 08:49:41] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 09:33:33] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 10:33:26] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:28] "GET /_static/underscore.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:41] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2020 16:40:46] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:48:22] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:48:22] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 16:48:23] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:00:24] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:01:57] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:02:41] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] code 404, message File not found
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Feb/2020 17:03:22] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/presenter_mode.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/matrixeq.css?v=58BC228F HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/fitb.css?v=3BA0E63E HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:34] "GET /_static/japp.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/CodeChat.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/parsons.css?v=2F3E13EE HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/datafile.css?v=C184EB8A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/dragndrop.css?v=1FF7F927 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/poll.css?v=E220AC33 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/user-highlights.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/theme-overrides.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/runestonebase.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.language.js?v=747279FF HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.emitter.js?v=660E85C3 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/fitb-i18n.en.js?v=389ED00C HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/css.js?v=623153CE HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/clickable.css?v=58C4E18A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/codemirror.css?v=9CF75563 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/video.css?v=E5385B3B HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/tabbedstuff.css?v=424F1CC9 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/japp.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/reveal.js?v=35AF34F1 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/gas.js?v=129CE036 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/js_lib/prettify.js?v=CA7E8928 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/parsons.js?v=CE79120E HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/parsons-i18n.en.js?v=A9C11155 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/animationbase.js?v=A043C3A7 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timedmc.js?v=B010A457 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/mchoice-i18n.en.js?v=354E6CD HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timed_shortanswer.js?v=B3A117D7 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/codelens.js?v=CABECD49 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.highlight.js?v=F1C496C8 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/bookfuncs.js?v=24766D61 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/activecode-i18n.en.js?v=65CA0724 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/activecode.js?v=D5DC3460 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timed_activecode.js?v=1FA6F2AF HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/showEval.js?v=5B2DD7A6 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timeddnd.js?v=378F237E HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/dragndrop-i18n.en.js?v=40C28531 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/poll.js?v=45F04365 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/user-highlights.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/spreadsheet.css?v=B5F018A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jexcel.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/pytutor.css?v=239FC54E HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/reveal.css?v=4A81D381 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/js_lib/prettify.css?v=2A364B6B HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/showEval.css?v=C6382F3 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/accessibility.css?v=DB047029 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/matrixeq.js?v=D64CFA5A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/tabbedstuff.js?v=5BE6106 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/clickable.js?v=846DC076 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/fitb.js?v=60630F3D HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js?v=599B42B0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js?v=AE15A4A1 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.parser.js?v=7B020E13 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.js?v=88A1430F HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js?v=8ABDFE7F HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js?v=54B21948 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/runestonevideo.js?v=53E888DE HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/javascript.js?v=6F38CA04 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/webglinteractive.js?v=2B768384 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/spreadsheet.js?v=ABDABEC0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/lp.js?v=5E742BDC HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/js_lib/hammer.min.js?v=73056367 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timedparsons.js?v=2EEA9E5A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/d3.v2.min.js?v=836E01C HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/shortanswer.js?v=8FCEE330 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/timed.js?v=FD1C5153 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/codemirror.js?v=25B54D0A HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jexcel.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/mchoice.js?v=7B685250 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.ba-bbq.min.js?v=B64CF0A8 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/python.js?v=76B9CFA2 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/pytutor.js?v=82B022B9 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js?v=42F9EBEA HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/sql.js?v=49D0BD74 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/sql-wasm.js?v=44FE0709 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/datafile.js?v=156D8707 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/dragndrop.js?v=86D99604 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/skulpt-stdlib.js?v=5731007D HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery-fix.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/clike.js?v=4247C891 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/waypoints.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.idle-timer.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/skulpt.min.js?v=BDC8551F HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/presenter_mode.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/jquery.hotkey.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/theme.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/img/logo_small.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:35] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:36] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /h1/h1s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:08:54] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:08:54] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /h1/h1s2.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:08] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:11] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:09:11] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:11] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:29] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:30] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:32] "GET /h1/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:09:32] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:32] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:37] "GET /h1/h1s3.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:09:37] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:37] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:09:37] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:09:37] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:06] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:10:08] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:10:08] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:10:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:01] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /h2/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:12] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:13] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:13] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:15] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:15] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:15] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:15] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:15] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:18] "GET /h2/h2s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:18] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:18] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:21] "GET /h2/h2s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:21] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:21] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:21] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:21] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:22] "GET /h2/h2s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:22] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:22] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:22] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:22] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /h3/h3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:24] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:24] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:28] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:28] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:30] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:31] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:31] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:32] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:32] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:32] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:32] "GET /h2/toctree.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:32] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:32] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:35] "GET /h1/h1s4.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:35] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:35] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:14:36] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:00] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /h1/h1s4.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:14] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /h2/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:16] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:17:19] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/matrixeq.css?v=58BC228F HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/fitb.css?v=3BA0E63E HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/japp.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/CodeChat.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/parsons.css?v=2F3E13EE HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/datafile.css?v=C184EB8A HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/dragndrop.css?v=1FF7F927 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/poll.css?v=E220AC33 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:38] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/theme-overrides.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/runestonebase.js?v=4.2.0 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/doctools.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/jquery_i18n/jquery.i18n.language.js?v=747279FF HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/jquery_i18n/jquery.i18n.emitter.js?v=660E85C3 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/fitb-i18n.en.js?v=389ED00C HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/css.js?v=623153CE HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/japp.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/reveal.js?v=35AF34F1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/gas.js?v=129CE036 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/js_lib/prettify.js?v=CA7E8928 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/parsons.js?v=CE79120E HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/parsons-i18n.en.js?v=A9C11155 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/animationbase.js?v=A043C3A7 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timedmc.js?v=B010A457 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/mchoice-i18n.en.js?v=354E6CD HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timed_shortanswer.js?v=B3A117D7 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/codelens.js?v=CABECD49 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/jquery.highlight.js?v=F1C496C8 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/bookfuncs.js?v=24766D61 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/activecode-i18n.en.js?v=65CA0724 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/activecode.js?v=D5DC3460 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timed_activecode.js?v=1FA6F2AF HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/showEval.js?v=5B2DD7A6 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/timeddnd.js?v=378F237E HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/dragndrop-i18n.en.js?v=40C28531 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/poll.js?v=45F04365 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/user-highlights.js?v=4.2.0 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:18:39] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:38:16] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:43:31] "GET /_static/language_data.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /h2/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:30] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:34] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 16:45:34] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 16:45:34] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:08:57] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /h1/h1s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:03] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /h1/h1s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:14] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /h2/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 20:09:21] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2020 20:09:21] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 20:09:21] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /h2/toctree.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:27] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:37] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Feb/2020 22:37:37] code 404, message File not found
+127.0.0.1 - - [19/Feb/2020 22:37:37] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 07:34:24] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 07:34:25] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 07:34:25] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 07:34:26] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:34:26] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:34:26] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:34:26] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:34:26] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:36:19] "GET /h1/h1s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 07:36:19] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 07:36:19] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 07:36:34] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 07:36:34] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [20/Feb/2020 07:48:43] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 07:48:43] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 07:48:43] "GET /_static/html4css1.css HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [20/Feb/2020 07:50:09] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 07:50:09] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 07:50:09] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 07:51:04] "GET /_static/js_lib/hammer.min.js.map HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 07:51:04] "GET /_static/skulpt.min.js.map HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/presenter_mode.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/matrixeq.css?v=58BC228F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb.css?v=3BA0E63E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/tabbedstuff.css?v=424F1CC9 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/video.css?v=E5385B3B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/clickable.css?v=58C4E18A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/codemirror.css?v=9CF75563 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/spreadsheet.css?v=B5F018A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jexcel.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/japp.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/reveal.css?v=4A81D381 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/js_lib/prettify.css?v=2A364B6B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/parsons.css?v=2F3E13EE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/pytutor.css?v=239FC54E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/CodeChat.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/datafile.css?v=C184EB8A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/showEval.css?v=C6382F3 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/dragndrop.css?v=1FF7F927 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/accessibility.css?v=DB047029 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/poll.css?v=E220AC33 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/user-highlights.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/theme-overrides.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestonebase.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/matrixeq.js?v=D64CFA5A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/clickable.js?v=846DC076 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/tabbedstuff.js?v=5BE6106 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb.js?v=60630F3D HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js?v=599B42B0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.js?v=88A1430F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js?v=AE15A4A1 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js?v=8ABDFE7F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.language.js?v=747279FF HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.parser.js?v=7B020E13 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.emitter.js?v=660E85C3 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js?v=54B21948 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb-i18n.en.js?v=389ED00C HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestonevideo.js?v=53E888DE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/codemirror.js?v=25B54D0A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/css.js?v=623153CE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/javascript.js?v=6F38CA04 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webglinteractive.js?v=2B768384 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/spreadsheet.js?v=ABDABEC0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/japp.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/reveal.js?v=35AF34F1 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/lp.js?v=5E742BDC HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jexcel.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/js_lib/prettify.js?v=CA7E8928 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/gas.js?v=129CE036 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/js_lib/hammer.min.js?v=73056367 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedparsons.js?v=2EEA9E5A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/animationbase.js?v=A043C3A7 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/parsons-i18n.en.js?v=A9C11155 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/mchoice.js?v=7B685250 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/parsons.js?v=CE79120E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedmc.js?v=B010A457 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timed.js?v=FD1C5153 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/d3.v2.min.js?v=836E01C HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/shortanswer.js?v=8FCEE330 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timed_shortanswer.js?v=B3A117D7 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/mchoice-i18n.en.js?v=354E6CD HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.ba-bbq.min.js?v=B64CF0A8 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js?v=42F9EBEA HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/codelens.js?v=CABECD49 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bookfuncs.js?v=24766D61 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/pytutor.js?v=82B022B9 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/python.js?v=76B9CFA2 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/sql.js?v=49D0BD74 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/skulpt-stdlib.js?v=5731007D HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/activecode-i18n.en.js?v=65CA0724 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/skulpt.min.js?v=BDC8551F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.highlight.js?v=F1C496C8 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/activecode.js?v=D5DC3460 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/clike.js?v=4247C891 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timed_activecode.js?v=1FA6F2AF HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/sql-wasm.js?v=44FE0709 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/showEval.js?v=5B2DD7A6 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/datafile.js?v=156D8707 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/dragndrop.js?v=86D99604 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timeddnd.js?v=378F237E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/dragndrop-i18n.en.js?v=40C28531 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery-fix.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/poll.js?v=45F04365 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/waypoints.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/user-highlights.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.idle-timer.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.hotkey.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/presenter_mode.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/theme.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/presenter_mode.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/matrixeq.css?v=58BC228F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/clickable.css?v=58C4E18A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/tabbedstuff.css?v=424F1CC9 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb.css?v=3BA0E63E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/video.css?v=E5385B3B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webgldemo.css?v=B36B48D HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webglinteractive.css?v=910DF1E1 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/spreadsheet.css?v=B5F018A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jexcel.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/japp.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/codemirror.css?v=9CF75563 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/reveal.css?v=4A81D381 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/CodeChat.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/js_lib/prettify.css?v=2A364B6B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/pytutor.css?v=239FC54E HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/parsons.css?v=2F3E13EE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/modal-basic.css?v=8A1A42E4 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/activecode.css?v=F471F95B HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/datafile.css?v=C184EB8A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/showEval.css?v=C6382F3 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/accessibility.css?v=DB047029 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/dragndrop.css?v=1FF7F927 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/poll.css?v=E220AC33 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/user-highlights.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/theme-overrides.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestonebase.js?v=4.2.0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/matrixeq.js?v=D64CFA5A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/clickable.js?v=846DC076 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedclickable.js?v=93989C23 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb.js?v=60630F3D HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/tabbedstuff.js?v=5BE6106 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/timedfitb.js?v=2AA17071 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js?v=599B42B0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.js?v=88A1430F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js?v=AE15A4A1 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js?v=8ABDFE7F HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.language.js?v=747279FF HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.parser.js?v=7B020E13 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.emitter.js?v=660E85C3 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js?v=54B21948 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/fitb-i18n.en.js?v=389ED00C HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/runestonevideo.js?v=53E888DE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/xml.js?v=236EDFF7 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/codemirror.js?v=25B54D0A HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/css.js?v=623153CE HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/javascript.js?v=6F38CA04 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/htmlmixed.js?v=4EBE05BF HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/webglinteractive.js?v=2B768384 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/FileSaver.min.js?v=8408C997 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/Blob.js?v=AEC2447 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/spreadsheet.js?v=ABDABEC0 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 10:30:50] "GET /_static/lp.js?v=5E742BDC HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:09:39] "GET /h2/h2s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:40] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:09:45] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:09:45] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:51] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:52] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:10:52] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:10:55] "GET /h1/h1s3.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:55] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:10:55] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:10:55] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:10:55] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:10:58] "GET /h1/h1s4.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:10:58] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:10:58] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:05] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:08] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:08] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:08] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:24] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:27] "GET /h4/h4s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:27] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:27] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:27] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:27] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:30] "GET /h4/h4s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:30] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:30] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:31] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:31] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:32] "GET /h4/h4s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:32] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:32] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:32] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:32] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:33] "GET /h4/h4s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:33] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:33] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:34] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:34] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:35] "GET /h4/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:35] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:35] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:35] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:35] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /h3/h3s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:37] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:37] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:38] "GET /h3/h3s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:38] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:38] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:38] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:38] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:39] "GET /h3/h3s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:39] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:39] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:39] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:39] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:40] "GET /h3/h3s1.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:40] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:40] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:41] "GET /h3/toctree.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:41] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:41] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:42] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:42] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:43] "GET /h2/h2s4.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:43] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:43] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:44] "GET /h2/h2s3.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:44] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:44] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:45] "GET /h2/h2s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:11:45] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:45] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:45] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:45] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:11:46] "GET /h2/h2s1.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:11:46] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:11:46] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:23] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:12:27] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:12:27] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:12:27] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /h1/h1s2.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:12] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:14] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /h1/h1s5.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:17:37] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:17:37] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /h1/h1s5.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:39] "GET /_static/language_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:53] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/language_data.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:27:58] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] code 404, message File not found
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/html4css1.css HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2020 20:28:02] "GET /_static/language_data.js HTTP/1.1" 304 -
+
+Aborted!
