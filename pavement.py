@@ -21,7 +21,9 @@ if not master_url:
     master_url = get_master_url()
 
 # The root directory for ``runestone serve``.
-serving_dir = "./build/" + project_name
+# serving_dir = "./build/" + project_name
+serving_dir = "./docs" # for GitHub Pages
+
 # The destination directory for ``runestone deploy``.
 dest = "../../static"
 
