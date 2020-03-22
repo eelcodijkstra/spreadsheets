@@ -1,5 +1,124 @@
-H4S3
-====
+Verwerken van meetresultaten
+============================
 
-Subkopje
---------
+Inleiding
+---------
+
+Je kunt een spreadsheet gebruiken voor het verwerken van meetresultaten,
+bijvoorbeeld van een natuurkunde-practicum.
+Hiermee kun je:
+
+* de gegevens in een grafiek weergeven;
+* een lijn (lineaire functie) vinden die zo goed mogelijk bij de gegevens past.
+
+Voor de opzet van de spreadsheet gebruiken we de "data in tabellen"-aanpak:
+
+* we gebruiken een rij per meetresultaat
+* deze rij bestaat uit: de ingestelde parameters en de bijbehorende meetresultaten
+* in de eerste rij plaatsen we als kolomnamen de namen van de gegevens in die kolom.
+* we gebruiken als eerste kolom de waarden die we in de grafiek op de x-as willen plaatsen;
+  we zorgen ervoor dat de rijen (opklimmend) gesorteerd zijn voor de waarden in deze kolom.
+
+We gebruiken als voorbeeld de meetgegevens van een experiment om de wet van Ohm te demonstreren.
+We meten de stroom door een weerstand en de spanning over dezelfde weerstand,
+zie de onderstaande figuur.
+
+(Eigenlijk moeten we dit experiment met twee of meer weerstanden doen.)
+
+We krijgen dan bijvoorbeeld de volgende tabel:
+
+
+
+Voor alle waarden in de tabel, zowel de ingestelde als de gemeten waarden,
+geldt dat we te maken hebben met een mogelijke meetfout.
+Maar de waarde voor 0V weten we heel precies: is de stroom ook 0 (A).
+
+*Opmerking* Soms wil je uit de gemeten waarden ook een waarde berekenen.
+Met spreadsheets is dat natuurlijk geen probleem: je kunt een extra kolom met formules toevoegen.
+
+Tekenen van de grafiek
+----------------------
+
+Als grafiek willen we een puntgrafiek gebruiken:
+elk meetpunt geven we met een kruisje in de grafiek weer.
+
+We kunnen ook "error bars" toevoegen om de foutgrenzen aan te geven.
+In de meeste gevallen hebben we
+
+Dit doe je als volgt (Google Sheets)
+
+* selecteer de data: de rijen en kolommen met de meetgegevens,
+  inclusief de eerste rij met kolomtitels.
+* klik op menu-item: "Insert->Chart"
+  je krijgt nu een grafiek die je nog aan kunt passen met de "Chart editor".
+
+  * je kunt de data kiezen voor de x-as
+  * je kunt de data kiezen voor de y-as (series); dit kunnen meerdere kolommen zijn.
+
+Om de grafiek goed af te kunnen lezen is het belangrijk dat de grafiek een voldoende fijn raster heeft.
+Dit kun je instellen met de "gridlines".
+
+* stel eerste de minimale en maximale waarden in voor de x- en y-assen.
+
+  * deze staan meestal op "auto", wat vaak goed genoeg is.
+    Omdat je de hele data kent kun je deze eenvoudig zelf instellen,
+    onder "horizontal axis" en "vertical axis".
+
+* stel vervolgens de "gridlines" in. Deze zijn verdeeld in de major en minor gridlines.
+
+  * hoeveel major gridlines in de totale grafiek? - in ons geval, 5
+  * hoeveel minor gridlines tussen twee major gridlines? - in ons geval, 4
+
+* vaak is het plezierig als de hokjes ongeveer vierkant zijn.
+  Dat kun je aanpassen door de hele figuur smaller of breder te maken.
+
+(Een alternatief is om de gemeten waarden bij de punten zelf weer te geven.)
+
+Rechte lijn door de meetpunten
+------------------------------
+
+Een volgende stap is dat we een rechte lijn willen trekken die zo goed mogelijk aansluit bij de meetpunten.
+"Zo goed mogelijk aansluiten" betekent dat we de lijn willen hebben met de kleinst mogelijke totale afwijking van de punten.
+Dit wordt wel aangeduid als de "kleinste kwadraten" benadering:
+
+In de meeste spreadsheetprogramma's is hiervoor een functie aanwezig,
+zowel voor het tekenen van de lijn als voor het uitrekenen van de parameters van deze lijn.
+
+In Google Sheets heet zo'n lijn een "trendline".
+Als onderdeel van de "Series" kun je opgeven of je deze getekend wilt hebben.
+
+Naast rechte lijnen zijn er nog andere benaderende functies mogelijk.
+
+
+Een lineaire functie (rechte lijn) kun je beschrijven met 2 parameters :math:`a` en :math:`b`:
+:math:`f(x) = a \cdot x + b`. De parameter :math:`b` heet ook wel de *intercept*:
+het snijpunt met de y-as (de lijn :math:`x=0`).
+De parameter :math:`a` geeft de helling ofwel de *slope* van de lijn aan.
+
+In Google sheets heb je functies voor het uitrekenen van de *slope* en de intercept*,
+zie de voorbeeld-spreadsheet.
+
+In het geval van het bovengenoemde natuurkunde-experiment weten we dat het punt (0V, 0A) geen meetfout bevat:
+dit punt is precies.
+De trendlijn moet dan ook precies door punt (0,0) gaan.
+In veel spreadheetprogramma's kun je dit opgeven.
+
+Helaas kun je in Google Sheets niet opgeven dat de "intercept" 0 moet zijn.
+Dit maakt Google Sheets minder geschikt voor dergelijke grafieken.
+
+In Excel en in LibreOffice kun je wel opgeven dat deze intercept 0 moet zijn.
+Je krijgt dan inderdaad een iets andere (betere) waarde voor de helling (slope) dan wat de ``SLOPE``-functie aangeeft.
+
+
+Exporteren van de grafiek
+-------------------------
+
+Je kunt de grafiek exporteren naar een figuur die je bijvoorbeeld in een tekstdocument of in een webpagina kunt opnemen.
+
+*Opmerking:* Veranderingen in de data hebben geen invloed om de geëxporteerde grafiek.
+Als je de data aanpast, zul je de grafiek opnieuw moeten exporteren.
+
+.. figure:: grafiek-0.png
+  :width: 500px
+
+  Grafiek van de meetgegevens (LibreOffice)

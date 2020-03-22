@@ -366,30 +366,26 @@ Je leert hoe je waarden kunt invoeren en hoe je deze kunt formatteren.</p>
 <p class="rubric">Oefenmateriaal</p>
 <p>Gebruik het voorbeeld-bestand “hoofdstuk1.xls” voor het uitwerken van de opdrachten.
 Voor dit onderdeel gebruik je het tabblad “Cellen en waarden”</p>
-<p class="rubric">Leerdoelen</p>
-<ul class="simple">
-<li><p>opbouw van een rekenvel, in cellen, rijen en kolommen</p></li>
-<li><p>verschillende soorten waarden: getallen, tekst, logische waarden</p></li>
-<li><p>invoeren en formatteren van waarden</p></li>
-<li><p>werken met datum als getal</p></li>
-<li><p>begrippen: rekenvel, cel, rij, kolom, actieve cel, celreeks, waarde, type,</p></li>
-</ul>
+<p class="rubric">Concepten</p>
+<p>rekenvel, cel, rij, kolom, actieve cel, waarde, getal, tekst, logische waarde,
+invoeren van waarde, formatteren van waarde,
+datumformat, rekenen met data, …</p>
 <div class="section" id="rekenvel-cellen-rijen-kolommen">
 <h2>Rekenvel: cellen, rijen, kolommen<a class="headerlink" href="#rekenvel-cellen-rijen-kolommen" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="../_images/rijen-en-kolommen.png"><img alt="../_images/rijen-en-kolommen.png" src="../_images/rijen-en-kolommen.png" style="width: 600px;" /></a>
 </div>
-<p>Een (spread)sheet ofwel <em>rekenvel</em> bestaat uit cellen: deze zijn geplaatst in een rooster van rijen en kolommen.
-De rijen zijn genummerd (1, 2, …), de kolommen geletterd (A, B, …).
+<p>Een (spread)sheet of <em>rekenvel</em> bestaat uit <em>cellen</em>: deze zijn geplaatst in een rooster van rijen en kolommen.
+De <em>rijen</em> zijn genummerd (1, 2, …), de <em>kolommen</em> geletterd (A, B, …, Z, AA, AB, …).
 Het adres van een cel is de kolomletter gevolgd door het rijnummer.</p>
 <p>Om iets met een cel of een reeks cellen te doen moet je deze eerst <em>selecteren</em>.
 De randen van de geselecteerde cellen krijgen dan een andere kleur, en rechts onder zie je een blokje: de vulgreep (zie verderop).
 Ook de kleur van de rij en van de kolom verandert met de selectie.
 De geselecteerde cel heet ook wel de <em>actieve cel</em>.
-In het formulevenster boven het eigenlijke rekenvel zie je de inhoud van de geselecteerde cel.</p>
+In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve cel.</p>
 <ul class="simple">
 <li><p>je selecteert een cel door met de muis in de cel te klikken;</p></li>
-<li><p>met de pijltjestoetsen kun je een buurcel selecteren (actief maken);</p></li>
+<li><p>met de pijltjestoetsen selecteer je een buurcel (als actieve cel);</p></li>
 <li><p>je selecteert een <em>reeks cellen</em> door de eerste cel te selecteren,
 en dan met Shift-klik (of de rechter muisknop) in de laatste cel te klikken;</p></li>
 <li><p>je selecteert een volledige rij door op het rij-nummer te klikken;</p></li>
@@ -400,13 +396,32 @@ en dan met Shift-klik (of de rechter muisknop) de laatste rij te selecteren.</p>
 en dan met Shift-klik (of de rechter muisknop) de laatste kolom te selecteren.</p></li>
 </ul>
 <p>Een reeks cellen geven we aan door de eerste en de laatste cel gescheiden door een <code class="docutils literal notranslate"><span class="pre">:</span></code>.
-Voorbeeld: cel <code class="docutils literal notranslate"><span class="pre">A5</span></code> is de som van <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code>.</p>
-<p><em>Opdracht</em></p>
-<ul class="simple">
-<li><p>probeer elk van de bovenstaande mogelijkheden uit.
-Oefen hiermee totdat je er handig in bent.</p></li>
-<li><p>selecteer cel A5; wat zie je nu in het formulevenster (formula bar) bovenin?</p></li>
-</ul>
+Voorbeeld: cel <code class="docutils literal notranslate"><span class="pre">A5</span></code> is de som van <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code>.
+Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: <code class="docutils literal notranslate"><span class="pre">A1:D4</span></code>.</p>
+
+        <div class="runestone">
+        <div data-component="fillintheblank" id="h1s2q1">
+            <p>Q-1: Het adres van de geselecteerde cel is: <code class="docutils literal notranslate"><span class="pre">|blank|</span></code>.</p>
+<input type="text">
+        <script type="application/json">
+            [[{"regex": "^\\s*C4\\s*$", "regexFlags": "i", "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Try again.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            
+        <div class="runestone">
+        <div data-component="fillintheblank" id="h1s2q2">
+            <p>Q-2: Selecteer cel <code class="docutils literal notranslate"><span class="pre">A5</span></code>; wat zie je nu in de formulebalk (formula bar) bovenin? <code class="docutils literal notranslate"><span class="pre">|blank|</span></code>.
+Vergeet het eerste teken niet!</p>
+<input type="text">
+        <script type="application/json">
+            [[{"regex": "^\\s*=S[OU]M\\(A1:\\A4\\)\\s*$", "regexFlags": "i", "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Try again.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            <p><strong>Oefen</strong> met het selecteren van cellen, rijen en kolommen totdat je daar handig mee bent.</p>
 </div>
 <div class="section" id="waarden-getal-tekst-of-logische-waarde">
 <h2>Waarden: getal, tekst of logische waarde<a class="headerlink" href="#waarden-getal-tekst-of-logische-waarde" title="Permalink to this headline">¶</a></h2>
@@ -422,7 +437,41 @@ of in een Nederlandse versie, <code class="docutils literal notranslate"><span c
 <li><p>vul in cel C4 in: <code class="docutils literal notranslate"><span class="pre">Hello</span></code> ; wat is nu de waarde van D4?</p></li>
 <li><p>vul in cel C5 in: <code class="docutils literal notranslate"><span class="pre">True</span></code> ; wat is nu de waarde van D5?</p></li>
 </ol>
-<p><em>Opmerking:</em> door het veranderen van een waarde in een cel kan een waarde in een andere cel
+
+        <div class="runestone">
+        <div data-component="fillintheblank" id="h1s2q5">
+            <p>Q-3: Vul in cel A3 in: <code class="docutils literal notranslate"><span class="pre">187</span></code>. In cel A5 zie je nu de waarde: <code class="docutils literal notranslate"><span class="pre">|blank|</span></code>.
+Deze cel heeft nu als kleur: <code class="docutils literal notranslate"><span class="pre">|blank|</span></code></p>
+<input type="text"><input type="text">
+        <script type="application/json">
+            [[{"number": [1000, 1000], "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Niet juist.</p>\n"}], [{"regex": "^\\s*groen\\s*$", "regexFlags": "i", "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Niet juist.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            
+        <div class="runestone">
+        <div data-component="fillintheblank" id="h1s2q6">
+            <p>Q-4: Vul in cel C4 in: <code class="docutils literal notranslate"><span class="pre">Hello</span></code>. In cel D4 zie je nu de waarde: <code class="docutils literal notranslate"><span class="pre">|blank|</span></code>.</p>
+<input type="text">
+        <script type="application/json">
+            [[{"regex": "^\\s*World!\\s*$", "regexFlags": "i", "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Helaas.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            
+        <div class="runestone">
+        <div data-component="fillintheblank" id="h1s2q7">
+            <p>Q-5: Vul in cel C5 in: <code class="docutils literal notranslate"><span class="pre">True</span></code>. In cel D5 zie je nu de waarde: <code class="docutils literal notranslate"><span class="pre">|blank|</span></code>.</p>
+<input type="text">
+        <script type="application/json">
+            [[{"regex": "^\\s*OK!\\s*$", "regexFlags": "i", "feedback": "<p>Correct.</p>\n"}, {"regex": "^\\s*x\\s*$", "regexFlags": "i", "feedback": "<p>Niet juist.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            <p><em>Opmerking:</em> door het veranderen van een waarde in een cel kan een waarde in een andere cel
 ook veranderen: de cellen A5, D4 en D5 bevatten een <em>formule</em> voor een berekening.
 Deze behandelen we in de volgende les.
 Het aanpassen van de kleur afhankelijk van de waarde in een veld heet “conditional formatting.”
@@ -451,6 +500,7 @@ Ook straatnummers wil je het liefst als tekst beschouwen.</p>
 <li><p>als geheel getal <code class="docutils literal notranslate"><span class="pre">123</span></code></p></li>
 <li><p>als vaste-komma getal <code class="docutils literal notranslate"><span class="pre">123,45</span></code></p></li>
 <li><p>als zwevende-komma getal <code class="docutils literal notranslate"><span class="pre">123,45E2</span></code> (wetenschappelijke notatie).</p></li>
+<li><p>als percentage <code class="docutils literal notranslate"><span class="pre">123%</span></code></p></li>
 <li><p>als valuta (geld) <code class="docutils literal notranslate"><span class="pre">€</span> <span class="pre">12.345,60</span></code></p></li>
 <li><p>als datum of datum/tijd <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code></p></li>
 </ul>
@@ -478,8 +528,8 @@ andere landen gebruiken daarvoor een <em>decimale punt</em>.
 Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
 Verderop geven we aan hoe je deze instellingen kunt veranderen.</p>
 </div>
-<div class="section" id="datum-formaten">
-<h2>Datum-formaten<a class="headerlink" href="#datum-formaten" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="datumformaten">
+<h2>Datumformaten<a class="headerlink" href="#datumformaten" title="Permalink to this headline">¶</a></h2>
 <p>Een datum is een geheel getal dat op een bijzondere manier weergegeven wordt:
 via een datum-format.
 Enkele voorbeelden van dataformaten: <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code>, <code class="docutils literal notranslate"><span class="pre">20-februari-2020</span></code>,
@@ -498,6 +548,15 @@ dat moet je zelf in de gaten houden.</p>
 Welke datum wordt nu weergegeven?</p></li>
 <li><p>Kun je ook data vóór 30 december 1899 voorstellen?</p></li>
 <li><p>Welk getal komt overeen met de datum <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code>?</p></li>
+</ul>
+</div>
+<div class="section" id="tekstformaten">
+<h2>Tekstformaten<a class="headerlink" href="#tekstformaten" title="Permalink to this headline">¶</a></h2>
+<p>ToDo: mailadressen, URLs; tekst overflow</p>
+<p>Voor een tekst die niet in een cel past zijn er verschillende mogelijkheden:</p>
+<ul class="simple">
+<li><p>de tekst loopt door over de volgende cel</p></li>
+<li><p>de tekst blijft in de cel, de cel wordt in de hoogte aangepast.</p></li>
 </ul>
 </div>
 <div class="section" id="invoeren-van-waarden">
@@ -552,6 +611,7 @@ en de tweede kolom de bijbehorende waarden van de tafel van 8.</p></li>
 <li><p>afschermen van waarden (protect); (kan dat altijd?)</p></li>
 <li><p>invoeren van verticale reeks met Enter; van horizontale reeks met Tab.</p></li>
 <li><p>je kunt zelf je vulreeksen definiëren.</p></li>
+<li><p>zichtbaar maken van de formules in een spreadsheet (met “show formula”, via het menu, of )</p></li>
 </ul>
 </div>
 <div class="section" id="verschillen-tussen-spreadsheet-programma-s">

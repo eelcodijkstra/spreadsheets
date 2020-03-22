@@ -9,13 +9,12 @@ Je leert hoe je waarden kunt invoeren en hoe je deze kunt formatteren.
 Gebruik het voorbeeld-bestand "hoofdstuk1.xls" voor het uitwerken van de opdrachten.
 Voor dit onderdeel gebruik je het tabblad "Cellen en waarden"
 
-.. rubric:: Leerdoelen
+.. rubric:: Concepten
 
-* opbouw van een rekenvel, in cellen, rijen en kolommen
-* verschillende soorten waarden: getallen, tekst, logische waarden
-* invoeren en formatteren van waarden
-* werken met datum als getal
-* begrippen: rekenvel, cel, rij, kolom, actieve cel, celreeks, waarde, type,
+rekenvel, cel, rij, kolom, actieve cel, waarde, getal, tekst, logische waarde,
+invoeren van waarde, formatteren van waarde,
+datumformat, rekenen met data, ...
+
 
 Rekenvel: cellen, rijen, kolommen
 ---------------------------------
@@ -24,18 +23,18 @@ Rekenvel: cellen, rijen, kolommen
   :width: 600px
   :align: center
 
-Een (spread)sheet ofwel *rekenvel* bestaat uit cellen: deze zijn geplaatst in een rooster van rijen en kolommen.
-De rijen zijn genummerd (1, 2, …), de kolommen geletterd (A, B, …).
+Een (spread)sheet of *rekenvel* bestaat uit *cellen*: deze zijn geplaatst in een rooster van rijen en kolommen.
+De *rijen* zijn genummerd (1, 2, …), de *kolommen* geletterd (A, B, …, Z, AA, AB, ...).
 Het adres van een cel is de kolomletter gevolgd door het rijnummer.
 
 Om iets met een cel of een reeks cellen te doen moet je deze eerst *selecteren*.
 De randen van de geselecteerde cellen krijgen dan een andere kleur, en rechts onder zie je een blokje: de vulgreep (zie verderop).
 Ook de kleur van de rij en van de kolom verandert met de selectie.
 De geselecteerde cel heet ook wel de *actieve cel*.
-In het formulevenster boven het eigenlijke rekenvel zie je de inhoud van de geselecteerde cel.
+In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve cel.
 
 * je selecteert een cel door met de muis in de cel te klikken;
-* met de pijltjestoetsen kun je een buurcel selecteren (actief maken);
+* met de pijltjestoetsen selecteer je een buurcel (als actieve cel);
 * je selecteert een *reeks cellen* door de eerste cel te selecteren,
   en dan met Shift-klik (of de rechter muisknop) in de laatste cel te klikken;
 * je selecteert een volledige rij door op het rij-nummer te klikken;
@@ -47,13 +46,31 @@ In het formulevenster boven het eigenlijke rekenvel zie je de inhoud van de gese
 
 Een reeks cellen geven we aan door de eerste en de laatste cel gescheiden door een ``:``.
 Voorbeeld: cel ``A5`` is de som van ``A1:A4``.
+Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1:D4``.
 
-*Opdracht*
 
-* probeer elk van de bovenstaande mogelijkheden uit.
-  Oefen hiermee totdat je er handig in bent.
-* selecteer cel A5; wat zie je nu in het formulevenster (formula bar) bovenin?
+.. fillintheblank:: h1s2q1
+   :casei:
 
+   Het adres van de geselecteerde cel is: ``|blank|``.
+
+   -   :C4: Correct.
+       :x: Try again.
+
+..
+
+.. fillintheblank:: h1s2q2
+   :casei:
+
+   Selecteer cel ``A5``; wat zie je nu in de formulebalk (formula bar) bovenin? ``|blank|``.
+   Vergeet het eerste teken niet!
+
+   -   :=S[OU]M\(A1:\A4\): Correct.
+       :x: Try again.
+
+..
+
+**Oefen** met het selecteren van cellen, rijen en kolommen totdat je daar handig mee bent.
 
 Waarden: getal, tekst of logische waarde
 ----------------------------------------
@@ -74,6 +91,39 @@ Opdracht:
 1. vul in cel A3 in: ``187``. Wat is nu de waarde van A5? Wat is nu de kleur van A5?
 2. vul in cel C4 in: ``Hello`` ; wat is nu de waarde van D4?
 3. vul in cel C5 in: ``True`` ; wat is nu de waarde van D5?
+
+.. fillintheblank:: h1s2q5
+   :casei:
+
+   Vul in cel A3 in: ``187``. In cel A5 zie je nu de waarde: ``|blank|``.
+   Deze cel heeft nu als kleur: ``|blank|``
+
+   -   :1000: Correct.
+       :x: Niet juist.
+   -   :groen: Correct.
+       :x: Niet juist.
+
+..
+
+.. fillintheblank:: h1s2q6
+   :casei:
+
+   Vul in cel C4 in: ``Hello``. In cel D4 zie je nu de waarde: ``|blank|``.
+
+   -   :World!: Correct.
+       :x: Helaas.
+
+..
+
+.. fillintheblank:: h1s2q7
+   :casei:
+
+   Vul in cel C5 in: ``True``. In cel D5 zie je nu de waarde: ``|blank|``.
+
+   -   :OK!: Correct.
+       :x: Niet juist.
+
+..
 
 *Opmerking:* door het veranderen van een waarde in een cel kan een waarde in een andere cel
 ook veranderen: de cellen A5, D4 en D5 bevatten een *formule* voor een berekening.
@@ -111,6 +161,7 @@ Een getal kun je op allerlei manieren weergeven:
 * als geheel getal ``123``
 * als vaste-komma getal ``123,45``
 * als zwevende-komma getal ``123,45E2`` (wetenschappelijke notatie).
+* als percentage ``123%``
 * als valuta (geld) ``€ 12.345,60``
 * als datum of datum/tijd ``20-02-2020``
 
@@ -135,6 +186,9 @@ Opdracht:
 * Selecteer alle cellen A1:A5 en verander het format in: geheel getal.
 * Wat gebeurt er in deze gevallen met de waarde van A5?
 
+
+
+
 *Van tekst naar getal?* Je kunt niet met behulp van "format" een waarde omzetten van tekst naar getal:
 daarvoor moet je de waarde opnieuw invoeren.
 
@@ -143,8 +197,8 @@ andere landen gebruiken daarvoor een *decimale punt*.
 Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
 Verderop geven we aan hoe je deze instellingen kunt veranderen.
 
-Datum-formaten
---------------
+Datumformaten
+-------------
 
 Een datum is een geheel getal dat op een bijzondere manier weergegeven wordt:
 via een datum-format.
@@ -167,6 +221,17 @@ Opdracht:
   Welke datum wordt nu weergegeven?
 * Kun je ook data vóór 30 december 1899 voorstellen?
 * Welk getal komt overeen met de datum ``20-02-2020``?
+
+Tekstformaten
+-------------
+
+ToDo: mailadressen, URLs; tekst overflow
+
+Voor een tekst die niet in een cel past zijn er verschillende mogelijkheden:
+
+* de tekst loopt door over de volgende cel
+* de tekst blijft in de cel, de cel wordt in de hoogte aangepast.
+
 
 
 Invoeren van waarden
@@ -225,6 +290,7 @@ Andere handige zaken
 * afschermen van waarden (protect); (kan dat altijd?)
 * invoeren van verticale reeks met Enter; van horizontale reeks met Tab.
 * je kunt zelf je vulreeksen definiëren.
+* zichtbaar maken van de formules in een spreadsheet (met "show formula", via het menu, of )
 
 Verschillen tussen spreadsheet-programma's
 ------------------------------------------
@@ -232,4 +298,3 @@ Verschillen tussen spreadsheet-programma's
 * Bij Apple Numbers is de vulgreep het gele bolletje midden onderaan.
 * Apple Numbers wijkt in een aantal opzichten af van de gebruikelijke spreadsheetprogramma's.
   Dit heeft zowel voor- als nadelen.
-  

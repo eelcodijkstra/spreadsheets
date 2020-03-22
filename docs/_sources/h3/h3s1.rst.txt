@@ -7,11 +7,13 @@ Data in tabellen
 Je kunt een spreadsheet gebruiken als eenvoudige database.
 Je organiseert de data dan als een tabel in een relationele database:
 
-* een rij is een *record*: gegevens die bij elkaar iets zeggen over een persoon,
+* een rij is een *record*: gegevens die samen iets zeggen over een persoon,
   ding, gebeurtenis, enz.
-* een rij wordt geïdentificeerd door een sleutel (*key*);
 * de kolommen vormen de afzonderlijk *velden* van de records:
-  een kolom heeft een naam, en bevat gegevens van eenzelfde type.
+  een kolom heeft een naam, en bevat gegevens van eenzelfde type;
+* een rij wordt geïdentificeerd door een sleutel (*key*).
+
+De eerste rij in het rekenvel bevat dan de namen van de kolommen.
 
 Enkele voorbeelden van dergelijke tabellen:
 
@@ -53,7 +55,7 @@ Zowel voor het filteren als voor het sorteren kun je meerdere voorwaarden opgeve
 In het geval van filteren maakt de volgorde niet uit,
 maar bij sorteren is dat wel het geval.
 
-Voorbeeld: je wilt 
+Voorbeeld: je wilt
 
 
 Punten van aandacht

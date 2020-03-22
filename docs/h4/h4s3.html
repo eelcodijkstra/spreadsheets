@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>H4S3 &#8212; Spreadsheets</title>
+    <title>Verwerken van meetresultaten &#8212; Spreadsheets</title>
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
@@ -128,7 +128,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="H4S3" href="h4s4.html" />
-    <link rel="prev" title="H4S2" href="h4s2.html" />
+    <link rel="prev" title="Kennismaking" href="h4s2.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -314,7 +314,7 @@
         
         <!-- 
           
-  <li id="relations-prev" title="Previous Chapter - H4S2" data-toggle="tooltip">
+  <li id="relations-prev" title="Previous Chapter - Kennismaking" data-toggle="tooltip">
     <a href="h4s2.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
@@ -359,10 +359,109 @@
 
 <div class="container" id="main-content" role="main">
   
-  <div class="section" id="h4s3">
-<h1>H4S3<a class="headerlink" href="#h4s3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="subkopje">
-<h2>Subkopje<a class="headerlink" href="#subkopje" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="verwerken-van-meetresultaten">
+<h1>Verwerken van meetresultaten<a class="headerlink" href="#verwerken-van-meetresultaten" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="inleiding">
+<h2>Inleiding<a class="headerlink" href="#inleiding" title="Permalink to this headline">¶</a></h2>
+<p>Je kunt een spreadsheet gebruiken voor het verwerken van meetresultaten,
+bijvoorbeeld van een natuurkunde-practicum.
+Hiermee kun je:</p>
+<ul class="simple">
+<li><p>de gegevens in een grafiek weergeven;</p></li>
+<li><p>een lijn (lineaire functie) vinden die zo goed mogelijk bij de gegevens past.</p></li>
+</ul>
+<p>Voor de opzet van de spreadsheet gebruiken we de “data in tabellen”-aanpak:</p>
+<ul class="simple">
+<li><p>we gebruiken een rij per meetresultaat</p></li>
+<li><p>deze rij bestaat uit: de ingestelde parameters en de bijbehorende meetresultaten</p></li>
+<li><p>in de eerste rij plaatsen we als kolomnamen de namen van de gegevens in die kolom.</p></li>
+<li><p>we gebruiken als eerste kolom de waarden die we in de grafiek op de x-as willen plaatsen;
+we zorgen ervoor dat de rijen (opklimmend) gesorteerd zijn voor de waarden in deze kolom.</p></li>
+</ul>
+<p>We gebruiken als voorbeeld de meetgegevens van een experiment om de wet van Ohm te demonstreren.
+We meten de stroom door een weerstand en de spanning over dezelfde weerstand,
+zie de onderstaande figuur.</p>
+<p>(Eigenlijk moeten we dit experiment met twee of meer weerstanden doen.)</p>
+<p>We krijgen dan bijvoorbeeld de volgende tabel:</p>
+<p>Voor alle waarden in de tabel, zowel de ingestelde als de gemeten waarden,
+geldt dat we te maken hebben met een mogelijke meetfout.
+Maar de waarde voor 0V weten we heel precies: is de stroom ook 0 (A).</p>
+<p><em>Opmerking</em> Soms wil je uit de gemeten waarden ook een waarde berekenen.
+Met spreadsheets is dat natuurlijk geen probleem: je kunt een extra kolom met formules toevoegen.</p>
+</div>
+<div class="section" id="tekenen-van-de-grafiek">
+<h2>Tekenen van de grafiek<a class="headerlink" href="#tekenen-van-de-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>Als grafiek willen we een puntgrafiek gebruiken:
+elk meetpunt geven we met een kruisje in de grafiek weer.</p>
+<p>We kunnen ook “error bars” toevoegen om de foutgrenzen aan te geven.
+In de meeste gevallen hebben we</p>
+<p>Dit doe je als volgt (Google Sheets)</p>
+<ul class="simple">
+<li><p>selecteer de data: de rijen en kolommen met de meetgegevens,
+inclusief de eerste rij met kolomtitels.</p></li>
+<li><p>klik op menu-item: “Insert-&gt;Chart”
+je krijgt nu een grafiek die je nog aan kunt passen met de “Chart editor”.</p>
+<ul>
+<li><p>je kunt de data kiezen voor de x-as</p></li>
+<li><p>je kunt de data kiezen voor de y-as (series); dit kunnen meerdere kolommen zijn.</p></li>
+</ul>
+</li>
+</ul>
+<p>Om de grafiek goed af te kunnen lezen is het belangrijk dat de grafiek een voldoende fijn raster heeft.
+Dit kun je instellen met de “gridlines”.</p>
+<ul class="simple">
+<li><p>stel eerste de minimale en maximale waarden in voor de x- en y-assen.</p>
+<ul>
+<li><p>deze staan meestal op “auto”, wat vaak goed genoeg is.
+Omdat je de hele data kent kun je deze eenvoudig zelf instellen,
+onder “horizontal axis” en “vertical axis”.</p></li>
+</ul>
+</li>
+<li><p>stel vervolgens de “gridlines” in. Deze zijn verdeeld in de major en minor gridlines.</p>
+<ul>
+<li><p>hoeveel major gridlines in de totale grafiek? - in ons geval, 5</p></li>
+<li><p>hoeveel minor gridlines tussen twee major gridlines? - in ons geval, 4</p></li>
+</ul>
+</li>
+<li><p>vaak is het plezierig als de hokjes ongeveer vierkant zijn.
+Dat kun je aanpassen door de hele figuur smaller of breder te maken.</p></li>
+</ul>
+<p>(Een alternatief is om de gemeten waarden bij de punten zelf weer te geven.)</p>
+</div>
+<div class="section" id="rechte-lijn-door-de-meetpunten">
+<h2>Rechte lijn door de meetpunten<a class="headerlink" href="#rechte-lijn-door-de-meetpunten" title="Permalink to this headline">¶</a></h2>
+<p>Een volgende stap is dat we een rechte lijn willen trekken die zo goed mogelijk aansluit bij de meetpunten.
+“Zo goed mogelijk aansluiten” betekent dat we de lijn willen hebben met de kleinst mogelijke totale afwijking van de punten.
+Dit wordt wel aangeduid als de “kleinste kwadraten” benadering:</p>
+<p>In de meeste spreadsheetprogramma’s is hiervoor een functie aanwezig,
+zowel voor het tekenen van de lijn als voor het uitrekenen van de parameters van deze lijn.</p>
+<p>In Google Sheets heet zo’n lijn een “trendline”.
+Als onderdeel van de “Series” kun je opgeven of je deze getekend wilt hebben.</p>
+<p>Naast rechte lijnen zijn er nog andere benaderende functies mogelijk.</p>
+<p>Een lineaire functie (rechte lijn) kun je beschrijven met 2 parameters <span class="math notranslate nohighlight">\(a\)</span> en <span class="math notranslate nohighlight">\(b\)</span>:
+<span class="math notranslate nohighlight">\(f(x) = a \cdot x + b\)</span>. De parameter <span class="math notranslate nohighlight">\(b\)</span> heet ook wel de <em>intercept</em>:
+het snijpunt met de y-as (de lijn <span class="math notranslate nohighlight">\(x=0\)</span>).
+De parameter <span class="math notranslate nohighlight">\(a\)</span> geeft de helling ofwel de <em>slope</em> van de lijn aan.</p>
+<p>In Google sheets heb je functies voor het uitrekenen van de <em>slope</em> en de intercept*,
+zie de voorbeeld-spreadsheet.</p>
+<p>In het geval van het bovengenoemde natuurkunde-experiment weten we dat het punt (0V, 0A) geen meetfout bevat:
+dit punt is precies.
+De trendlijn moet dan ook precies door punt (0,0) gaan.
+In veel spreadheetprogramma’s kun je dit opgeven.</p>
+<p>Helaas kun je in Google Sheets niet opgeven dat de “intercept” 0 moet zijn.
+Dit maakt Google Sheets minder geschikt voor dergelijke grafieken.</p>
+<p>In Excel en in LibreOffice kun je wel opgeven dat deze intercept 0 moet zijn.
+Je krijgt dan inderdaad een iets andere (betere) waarde voor de helling (slope) dan wat de <code class="docutils literal notranslate"><span class="pre">SLOPE</span></code>-functie aangeeft.</p>
+</div>
+<div class="section" id="exporteren-van-de-grafiek">
+<h2>Exporteren van de grafiek<a class="headerlink" href="#exporteren-van-de-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>Je kunt de grafiek exporteren naar een figuur die je bijvoorbeeld in een tekstdocument of in een webpagina kunt opnemen.</p>
+<p><em>Opmerking:</em> Veranderingen in de data hebben geen invloed om de geëxporteerde grafiek.
+Als je de data aanpast, zul je de grafiek opnieuw moeten exporteren.</p>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/grafiek-0.png"><img alt="../_images/grafiek-0.png" src="../_images/grafiek-0.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">Grafiek van de meetgegevens (LibreOffice)</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 
@@ -373,15 +472,15 @@
   
       
 <ul>
-  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - H4S2' data-toggle="tooltip">
-    <a href="h4s2.html" aria-label="H4S2">
+  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - Kennismaking' data-toggle="tooltip">
+    <a href="h4s2.html" aria-label="Kennismaking">
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
             <i class='prevNav glyphicon glyphicon-chevron-left'  style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black;"></i>
         </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="h4s2.html" aria-label="H4S2"></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="h4s2.html" aria-label="Kennismaking"></a>
   
 <ul>
   <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - H4S3' data-toggle="tooltip" >

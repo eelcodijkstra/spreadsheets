@@ -38,14 +38,14 @@ We gebruiken in de opdrachten het volgende spreadsheet-voorbeeld:
   </div>
 
 In je eigen kopie van dit voorbeeld kun je zien de formules in de verschillende cellen bekijken:
-de formule van de actieve cel zie je (ook) in het formulevenster bovenin.
+de formule van de actieve cel zie je (ook) in de formulebalk bovenin.
 
 * Wat is de formule in cel E2?
 * Wat is de formule in cel E3?
 * Wat zijn de verschillen/overeenkomsten tussen de formules in E2 en E3?
 
-Via het formulevenster bovenin kun je de formule van de actieve cel aanpassen.
-Als je in het formulevenster klikt zie je de formule van de actieve cel,
+Via de formulebalk bovenin kun je de formule van de actieve cel aanpassen.
+Als je in de formulebalk klikt zie je de formule van de actieve cel,
 en bovendien zie je in de spreadsheet zelf de invoercellen van deze formule,
 met behulp van verschillende kleuren.
 
@@ -54,9 +54,9 @@ Voor het begrijpen van de formule kun je die wegdenken.
 Deze tekens zijn wel belangrijk als je een formule kopieert,
 zie verderop bij absolute en relatieve celverwijzingen.
 
-*Opmerking* Zolang het formulevenster actief is heeft het selecteren van cellen
+*Opmerking* Zolang de formulebalk actief is heeft het selecteren van cellen
 een andere betekenis: de geselecteerde cellen worden toegevoegd aan de formule.
-Je verlaat het formulevenster door een Return, of door te klikken op "Accept" (vinkje) of "Cancel (kruisje)".
+Je verlaat de formulebalk door een Return, of door te klikken op "Accept" (vinkje) of "Cancel (kruisje)".
 
 **Opdrachten**
 
