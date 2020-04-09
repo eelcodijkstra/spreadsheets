@@ -1,0 +1,305 @@
+Cellen en waarden
+=================
+
+Je maakt kennis met de elementaire bouwstenen van een spreadsheet: cellen en waarden.
+Je leert hoe je waarden kunt invoeren en hoe je deze kunt formatteren.
+
+.. rubric:: Oefenmateriaal
+
+Gebruik het voorbeeld-bestand "hoofdstuk1.xls" voor het uitwerken van de opdrachten.
+Voor dit onderdeel gebruik je het tabblad "Cellen en waarden"
+
+.. rubric:: Concepten
+
+rekenvel, cel, rij, kolom, actieve cel, waarde, getal, tekst, logische waarde,
+invoeren van waarde, formatteren van waarde,
+datumformat, rekenen met data, ...
+
+
+Rekenvel: cellen, rijen, kolommen
+---------------------------------
+
+.. figure:: rijen-en-kolommen.png
+  :width: 600px
+  :align: center
+
+Een (spread)sheet of *rekenvel* bestaat uit *cellen*: deze zijn geplaatst in een rooster van rijen en kolommen.
+De *rijen* zijn genummerd (1, 2, …), de *kolommen* geletterd (A, B, …, Z, AA, AB, ...).
+Het adres van een cel is de kolomletter gevolgd door het rijnummer.
+
+Om iets met een cel of een reeks cellen te doen moet je deze eerst *selecteren*.
+De randen van de geselecteerde cellen krijgen dan een andere kleur, en rechts onder zie je een blokje: de vulgreep (zie verderop).
+Ook de kleur van de rij en van de kolom verandert met de selectie.
+De geselecteerde cel heet ook wel de *actieve cel*.
+In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve cel.
+
+* je selecteert een cel door met de muis in de cel te klikken;
+* met de pijltjestoetsen selecteer je een buurcel (als actieve cel);
+* je selecteert een *reeks cellen* door de eerste cel (linksboven) te selecteren,
+  en dan met Shift-klik (of de rechter muisknop) in de laatste cel (rechtsonder) te klikken;
+* je selecteert een volledige rij door op het rij-nummer te klikken;
+* je selecteert een reeks rijen door de eerste rij te selecteren,
+  en dan met Shift-klik (of de rechter muisknop) de laatste rij te selecteren.
+* je selecteert een volledige kolom door op de kolom-letter te klikken.
+* je selecteert een reeks kolommen door de eerste kolom te selecteren,
+  en dan met Shift-klik (of de rechter muisknop) de laatste kolom te selecteren.
+
+Een reeks cellen geven we aan door de eerste cel (linksboven) en de laatste cel (rechtsonder) gescheiden door een ``:``.
+Voorbeeld: ``A1:A4``.
+Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1:D4``.
+
+
+.. fillintheblank:: h1s2q1
+   :casei:
+
+   Het adres van de geselecteerde cel is: ``|blank|``.
+
+   -   :C4: Correct.
+       :x: Try again.
+
+..
+
+.. fillintheblank:: h1s2q2
+   :casei:
+
+   Selecteer cel ``A5``; wat zie je nu in de formulebalk (formula bar) bovenin? ``|blank|``.
+   Vergeet het eerste teken niet!
+
+   -   :=S[OU]M\(A1:\A4\): Correct.
+       :x: Try again.
+
+..
+
+**Oefen** met het selecteren van cellen, rijen en kolommen totdat je daar handig mee bent.
+
+Waarden: getal, tekst of logische waarde
+----------------------------------------
+
+Een cel kan een waarde of een formule bevatten. (Later meer over formules.)
+Een waarde is een getal, een tekst, of een logische waarde (``TRUE`` of ``FALSE``,
+of in een Nederlandse versie, ``WAAR`` of ``ONWAAR``).
+
+.. raw:: html
+
+    <div style="align: center;">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=286497481&amp;single=true&amp;widget=true&amp;headers=true"
+      width="600px" height="200px"></iframe>
+    </div<
+
+Opdracht:
+
+1. vul in cel A3 in: ``187``. Wat is nu de waarde van A5? Wat is nu de kleur van A5?
+2. vul in cel C4 in: ``Hello`` ; wat is nu de waarde van D4?
+3. vul in cel C5 in: ``True`` ; wat is nu de waarde van D5?
+
+.. fillintheblank:: h1s2q5
+   :casei:
+
+   Vul in cel A3 in: ``187``. In cel A5 zie je nu de waarde: ``|blank|``.
+   Deze cel heeft nu als kleur: ``|blank|``
+
+   -   :1000: Correct.
+       :x: Niet juist.
+   -   :groen: Correct.
+       :x: Niet juist.
+
+..
+
+.. fillintheblank:: h1s2q6
+   :casei:
+
+   Vul in cel C4 in: ``Hello``. In cel D4 zie je nu de waarde: ``|blank|``.
+
+   -   :World!: Correct.
+       :x: Helaas.
+
+..
+
+.. fillintheblank:: h1s2q7
+   :casei:
+
+   Vul in cel C5 in: ``True``. In cel D5 zie je nu de waarde: ``|blank|``.
+
+   -   :OK!: Correct.
+       :x: Niet juist.
+
+..
+
+*Opmerking:* door het veranderen van een waarde in een cel kan een waarde in een andere cel
+ook veranderen: de cellen A5, D4 en D5 bevatten een *formule* voor een berekening.
+Deze behandelen we in de volgende les.
+Het aanpassen van de kleur afhankelijk van de waarde in een veld heet "conditional formatting."
+Ook dit komt later aan bod.
+
+Type van een waarde
+-------------------
+
+De waarde ``187`` heeft als type: getal.
+``Hello`` heeft als type: tekst.
+``True`` heeft als type: logische waarde (Boolean).
+
+Het *type* van een waarde bepaalt de betekenis van die waarde in een berekening.
+Met getallen kun je rekenen, teksten kun je bijvoorbeeld aaneenrijgen.
+Dit is een algemene regel bij programmeertalen:
+het type van een waarde bepaalt de interpretatie van deze waarde in berekeningen.
+
+.. rubric: Getal of tekst?
+
+Meestal zie je aan de waarde zelf wat het type is: als het op een getal lijkt,
+en ook nog rechts aangesloten is, is het waarschijnlijk een getal.
+Maar een waarde als ``0612345678`` kan ook een tekst zijn, bijvoorbeeld een telefoonnummer.
+Het is niet zinvol om met telefoonnummers te rekenen.
+Ook straatnummers wil je het liefst als tekst beschouwen.
+
+Later gaan we in op de manieren waarop je dit verschil kunt maken en kunt zien.
+
+Opmaak (format) van getallen
+----------------------------
+
+Een getal kun je op allerlei manieren opmaken (formatteren):
+
+* als geheel getal ``123``
+* als vaste-komma getal ``123,45``
+* als zwevende-komma getal ``123,45E2`` (wetenschappelijke notatie).
+* als percentage ``123%``
+* als valuta (geld) ``€ 12.345,60``
+* als datum of datum/tijd ``20-02-2020``
+
+
+Bovendien kun je een negatief getal op verschillende manieren opmaken:
+met een - teken, of door dit tussen haakjes te zetten (een gewoonte van boekhouders),
+eventueel rood gekleurd.
+
+De *opmaak* (*format*) van een cel geeft aan hoe de waarde in die cel op het scherm of op papier weergegeven wordt.
+De opmaak verandert niets aan de waarde van het getal:
+de computer rekent nog steeds op dezelfde manier met het getal in de cel.
+
+Je past de opmaak van een cel aan door deze te selecteren
+en vervolgens in het opmaak-menu het gewenste format te kiezen.
+
+Opdracht:
+
+* Verander de opmaak van A1 in: vaste-komma getal met 2 decimalen.
+* Verander de opmaak van A2 in: zwevende-komma getal met 2 decimalen (wetenschappelijke notatie).
+* Verander de opmaak van A3 in: valuta (Euro) met 2 decimalen.
+* Verander de opmaak van A4 in een datum-formaat.
+* Selecteer alle cellen A1:A5 en verander de opmaak in: geheel getal.
+* Wat gebeurt er in deze gevallen met de waarde van A5?
+
+
+.. note::
+
+  *Decimale komma of punt?*
+  In Nederland gebruiken we een *decimale komma* in getallen,
+  andere landen gebruiken daarvoor een *decimale punt*.
+  Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
+  Verderop geven we aan hoe je deze instellingen kunt veranderen.
+
+Datumformaten
+-------------
+
+Een datum is een geheel getal dat op een bijzondere manier weergegeven wordt:
+via een datumopmaak (datumformaat).
+Enkele voorbeelden van dataformaten: ``20-02-2020``, ``20-februari-2020``,
+``20-feb.-2020``, ``2020-02-20``.
+Het getal stelt het aantal dagen voor sinds 30 december 1899.
+
+.. note::
+  *Een datum is een getal*: dat betekent dat je het verschil tussen twee data kunt uitrekenen,
+  als het aantal dagen (periode) tussen die data.
+
+*Onzin-berekeningen*.
+Een spreadsheetprogramma heeft er ook geen moeite mee om data op te tellen of te vermenigvuldigen:
+die berekening heeft een uitkomst, maar het is natuurlijk volstrekte onzin.
+Het spreadsheetprogramma beschermt je niet tegen dergelijke onzin-berekeningen:
+dat moet je zelf in de gaten houden.
+
+Opdracht:
+
+* Voer in een lege cel het getal 0 in; verander het format in een datum-formaat.
+  Welke datum wordt nu weergegeven?
+* Kun je ook data vóór 30 december 1899 voorstellen?
+* Welk getal komt overeen met de datum ``20-02-2020``?
+
+Tekstformaten
+-------------
+
+Je kunt tekst op allerlei manieren opmaken:
+je kunt tekst vet of cursief zetten, het lettertype veranderen of de grootte.
+
+Je kunt een tekst ook gebruiken als "link" (URL), naar een website (``https://...``),
+of naar een mailadres ``mailto:...``.
+
+Voor een tekst die niet in een cel past heb je verschillende mogelijkheden (Opmaak->Tekstomloop):
+
+* overloop: de tekst loopt door over de volgende cel;
+* omloop: de tekst blijft in de cel, de cel wordt in de hoogte aangepast;
+* afbreken: alleen het deel dat in de cel past is zichtbaar.
+
+Deze opmaak heeft geen gevolgen voor de waarde: ook al zie je maar een deel van de tekst,
+de tekst in de cel blijft onveranderd.
+
+Invoeren van waarden
+--------------------
+
+Door een ``'`` als eerste teken geef je aan dat de volgende tekens een tekst-waarde vormen.
+Zo kun je ``'0612345678`` als telefoonnummer invoeren.
+Als de invoer met een letter begint wordt dit altijd als tekst-waarde gezien.
+
+Opdracht:
+
+* voer als waarde in: ``1-2``. Wat is het type van deze waarde? Wat is de betekenis?
+* voer als waarde in: ``12-13``. Wat is het type van deze waarde?
+* voer als waarde in: ``'1-2``. Wat is het type van deze waarde?
+
+De notatie die je gebruikt bij het invoeren van een waarde bepaalt ook de opmaak van de cel.
+Als je bijvoorbeeld invoert ``20-02-2020`` dan wordt dit gezien als een datum:
+een getal in datumformaat.
+Je kunt de opmaak van de cel later weer aanpassen zoals je hierboven gezien hebt.
+
+De vulgreep
+-----------
+
+Soms wil je een reeks waarden invoeren in een bepaald patroon,
+bijvoorbeeld de getallen 1,2,3,..., of opeenvolgende data.
+Hiervoor bestaat een handig hulpmiddel: de vulgreep.
+Dit is het blokje rechts onderaan de cel(len) die je geselecteerd hebt.
+
+Voorbeelden:
+
+* geef cel a10 de waarde 1; selecteer deze cel;
+  trek de vulgreep naar cel a20: alle cellen a10..a20 krijgen de waarde 1.
+* geef cel b10 de waarde 1, en cel b11 de waarde 2; selecteer deze *beide cellen*;
+  trek de vulgreep naar cel b20: de cellen b10..b20 krijgen de waarden 1,2,3,...
+* geef cel c10 de waarde "januari"; selecteer deze cel;
+  trek de vulgreep (horizontaal) naar c13: je krijgt een reeks maanden.
+  (Vraag: zijn dit data of teksten?)
+
+Opmerkingen:
+
+* je kunt de vulgreep naar rechts of naar beneden trekken, maar niet beide tegelijk.
+*
+
+*Opdracht*
+
+* maak de tafel van 8, in twee kolommen: de eerste kolom de getallen 1, 2, 3, ...;
+  en de tweede kolom de bijbehorende waarden van de tafel van 8.
+
+
+Andere handige zaken
+--------------------
+
+* tussenvoegen en verwijderen van rijen en kolommen;
+* vastzetten van rijen en kolommen (i.h.b. de top);
+* verbergen (en ontbergen) van rijen en kolommen. (NB: dit moet je weten als je met spreadsheets van anderen werkt.)
+* afschermen van waarden (protect); (kan dat altijd?)
+* invoeren van verticale reeks met Enter; van horizontale reeks met Tab.
+* je kunt zelf je vulreeksen definiëren.
+* zichtbaar maken van de formules in een spreadsheet (met "show formula", via het menu, of )
+
+Verschillen tussen spreadsheet-programma's
+------------------------------------------
+
+* Bij Apple Numbers is de vulgreep het gele bolletje midden onderaan.
+* Apple Numbers wijkt in een aantal opzichten af van de gebruikelijke spreadsheetprogramma's.
+  Dit heeft zowel voor- als nadelen.

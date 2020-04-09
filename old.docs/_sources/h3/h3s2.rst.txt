@@ -1,0 +1,107 @@
+Samenvatten en groeperen
+========================
+
+Als voorbeeld gebruiken we een lijst met behaalde cijfers voor de verschillende vakken.
+We willen hieruit het gemiddelde per vak bepalen.
+Daarvan willen we een grafiek maken (staafdiagram).
+
+Gebruik de bladen: Toetsresultaten en Toetsresultaten-samengevat.
+
+We gebruiken de volgende aanpak:
+
+* elk resultaat is een rij (record), met als kolommen (velden): datum, vak, cijfer.
+* de eerste rij bevat de kolomkoppen.
+* de resultaten kunnen in de loop van de tijd uitgebreid worden:
+  we willen de datatabel "zuiver" houden, en geen berekeningen onderaan toevoegen.
+* voor het samenvatten en groeperen van de data gebruiken daarom we een *afzonderlijk rekenblad*.
+* data
+
+Voor het samenvatten en groeperen van dergelijke data kun je ook een "pivot table" (draaitabel) gebruiken.
+Dat behandelen we in een hoofdstuk voor gevorderden.
+
+Data en autofilter
+------------------
+
+Zoals gezegd gebruiken we data in rij=record formaat.
+
+Je kunt data in zo'n formaat eenvoudig filteren met een "autofilter":
+
+* selecteer de eerste rij, met de kolomkoppen;
+* kies menu Gegevens->autofilter (Excel) of Gegevens->filter maken (Google Sheets).
+
+Je ziet nu naast de kolomkoppen driehoekjes staan waarmee je de filterfuncties in kunt stellen.
+
+* je kunt de gegevens van een enkel vak weergeven: selecteer het filter van de kolom "vakken",
+  en vink alleen "engels" aan.
+* je kunt de filteren op waarden, bijvoorbeeld alleen de cijfers onder de 7 (filter in de kolim "cijfers").
+* je kunt de gegevens sorteren op bijvoorbeeld de naam van de vakken.
+
+Met deze filters krijg je alleen een andere weergave, de gegevens zelf veranderen niet.
+Je kunt zien of er nog een filter actief is,
+doordat het driehoekje van een actief filter anders van kleur of vorm is.
+
+Dit autofilter is handig om te zoeken of om een eerste analyse met de hand te maken.
+Een volgende stap is het automatisch samenvatten en groeperen.
+
+Samenvatten en groeperen
+------------------------
+
+Voor deze functies gebruiken we een ander (leeg) rekenblad.
+Om de gegevens van het data-blad eenvoudig in formules te kunnen gebruiken,
+geven we deze gegevens een naam.
+
+Je geeft data in de verschillende kolommen een naam:
+
+* selecteer de kolom "vak" (``B:B``), en geef deze via Gegevens->Benoemd bereik (Google Sheets)
+  of via Formules->Naam definiëren (Excel) de naam "vakdata".
+* selecteer de kolom "cijfer", en geef deze de naam "cijferdata".
+
+Deze namen kun je nu gebruiken in een formule op een ander rekenblad.
+
+Voorbeeld: het gemiddelde van alle cijfers reken je uit met de formule: ``=GEMIDDELDE(cijferdata)``.
+
+* Geef kolom ``A`` de kop: "vak"
+* Zet daaronder in kolom ``A`` de namen van de verschillende vakken.
+* Geef kolom ``B`` de kop: "gemiddelde"
+* Definieer in ``B2``: ``=GEMIDDELDE.ALS(vakdata;A2;cijferdata)``
+
+De betekenis van deze formule is: bereken het gemiddelde van de waarden in kolom ``cijferdata``
+voor die rijen waarvoor ``vakdata=A2``: de naam van het vak links van de formule.
+
+Voor alle samenvattingsfuncties (SOM, GEMIDDELDE, MAX, MIN) zijn vergelijkbare conditionele vormen (IF of ALS) beschikbaar.
+
+Grafiek
+-------
+
+Van deze gegroepeerde gegevens kun je nu een grafiek maken,
+bijvoorbeeld een staafdiagram.
+
+* selecteer de samenvattingsdata, inclusief kolomkoppen;
+* voeg een diagram (grafiek) in, en kies als type: staafdiagram ofwel kolomgrafiek.
+* zorg ervoor dat de titels en de assen kloppen.
+
+Je kunt aan de grafiek ook een lijn toevoegen met het gemiddelde van alle vakken:
+
+* voeg een kolom toe waarin je het gemiddelde van de vakgemiddelden uitrekent;
+  deze heeft in elke rij dezelfde waarde;
+* kies als soort diagram: Combinatiediagram;
+* de ene reeks (vakgemiddelden) gebruik je als staafdiagram;
+* de andere reeks (gemiddelde) gebruik je als lijngrafiek.
+
+
+Uitbreidingen 
+-------------
+
+Je kunt dit voorbeeld op allerlei manieren uitbreiden:
+
+* gegevens tellen voor een bepaald rapport;
+  het rapport kun je in een aparte kolom opnemen.
+* niet alle cijfers tellen even zwaar;
+  je kunt de wegingsfactor voor een bepaald cijfer in een aparte kolom opnemen.
+* naast het gemiddelde wil je misschien ook weten welk cijfer je minimaal
+  moet halen om uiteindelijk voldoende te staan.
+
+Dezelfde aanpak van data met een autofilter en samenvattingen/rapportages op een apart rekenblad
+is veel vaker bruikbaar.
+Een voorbeeld is het analyseren van de transactiegegevens van een bankrekening,
+bijvoorbeeld om na te gaan hoeveel je aan welke posten uitgegeven hebt.

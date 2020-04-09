@@ -1,0 +1,17 @@
+Inleiding
+=========
+
+Hoe kun je spreadsheets gebruiken?
+----------------------------------
+
+voorbeelden...
+
+Spreadsheetprogramma's
+----------------------
+
+Excel, Google Sheets, OfficeLibre Calc, Apple Numbers, enz.
+
+Spreadsheets in andere programma's
+----------------------------------
+
+tekstverwerkers; websites; ...

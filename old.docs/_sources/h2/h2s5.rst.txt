@@ -1,0 +1,87 @@
+Van functie naar tabel en grafiek
+=================================
+
+Spreadsheets werken met tabellen met (vooral) getallen.
+Van een tabel met getallen kun je een grafiek maken.
+Als je een grafiek van een functie wilt tekenen,
+moet je eerst een tabel van de functiewaarden maken.
+
+**Opdracht.**  Begin met een leeg rekenblad en voer de acties hieronder uit.
+Het uiteindelijke resultaat vind je in de uitwerkingen.
+
+.. figure:: enkele-functies.png
+  :width: 300px
+  :align: center
+
+  Enkele functies in een grafiek
+
+Van functie naar tabel
+----------------------
+
+1. maak eerst de kolomkopjes: ``x``, ``f(x)=x^2`` in ``A1:B1``
+2. maak de kolom met x-waarden: -10 in ``A2``, -9,5 in ``A3``,
+   en dan via de vulgreep uitbreiden naar 10 in ``A42``
+3. maak de kolom met functiewaarden: formule ``=A2*A2`` in ``B2``,
+   en via de vulgreep kopiëren in de kolom tot en met ``B42``.
+
+Je hebt nu een tabel met functiewaarden.
+
+
+Van tabel naar grafiek
+----------------------
+
+1. selecteer de tabel ``A1:B42``, dus inclusief de kolomkoppen.
+2. kies menu "Insert->Chart" ("Invoegen->Diagram"), en kies als type: "line chart" (lijndiagram).
+
+Afhankelijk van het spreadsheetprogramma moet je mogelijk je grafiek nog wat verfijnen,
+maar waarschijnlijk heb je al een redelijk grafiek van de functie,
+met bijpassenden titels.
+
+*Opmerking* Het kan nodig zijn om de waarden voor x als functiewaarden (reeks, series) te verwijderen.
+Deze moet alleen voor de x-as gebruikt worden.
+
+Van constante naar benoemd bereik
+---------------------------------
+
+De waarden voor de x-as kun je ook op een andere manier maken,
+zodat je deze gemakkelijker kunt aanpassen.
+
+
+1. Definieer ``E1`` als ``deltax:``, ``F1`` als ``0,5``,
+   en definieer het benoemde bereik ``delta`` als ``F1``.
+2. Gebruik voor ``A3`` de formule: ``=A2+deltax``,
+3. Kopieer deze naar ``A3:A42``.
+
+Je kunt nu het bereik van de grafiek eenvoudig aanpassen:
+
+* verander de beginwaarde (in ``A2``) en ``deltax`` (in ``F2``).
+
+Je ziet dat de grafiek direct aangepast wordt aan deze waarden.
+
+Deze aanpak, waarbij je een constante waarde (0,5) vervangt door een benoemd bereik,
+(``deltax``) is in veel meer situaties handig.
+In de praktijk zijn "constanten" minder constant dan ze eerst lijken.
+
+Meerdere functies in één grafiek
+--------------------------------
+
+Door het toevoegen van extra kolommen kun je meerdere functies in dezelfde grafiek weergeven.
+
+1. Definieer de kop ``C1`` als ``g(x)=x^3/10``
+2. Definieer de formule in ``C2`` als ``=A2*A2*A3/10``
+3. Kopieer ``C2`` naar ``C3:C42``
+
+Je kunt in principe de bestaande grafiek aanpassen,
+maar het is vaak eenvoudiger om een nieuwe grafiek te maken.
+
+1. Selecteer de data ``A1:C42``
+2. Kies menu Insert->Chart (Invoegen->Diagram)
+3. Kies als Chart type (diagramtype): Line chart (lijndiagram)
+
+**Opdracht** voeg op dezelfde manier toe: ``h(x)=x*10``.
+
+**Opdracht** verander de x-waarden, bijvoorbeeld naar ``A2``: -20 en ``deltax``: 1,
+en kijk hoe de verhoudingen tussen de functies in de grafiek veranderen.
+
+**Opdracht** exporteer de figuur naar een bestand dat je in een ander document kunt gebruiken
+(bijvoorbeeld via "downloaden" in het diagram-menu).

@@ -1,0 +1,15 @@
+Volgende stappen
+================
+
+In de volgende hoofdstukken gaan we in op een aantal typische manieren om spreadsheets te gebruiken:
+
+* functies en grafieken: de basis voor het rekenen met functies en het maken van grafieken daarvan.
+  Als voorbeeld behandelen we de groei van functies.
+* data-analyse en visualisatie: het analyseren (bijvoorbeeld met statistiek) en visualiseren van data,
+  bijvoorbeeld data van meetgegevens of externe data uit CSV-bestanden.
+* modelleren en simuleren: het simuleren van eenvoudige fysische of biologische modellen.
+* algoritmen: enkele eenvoudige algoritmen vormgegeven in een spreadsheet.
+
+Voor elk hoofdstuk is er een voorbeeld-spreadsheet.
+De opdrachten zijn er in eerste instantie op gericht om deze voorbeelden zelf op te bouwen vanuit een lege spreadsheet.
+De eigen uitwerking kan vergeleken worden met de gegeven uitwerkingen.
