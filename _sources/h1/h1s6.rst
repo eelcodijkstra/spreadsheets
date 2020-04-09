@@ -11,26 +11,6 @@ Hoe kun je zien of een waarde een getal is of een tekst?
 * meestal: tekst staat links uitgelijnd, getallen rechts - zoals je gewend bent van optelsommen;
 * maar: tekst kan ook rechts uitgelijnd zijn.
 
-Gevorderd: de functie `TYPE` geeft voor een cel aan of deze een getal,
-tekst of logische waarde bevat.
-
-Verschil:
-* in berekeningen met getallen heeft een tekst soms (meestal?) waarde 0. Bij optellen geeft dit meestal de uitkomst die je verwacht. (Er is een verschil tussen de SOM-functie en de +… deze laatste converteert zo mogelijk een tekst naar een getal, en geeft anders een fout-resultaat.)
-
-
-De functie TYPE(x) geeft het type van de cel x: 1 voor getal, 2 voor string, (4 voor logische waarde; 8 voor formule (OfficeLibre)).
-
--> controleren wat het gebruik in Excel is.
--> Google Docs geeft het type van het resultaat, in het geval van een formule.
-
-
-Hoe kun je zien of een waarde een getal is of een tekst?
-
-* meestal: als het op een getal lijkt, is het waarschijnlijk een getal, anders een tekst;
-* maar: ook 1234 kan een tekst zijn;
-* meestal: tekst staat links uitgelijnd, getallen rechts - zoals je gewend bent van optelsommen;
-* maar: tekst kan ook rechts uitgelijnd zijn.
-
 Je kunt in een spreadsheet-formule met de functie `TYPE` ook controleren of een cel een getal,
 tekst of logische waarde bevat.
 
@@ -38,7 +18,7 @@ tekst of logische waarde bevat.
   bijvoorbeeld bij Google Sheets geeft een formule de waarde van het resultaat-type,
   bij OfficeLibre de waarde 8.
 
-De tekst (dus niet het getal) 1234 voer je in als: ’1234
+De *tekst* (dus niet het getal) 1234 voer je in als: ``’1234``
 
   In het geval van 1234 kun je niet direct zien of je met een tekst of met een getal te maken hebt.
   En een telefoonnummer wil je eigenlijk liever als tekst dan als getal opslaan:
@@ -66,3 +46,15 @@ Dit is soms even zoeken.
 
   Programmeertalen gebruiken meestal alleen de "decimale punt".
   Om problemen met het uitwisselen van gegevens te voorkomen is het vaak handig om ook in spreadsheets de "decimale punt" te gebruiken.
+
+Verwijzingen naar rekenbladen
+-----------------------------
+
+In Excel en in Google spreadsheets noteer je de verwijzing naar een rekenblad vóór een celadres met behulp van een ``!``,
+bijvoorbeeld: ``sheet1!A3``.
+
+In OfficeLibre kun je deze notatie als volgt instellen:
+
+* menu Preferences->LibreOffice Calc->Formula->Formula Syntax->Excel A1.
+
+(De defaultwaarde is "Calc A1", met een "." in plaats van een "!".)

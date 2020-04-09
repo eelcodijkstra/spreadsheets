@@ -386,8 +386,8 @@ In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve 
 <ul class="simple">
 <li><p>je selecteert een cel door met de muis in de cel te klikken;</p></li>
 <li><p>met de pijltjestoetsen selecteer je een buurcel (als actieve cel);</p></li>
-<li><p>je selecteert een <em>reeks cellen</em> door de eerste cel te selecteren,
-en dan met Shift-klik (of de rechter muisknop) in de laatste cel te klikken;</p></li>
+<li><p>je selecteert een <em>reeks cellen</em> door de eerste cel (linksboven) te selecteren,
+en dan met Shift-klik (of de rechter muisknop) in de laatste cel (rechtsonder) te klikken;</p></li>
 <li><p>je selecteert een volledige rij door op het rij-nummer te klikken;</p></li>
 <li><p>je selecteert een reeks rijen door de eerste rij te selecteren,
 en dan met Shift-klik (of de rechter muisknop) de laatste rij te selecteren.</p></li>
@@ -395,8 +395,8 @@ en dan met Shift-klik (of de rechter muisknop) de laatste rij te selecteren.</p>
 <li><p>je selecteert een reeks kolommen door de eerste kolom te selecteren,
 en dan met Shift-klik (of de rechter muisknop) de laatste kolom te selecteren.</p></li>
 </ul>
-<p>Een reeks cellen geven we aan door de eerste en de laatste cel gescheiden door een <code class="docutils literal notranslate"><span class="pre">:</span></code>.
-Voorbeeld: cel <code class="docutils literal notranslate"><span class="pre">A5</span></code> is de som van <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code>.
+<p>Een reeks cellen geven we aan door de eerste cel (linksboven) en de laatste cel (rechtsonder) gescheiden door een <code class="docutils literal notranslate"><span class="pre">:</span></code>.
+Voorbeeld: <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code>.
 Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: <code class="docutils literal notranslate"><span class="pre">A1:D4</span></code>.</p>
 
         <div class="runestone">
@@ -493,9 +493,9 @@ Het is niet zinvol om met telefoonnummers te rekenen.
 Ook straatnummers wil je het liefst als tekst beschouwen.</p>
 <p>Later gaan we in op de manieren waarop je dit verschil kunt maken en kunt zien.</p>
 </div>
-<div class="section" id="weergave-van-getallen-format">
-<h2>Weergave van getallen: format<a class="headerlink" href="#weergave-van-getallen-format" title="Permalink to this headline">¶</a></h2>
-<p>Een getal kun je op allerlei manieren weergeven:</p>
+<div class="section" id="opmaak-format-van-getallen">
+<h2>Opmaak (format) van getallen<a class="headerlink" href="#opmaak-format-van-getallen" title="Permalink to this headline">¶</a></h2>
+<p>Een getal kun je op allerlei manieren opmaken (formatteren):</p>
 <ul class="simple">
 <li><p>als geheel getal <code class="docutils literal notranslate"><span class="pre">123</span></code></p></li>
 <li><p>als vaste-komma getal <code class="docutils literal notranslate"><span class="pre">123,45</span></code></p></li>
@@ -504,39 +504,44 @@ Ook straatnummers wil je het liefst als tekst beschouwen.</p>
 <li><p>als valuta (geld) <code class="docutils literal notranslate"><span class="pre">€</span> <span class="pre">12.345,60</span></code></p></li>
 <li><p>als datum of datum/tijd <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code></p></li>
 </ul>
-<p>Bovendien kun je een negatief getal op verschillende manieren weergeven:
+<p>Bovendien kun je een negatief getal op verschillende manieren opmaken:
 met een - teken, of door dit tussen haakjes te zetten (een gewoonte van boekhouders),
 eventueel rood gekleurd.</p>
-<p>Het <em>format</em> van een cel geeft aan hoe de waarde in die cel op het scherm of op papier weergegeven wordt.
-Dit format verandert niets aan de waarde van het getal:
+<p>De <em>opmaak</em> (<em>format</em>) van een cel geeft aan hoe de waarde in die cel op het scherm of op papier weergegeven wordt.
+De opmaak verandert niets aan de waarde van het getal:
 de computer rekent nog steeds op dezelfde manier met het getal in de cel.</p>
-<p>Je past het format van een cel aan door deze te selecteren
-en vervolgens in het format-menu het gewenste format te kiezen.</p>
+<p>Je past de opmaak van een cel aan door deze te selecteren
+en vervolgens in het opmaak-menu het gewenste format te kiezen.</p>
 <p>Opdracht:</p>
 <ul class="simple">
-<li><p>Verander het format van A1 in: vaste-komma getal met 2 decimalen.</p></li>
-<li><p>Verander het format van A2 in: zwevende-komma getal met 2 decimalen (wetenschappelijke notatie).</p></li>
-<li><p>Verander het format van A3 in: valuta (Euro) met 2 decimalen.</p></li>
-<li><p>Verander het format van A4 in een datum-formaat.</p></li>
-<li><p>Selecteer alle cellen A1:A5 en verander het format in: geheel getal.</p></li>
+<li><p>Verander de opmaak van A1 in: vaste-komma getal met 2 decimalen.</p></li>
+<li><p>Verander de opmaak van A2 in: zwevende-komma getal met 2 decimalen (wetenschappelijke notatie).</p></li>
+<li><p>Verander de opmaak van A3 in: valuta (Euro) met 2 decimalen.</p></li>
+<li><p>Verander de opmaak van A4 in een datum-formaat.</p></li>
+<li><p>Selecteer alle cellen A1:A5 en verander de opmaak in: geheel getal.</p></li>
 <li><p>Wat gebeurt er in deze gevallen met de waarde van A5?</p></li>
 </ul>
-<p><em>Van tekst naar getal?</em> Je kunt niet met behulp van “format” een waarde omzetten van tekst naar getal:
-daarvoor moet je de waarde opnieuw invoeren.</p>
-<p><em>Decimale komma of punt?</em> In Nederland gebruiken we een <em>decimale komma</em> in getallen,
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Decimale komma of punt?</em>
+In Nederland gebruiken we een <em>decimale komma</em> in getallen,
 andere landen gebruiken daarvoor een <em>decimale punt</em>.
 Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
 Verderop geven we aan hoe je deze instellingen kunt veranderen.</p>
 </div>
+</div>
 <div class="section" id="datumformaten">
 <h2>Datumformaten<a class="headerlink" href="#datumformaten" title="Permalink to this headline">¶</a></h2>
 <p>Een datum is een geheel getal dat op een bijzondere manier weergegeven wordt:
-via een datum-format.
+via een datumopmaak (datumformaat).
 Enkele voorbeelden van dataformaten: <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code>, <code class="docutils literal notranslate"><span class="pre">20-februari-2020</span></code>,
 <code class="docutils literal notranslate"><span class="pre">20-feb.-2020</span></code>, <code class="docutils literal notranslate"><span class="pre">2020-02-20</span></code>.
 Het getal stelt het aantal dagen voor sinds 30 december 1899.</p>
-<p>Een datum is een getal: dat betekent dat je het verschil tussen twee data kunt uitrekenen,
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Een datum is een getal</em>: dat betekent dat je het verschil tussen twee data kunt uitrekenen,
 als het aantal dagen (periode) tussen die data.</p>
+</div>
 <p><em>Onzin-berekeningen</em>.
 Een spreadsheetprogramma heeft er ook geen moeite mee om data op te tellen of te vermenigvuldigen:
 die berekening heeft een uitkomst, maar het is natuurlijk volstrekte onzin.
@@ -552,19 +557,21 @@ Welke datum wordt nu weergegeven?</p></li>
 </div>
 <div class="section" id="tekstformaten">
 <h2>Tekstformaten<a class="headerlink" href="#tekstformaten" title="Permalink to this headline">¶</a></h2>
-<p>ToDo: mailadressen, URLs; tekst overflow</p>
-<p>Voor een tekst die niet in een cel past zijn er verschillende mogelijkheden:</p>
+<p>Je kunt tekst op allerlei manieren opmaken:
+je kunt tekst vet of cursief zetten, het lettertype veranderen of de grootte.</p>
+<p>Je kunt een tekst ook gebruiken als “link” (URL), naar een website (<code class="docutils literal notranslate"><span class="pre">https://...</span></code>),
+of naar een mailadres <code class="docutils literal notranslate"><span class="pre">mailto:...</span></code>.</p>
+<p>Voor een tekst die niet in een cel past heb je verschillende mogelijkheden (Opmaak-&gt;Tekstomloop):</p>
 <ul class="simple">
-<li><p>de tekst loopt door over de volgende cel</p></li>
-<li><p>de tekst blijft in de cel, de cel wordt in de hoogte aangepast.</p></li>
+<li><p>overloop: de tekst loopt door over de volgende cel;</p></li>
+<li><p>omloop: de tekst blijft in de cel, de cel wordt in de hoogte aangepast;</p></li>
+<li><p>afbreken: alleen het deel dat in de cel past is zichtbaar.</p></li>
 </ul>
+<p>Deze opmaak heeft geen gevolgen voor de waarde: ook al zie je maar een deel van de tekst,
+de tekst in de cel blijft onveranderd.</p>
 </div>
 <div class="section" id="invoeren-van-waarden">
 <h2>Invoeren van waarden<a class="headerlink" href="#invoeren-van-waarden" title="Permalink to this headline">¶</a></h2>
-<p>De notatie die je gebruikt bij het invoeren van een waarde bepaalt ook het format van de cel.
-Als je bijvoorbeeld invoert <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code> dan wordt dit gezien als een datum:
-een getal in datumformaat.
-Je kunt het format van de cel later weer aanpassen zoals je hierboven gezien hebt.</p>
 <p>Door een <code class="docutils literal notranslate"><span class="pre">'</span></code> als eerste teken geef je aan dat de volgende tekens een tekst-waarde vormen.
 Zo kun je <code class="docutils literal notranslate"><span class="pre">'0612345678</span></code> als telefoonnummer invoeren.
 Als de invoer met een letter begint wordt dit altijd als tekst-waarde gezien.</p>
@@ -574,6 +581,10 @@ Als de invoer met een letter begint wordt dit altijd als tekst-waarde gezien.</p
 <li><p>voer als waarde in: <code class="docutils literal notranslate"><span class="pre">12-13</span></code>. Wat is het type van deze waarde?</p></li>
 <li><p>voer als waarde in: <code class="docutils literal notranslate"><span class="pre">'1-2</span></code>. Wat is het type van deze waarde?</p></li>
 </ul>
+<p>De notatie die je gebruikt bij het invoeren van een waarde bepaalt ook de opmaak van de cel.
+Als je bijvoorbeeld invoert <code class="docutils literal notranslate"><span class="pre">20-02-2020</span></code> dan wordt dit gezien als een datum:
+een getal in datumformaat.
+Je kunt de opmaak van de cel later weer aanpassen zoals je hierboven gezien hebt.</p>
 </div>
 <div class="section" id="de-vulgreep">
 <h2>De vulgreep<a class="headerlink" href="#de-vulgreep" title="Permalink to this headline">¶</a></h2>

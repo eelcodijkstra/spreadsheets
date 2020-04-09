@@ -1,7 +1,7 @@
 Formules en functies
 ====================
 
-Met een formule in een cel kun je de waarde van die cel laten uitrekenen uit de waarden van andere cellen:
+Met een formule in een cel kun je de waarde van die cel uitrekenen uit de waarden van andere cellen:
 dat is het basisidee van spreadsheets.
 
 .. rubric:: leerdoelen
@@ -37,8 +37,11 @@ We gebruiken in de opdrachten het volgende spreadsheet-voorbeeld:
       single=true&amp;widget=true&amp;headers=true" width="600px" height="300px"></iframe>
   </div>
 
-In je eigen kopie van dit voorbeeld kun je zien de formules in de verschillende cellen bekijken:
-de formule van de actieve cel zie je (ook) in de formulebalk bovenin.
+Maak voor de volgende opdrachten een eigen kopie van dit voorbeeld,
+voor je eigen spreadsheetprogramma.
+
+In je kopie van dit voorbeeld kun je de formules in de verschillende cellen bekijken:
+de formule van de actieve cel zie je ook in de formulebalk bovenin.
 
 * Wat is de formule in cel E2?
 * Wat is de formule in cel E3?
@@ -89,8 +92,8 @@ moet je in je spreadsheet ook de engelse namen gebruiken.
 
 
 
-Absolute en relatieve celverwijzingen
--------------------------------------
+Absolute en relatieve celadressen
+---------------------------------
 
 Vaak gebruik je dezelfde berekening in meerdere cellen,
 denk bijvoorbeeld aan een kolom waarin je de BTW-waarde uitrekent van het bruto-bedrag,
@@ -102,7 +105,7 @@ steeds een nieuwe formule zou moeten invoeren.
 Maar gelukkig werkt het kopiëren van formules, inclusief het werken met de vulgreep,
 een stuk handiger.
 
-*Relatieve verwijzingen.* In veel gevallen wil je bij het kopiëren van een formule, eventueel met de vulgreep,
+*Relatieve celadressen.* In veel gevallen wil je bij het kopiëren van een formule, eventueel met de vulgreep,
 de *afstanden* naar de andere cellen in de formule *gelijk houden*.
 De berekening van het bruto-totaal in cel E2 is ``=C2*D2``.
 Bij het kopiëren hiervan naar E3 moet dit worden: ``=C3*D3``;
@@ -112,10 +115,10 @@ Dat is ook precies wat er gebeurt als je deze formules kopieert:
 * ``=C2*D2`` in cel `E2` zegt eigenlijk: vermenigvuldig de twee celwaarden links van deze cel.
 * als je deze formule kopieert naar cel `E3` wordt dit: ``=C3*D3``.
 
-De celverwijzingen in deze formules zijn *relatieve verwijzingen*:
+De celadressen in deze formules zijn *relatieve adressen*:
 bij kopiëren blijven de afstanden tussen de invoercellen van de berekening en de resultaatcel gelijk.
 
-*Absolute verwijzingen.*
+*Absolute adressen.*
 Het BTW-percentage is voor alle BTW-formules gelijk.
 Alle BTW-formules moeten naar dezelfde cel verwijzen:
 dit moet bij het kopiëren niet veranderen.
@@ -128,27 +131,14 @@ We geven een absolute verwijzing aan door een `$` voor de kolomletter en/of het 
 * ``$D$2`` - absolute kolom en absolute rij (absolute celverwijzing).
 * de formule voor de BTW-berekening in cel F2 ``=E2*$I$1``.
 
-*Namen.* Een waarde die je met een absolute verwijzing aangeeft kun je ook een naam geven.
+*Namen: benoemd bereik* Een waarde die je met een absolute verwijzing aangeeft kun je ook een naam geven.
 In een formule gebruik je dan de naam in plaats van de celverwijzing.
 Hiermee maak je je formules beter leesbaar en voorkom je fouten door het vergeten van een `$`.
 
 *Opmerking:* ga na dat we als formule voor de bruto-totaalprijs ook hadden kunnen gebruiken: ``=$C2*$D2``
 
-*Concept*:
-
-* het verschil tussen absolute en relatieve verwijzingen kom je op meer plaatsen in de informatica tegen;
-* het gebruik van relatieve verwijzingen zorgt ervoor dat een berekening gelijk blijft bij verplaatsing.
-
-  * gebruik van relatieve padnamen in een hiërarchish filesysteem: ``./x/y`` of ``../x/y``
-  * gebruik van relatieve adressen in machinecode;
-
-* het gebruik van absolute verwijzingen zorgt ervoor dat je een (gedeeld) gegeven kunt vinden vanaf elke plek.
-
-  * gebruik van absolute padnamen in een hiërarchisch filesysteem: ``/var/www/html`` (begint met ``/``)
-  * gebruik van absolute adressering in machinecode;
-
-
-*Opdrachten*
+Opdrachten
+----------
 
 * selecteer cel D3 en vul cellen D4 en D5 met de vulgreep;
   wat is de formule in cel D3? wat is de formule in cel D5?
@@ -163,3 +153,19 @@ Hiermee maak je je formules beter leesbaar en voorkom je fouten door het vergete
   controleer de formules in de gekopieerde rij; en in de totaal-som.
   pas de rangnummers aan met de vulgreep.
 * verwijderen van een rij; controleer weer de formules van de laatste rij.
+
+
+Algemeen concept: absolute en relatieve adressen
+------------------------------------------------
+
+Het onderscheid tussen absolute en relatieve adressering kom je op veel meer plaatsen in de informatica tegen.
+
+Het gebruik van relatieve adressen zorgt ervoor dat een berekening of formule gelijk blijft bij verplaatsing.
+
+* gebruik van relatieve padnamen in een hiërarchish filesysteem: ``./x/y`` of ``../x/y``
+* gebruik van relatieve adressen in machinecode;
+
+Het gebruik van absolute adressen zorgt ervoor dat je een (gedeeld) gegeven kunt vinden vanaf elke plek.
+
+* gebruik van absolute padnamen in een hiërarchisch filesysteem: ``/var/www/html`` (begint met ``/``)
+* gebruik van absolute adressering in machinecode;

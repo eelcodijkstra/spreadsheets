@@ -23,7 +23,6 @@
     <link rel="stylesheet" type="text/css" href="_static/CodeChat.css" />
     <link rel="stylesheet" type="text/css" href="_static/parsons.css?v=2F3E13EE" />
     <link rel="stylesheet" type="text/css" href="_static/js_lib/prettify.css?v=2A364B6B" />
-    <link rel="stylesheet" type="text/css" href="_static/shortanswer.css?v=7E18C432" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css?v=239FC54E" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css?v=8A1A42E4" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css?v=F471F95B" />
@@ -36,10 +35,10 @@
     <link rel="stylesheet" href="_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
-    <link rel="stylesheet" href="_static/runestone-custom-sphinx-bootstrap.css?v=4.2.1" type="text/css" />
+    <link rel="stylesheet" href="_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0" type="text/css" />
     <link rel="stylesheet" href="_static/theme-overrides.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/runestonebase.js?v=4.2.1"></script>
+    <script type="text/javascript" src="_static/runestonebase.js?v=4.2.0"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -84,7 +83,7 @@
     <script type="text/javascript" src="_static/timedmc.js?v=B010A457"></script>
     <script type="text/javascript" src="_static/timed.js?v=FD1C5153"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js?v=354E6CD"></script>
-    <script type="text/javascript" src="_static/shortanswer.js?v=494C152E"></script>
+    <script type="text/javascript" src="_static/shortanswer.js?v=8FCEE330"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js?v=B3A117D7"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js?v=836E01C"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js?v=B64CF0A8"></script>
@@ -96,8 +95,8 @@
     <script type="text/javascript" src="_static/python.js?v=76B9CFA2"></script>
     <script type="text/javascript" src="_static/sql.js?v=49D0BD74"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js?v=65CA0724"></script>
-    <script type="text/javascript" src="_static/skulpt.min.js?v=A901CC2"></script>
-    <script type="text/javascript" src="_static/skulpt-stdlib.js?v=24904821"></script>
+    <script type="text/javascript" src="_static/skulpt.min.js?v=BDC8551F"></script>
+    <script type="text/javascript" src="_static/skulpt-stdlib.js?v=5731007D"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.2/build/vega.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@2.5.0/build/vega-lite.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@3.14.0/build/vega-embed.js"></script>
@@ -118,12 +117,12 @@
     <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <script type="text/javascript" src="_static/waypoints.min.js"></script>
-    <script type="text/javascript" src="_static/user-highlights.js?v=4.2.1"></script>
+    <script type="text/javascript" src="_static/user-highlights.js?v=4.2.0"></script>
     <script type="text/javascript" src="_static/jquery.idle-timer.js"></script>
     <script type="text/javascript" src="_static/processing-1.4.1.min.js"></script>
     <script type="text/javascript" src="_static/jquery.hotkey.js"></script>
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="_static/presenter_mode.js?v=4.2.1"></script>
+    <script type="text/javascript" src="_static/presenter_mode.js?v=4.2.0"></script>
     <script type="text/javascript" src="_static/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -149,7 +148,7 @@
   eBookConfig.build_info = "unknown";
   eBookConfig.python3 = true;
   eBookConfig.acDefaultLanguage = 'python' ? 'python' : 'python'
-  eBookConfig.runestone_version = '4.2.1';
+  eBookConfig.runestone_version = '4.2.0';
   eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
   eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
   eBookConfig.proxyuri_files = '/jobe/index.php/restapi/files/';
@@ -365,21 +364,16 @@ Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek 
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="h1/toctree.html">Hoofdstuk 1</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="h1/h1s1.html">Inleiding</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#wat-is-een-spreadsheet-wat-kun-je-ermee">Wat is een spreadsheet? Wat kun je ermee?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#wie-gebruiken-spreadsheets">Wie gebruiken spreadsheets?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#spreadsheetprogramma-s">Spreadsheetprogramma’s</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#over-de-geschiedenis-van-spreadsheets">Over de geschiedenis van spreadsheets</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#spreadsheet-hygiene">Spreadsheet-hygiëne</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#waarvoor-worden-spreadsheets-gebruikt">Waarvoor worden spreadsheets gebruikt?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#hoe-kun-je-spreadsheets-gebruiken">Hoe kun je spreadsheets gebruiken?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#inhoud">Inhoud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#spreadsheetprogramma-s">Spreadsheetprogramma’s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s1.html#spreadsheets-in-andere-programma-s">Spreadsheets in andere programma’s</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="h1/h1s2.html">Cellen en waarden</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#rekenvel-cellen-rijen-kolommen">Rekenvel: cellen, rijen, kolommen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#waarden-getal-tekst-of-logische-waarde">Waarden: getal, tekst of logische waarde</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#type-van-een-waarde">Type van een waarde</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#weergave-van-getallen-format">Weergave van getallen: format</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#opmaak-format-van-getallen">Opmaak (format) van getallen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#datumformaten">Datumformaten</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#tekstformaten">Tekstformaten</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s2.html#invoeren-van-waarden">Invoeren van waarden</a></li>
@@ -391,86 +385,77 @@ Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek 
 <li class="toctree-l2"><a class="reference internal" href="h1/h1s3.html">Formules en functies</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#formules">Formules</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#functies">Functies</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#absolute-en-relatieve-celverwijzingen">Absolute en relatieve celverwijzingen</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h1/h1s4.html">H1S4</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s4.html#volgende-stappen">Volgende stappen</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h1/h1s5.html">H1S5</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h1/h1s5.html#volgende-stappen">Volgende stappen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#absolute-en-relatieve-celadressen">Absolute en relatieve celadressen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#opdrachten">Opdrachten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s3.html#algemeen-concept-absolute-en-relatieve-adressen">Algemeen concept: absolute en relatieve adressen</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="h1/h1s6.html">Gevorderde onderwerpen</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s6.html#getal-of-tekst">Getal of tekst?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="h1/h1s6.html#decimale-punt-of-komma">Decimale punt of komma?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h1/h1s6.html#verwijzingen-naar-rekenbladen">Verwijzingen naar rekenbladen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="h1/h1s4.html">Volgende stappen</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="h2/toctree.html">Functies en grafieken</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="h2/h2s5.html">Van functie naar tabel en grafiek</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s5.html#van-functie-naar-tabel">Van functie naar tabel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s5.html#van-tabel-naar-grafiek">Van tabel naar grafiek</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s5.html#van-constante-naar-benoemd-bereik">Van constante naar benoemd bereik</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s5.html#meerdere-functies-in-een-grafiek">Meerdere functies in één grafiek</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="h2/h2s6.html">Groei van functies, functies van groei</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s6.html#lineaire-groei">Lineaire groei</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s6.html#kwadratische-groei">Kwadratische groei</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s6.html#exponentiele-groei">Exponentiële groei</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s6.html#logaritmische-groei">Logaritmische groei</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="h2/h2s7.html">Historie: produceren van tabellen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s7.html#babbage-difference-engine">Babbage: Difference Engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s7.html#analytical-engine">Analytical Engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h2/h2s7.html#voorbeeld-f-x-x-3">Voorbeeld: <span class="math notranslate nohighlight">\(f(x)=x^3\)</span></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="h2/toctree.html">Hoofdstuk 2</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="h2/h2s1.html">H2S1</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h2/h2s1.html#functies-en-grafieken">Functies en grafieken</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h2/h2s1.html#groei-van-functies">Groei van functies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="h3/toctree.html">Data-analyse en visualisatie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="h3/h4s3.html">Weerstandsmetingen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h3/h4s3.html#inleiding">Inleiding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h4s3.html#tekenen-van-de-grafiek">Tekenen van de grafiek</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h4s3.html#exporteren-van-de-grafiek">Exporteren van de grafiek</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="h2/h2s2.html">H2S2</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h2/h2s2.html#formulieren-en-de-verwerking-daarvan">Formulieren en de verwerking daarvan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h3/h3s4.html">Analyseren van externe data (RIVM)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#importeren-van-een-csv-bestand">Importeren van een CSV-bestand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#aanpassen-van-de-types-en-de-opmaak">Aanpassen van de types en de opmaak</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#maken-van-een-grafiek">Maken van een grafiek</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#importeer-de-actuele-data">Importeer de actuele data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#modelleren">Modelleren</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="h2/h2s3.html">H2S3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h2/h2s3.html#verwerken-van-meetgegevens">Verwerken van meetgegevens</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h2/h2s4.html">H2S4</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h2/h2s4.html#andere-soorten-grafieken">Andere soorten grafieken</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="h3/toctree.html">Hoofdstuk 3</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="h3/h3s1.html">Data: selecteren en samenvatten</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s1.html#data-in-tabellen">Data in tabellen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s1.html#importeren-exporteren-van-csv-bestanden">Importeren/exporteren van CSV-bestanden</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s1.html#formulieren">Formulieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s1.html#selecteren">Selecteren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s1.html#punten-van-aandacht">Punten van aandacht</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h3/h3s2.html">H3S2</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s2.html#subkopje">Subkopje</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h3/h3s3.html">H3S3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s3.html#subkopje">Subkopje</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h3/h3s4.html">H3S4</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h3/h3s4.html#subkopje">Subkopje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h3/h3s2.html">Samenvatten en groeperen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s2.html#data-en-autofilter">Data en autofilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s2.html#id1">Samenvatten en groeperen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s2.html#grafiek">Grafiek</a></li>
+<li class="toctree-l3"><a class="reference internal" href="h3/h3s2.html#uitbreidingen">Uitbreidingen</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="h4/toctree.html">Hoofdstuk 4</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="h4/h4s1.html">Samenvatting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="h4/h4s2.html">Kennismaking</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s2.html#hoe-sta-ik-ervoor-op-school">Hoe sta ik ervoor op school?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s2.html#waar-blijft-mijn-geld">Waar blijft mijn geld?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s2.html#het-verwerken-van-een-vragenlijst">Het verwerken van een vragenlijst</a></li>
+<li class="toctree-l1"><a class="reference internal" href="h4/toctree.html">Modelleren en simuleren</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="h4/h4s1.html">Simuleren van een lekke emmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h4/h4s2.html">Prooi-roofdier model</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="h4/h4s3.html">Verwerken van meetresultaten</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s3.html#inleiding">Inleiding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s3.html#tekenen-van-de-grafiek">Tekenen van de grafiek</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s3.html#rechte-lijn-door-de-meetpunten">Rechte lijn door de meetpunten</a></li>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s3.html#exporteren-van-de-grafiek">Exporteren van de grafiek</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="h4/h4s4.html">H4S3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="h4/h4s4.html#subkopje">Subkopje</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="h5/toctree.html">Modelleren en simuleren</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="h5/h5s1.html">Binair zoeken</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h5/h5s2.html">Sorteren</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h5/h5s3.html">Grootste gemene deler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="h5/h5s4.html">Cellulaire automaten</a></li>
 </ul>
 </li>
 </ul>
@@ -528,7 +513,7 @@ Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek 
     </p>
     <p>
         &copy; Copyright 2020 eelco.
-      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 4.2.1.
+      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 4.2.0.
     </p>
   </div>
 </footer>

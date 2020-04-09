@@ -18,3 +18,4 @@ Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek 
    h2/toctree.rst
    h3/toctree.rst
    h4/toctree.rst
+   h5/toctree.rst 

@@ -128,7 +128,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="H2S4" href="h2s4.html" />
-    <link rel="prev" title="H2S2" href="h2s2.html" />
+    <link rel="prev" title="Data en visualisatie" href="h2s2.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -314,7 +314,7 @@
         
         <!-- 
           
-  <li id="relations-prev" title="Previous Chapter - H2S2" data-toggle="tooltip">
+  <li id="relations-prev" title="Previous Chapter - Data en visualisatie" data-toggle="tooltip">
     <a href="h2s2.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
@@ -361,8 +361,98 @@
   
   <div class="section" id="h2s3">
 <h1>H2S3<a class="headerlink" href="#h2s3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="verwerken-van-meetgegevens">
-<h2>Verwerken van meetgegevens<a class="headerlink" href="#verwerken-van-meetgegevens" title="Permalink to this headline">¶</a></h2>
+<p>In deze les leer je een grafiek te tekenen van meetgegevens,
+bijvoorbeeld van een natuurkunde-experiment.</p>
+<p>De stappen hierbij zijn:</p>
+<ol class="arabic simple">
+<li><p>invoeren van de gegevens in een tabel</p></li>
+<li><p>eventueel toevoegen van berekeningen aan de tabel</p></li>
+<li><p>maken van de grafiek</p></li>
+<li><p>toevoegen van een trendlijn</p></li>
+</ol>
+<div class="section" id="invoeren-van-de-meetgegevens">
+<h2>Invoeren van de  meetgegevens<a class="headerlink" href="#invoeren-van-de-meetgegevens" title="Permalink to this headline">¶</a></h2>
+<p>Voor de meetgegevens gebruik je een tabel met kolomtitels en rij-gegevens.
+Elke rij bevat:</p>
+<ul class="simple">
+<li><p>in de eerste kolom, de waarden die je voor de x-as (horizontale as) wilt gebruiken.</p></li>
+<li><p>in de volgende kolom(men), de waarden die je voor de y-as (verticale as) wilt gebruiken.</p></li>
+</ul>
+<p>In ons voorbeeld gebruiken we de ingestelde spanning in de eerste kolom voor de x-as,
+en de gemeten stromen voor beide weerstanden in afzonderlijke kolommen voor de y-as.</p>
+<p>Vraag: hoe gaan de tekenfuncties om met ontbrekende waarden,
+bijvoorbeeld als je voor een bepaald punt alleen voor weerstand R1 gemeten hebt?</p>
+</div>
+<div class="section" id="toevoegen-van-berekeningen-aan-de-tabel">
+<h2>Toevoegen van berekeningen aan de tabel<a class="headerlink" href="#toevoegen-van-berekeningen-aan-de-tabel" title="Permalink to this headline">¶</a></h2>
+<p>Soms is het handig om uit de gemeten waarden een afgeleide waarde te berekenen,
+die bijvoorbeeld gemakkelijker grafisch weer te geven is.
+Deze berekeningen kun je als aparte kolom(men) toevoegen.</p>
+<p>In ons voorbeeld is het niet nodig om aan de gemeten waarden te rekenen.</p>
+</div>
+<div class="section" id="maken-van-de-grafiek">
+<h2>Maken van de grafiek<a class="headerlink" href="#maken-van-de-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>In de onderstaande figuur zie je de verschillende elementen van een grafiek (in Excel):</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/excel-grafiek-elementen.gif"><img alt="../_images/excel-grafiek-elementen.gif" src="../_images/excel-grafiek-elementen.gif" style="width: 600px;" /></a>
+</div>
+<p>Uitleg hierbij:</p>
+<ol class="arabic simple">
+<li><p>Grafiek-titel (Chart title)</p></li>
+<li><p>Plotgedeelte (Plot area)</p></li>
+<li><p>Legenda (Legend)</p></li>
+<li><p>As-titels (Axis titles)</p></li>
+<li><p>As-labels</p></li>
+<li><p>Tick marks</p></li>
+<li><p>Rasterlijnen (Gridlines)</p></li>
+</ol>
+<div class="section" id="soort-grafiek">
+<h3>Soort grafiek<a class="headerlink" href="#soort-grafiek" title="Permalink to this headline">¶</a></h3>
+<p>Als eerste stap selecteer je de data, inclusief de kolomttitels,
+en maak je de grafiek aan.
+Hierbij kies je als type voor de grafiek: “scatter chart” (puntenwolk).</p>
+<p>Hierbij wordt de eerste kolom gebruikt voor de x-as (horizontaal),
+en de volgende kolommen voor de y-as (verticaal).
+Dit kun je eventueel later nog veranderen:</p>
+<ul class="simple">
+<li><p>de reeks waarden (kolom) voor de x-as heet “X-axis”; dit is altijd maar 1 kolom.</p></li>
+<li><p>de reeks(en) waarden voor de y-as heet “Series”. Dit kunnen er meerdere zijn.</p></li>
+</ul>
+<p>Belangrijke instellingen hierbij zijn:</p>
+<ul class="simple">
+<li><p>“use row 1 as headers” - de kolomkoppen worden gebruikt in de titel(s) en in de legenda;</p></li>
+<li><p>“use column A as labels” - de waarden in kolom A worden gebruikt als labels bij de x-as.</p></li>
+</ul>
+</div>
+<div class="section" id="titels">
+<h3>Titels<a class="headerlink" href="#titels" title="Permalink to this headline">¶</a></h3>
+<p>De titels voor de grafiek en voor de assen worden in eerste instantie gemaakt uit de kolomkoppen.
+Je kunt deze eventueel aanpassen, door in de grafiek op een titel te klikken,
+of door deze in de grafiekinstellingen te veranderen.</p>
+</div>
+<div class="section" id="plotgedeelte">
+<h3>Plotgedeelte<a class="headerlink" href="#plotgedeelte" title="Permalink to this headline">¶</a></h3>
+<p>Je kunt kiezen op welke manier de punten in de grafiek weergegeven worden.
+Dit is onderdeel van de instellingen voor de datareeksen (“Series”).
+Je kunt de vorm, grootte en kleur instellen.</p>
+<p>Kies hier een kruisje (x) voor de meetpunten.
+Dit maakt het aflezen van de waarden in de grafiek eenvoudiger.</p>
+</div>
+<div class="section" id="assen-en-rasterlijnen">
+<h3>Assen en rasterlijnen<a class="headerlink" href="#assen-en-rasterlijnen" title="Permalink to this headline">¶</a></h3>
+<p>Voor de assen kun je verschillende zaken instellen, onder andere:</p>
+<ul class="simple">
+<li><p>de minimum- en maximumwaarden</p></li>
+</ul>
+<p>Om de gemeten waarden ook uit de grafiek af te kunnen lezen,
+werken we met een fijnmazig rasten (“millimeterpapier”).</p>
+<p>Bij de “gridlines” instellingen kun je het aantal lijnen instellen:</p>
+<ul class="simple">
+<li><p>voor de “major gridlines”, het totale aantal lijnen langs de as;</p></li>
+<li><p>voor de “minor gridline”, het aantal lijnen tussen twee “major gridlines”.</p></li>
+</ul>
+<p>Dit kun je voor de x-as en voor de y-as afzonderlijk doen.</p>
+</div>
 </div>
 </div>
 
@@ -373,15 +463,15 @@
   
       
 <ul>
-  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - H2S2' data-toggle="tooltip">
-    <a href="h2s2.html" aria-label="H2S2">
+  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - Data en visualisatie' data-toggle="tooltip">
+    <a href="h2s2.html" aria-label="Data en visualisatie">
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
             <i class='prevNav glyphicon glyphicon-chevron-left'  style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black;"></i>
         </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="h2s2.html" aria-label="H2S2"></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="h2s2.html" aria-label="Data en visualisatie"></a>
   
 <ul>
   <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - H2S4' data-toggle="tooltip" >

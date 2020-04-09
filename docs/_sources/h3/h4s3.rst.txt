@@ -1,0 +1,140 @@
+Weerstandsmetingen
+==================
+
+Inleiding
+---------
+
+Je kunt een spreadsheet gebruiken voor het verwerken van meetresultaten,
+bijvoorbeeld van een natuurkunde-practicum.
+Hiermee kun je:
+
+* de gegevens in een grafiek weergeven;
+* een lijn (lineaire functie) vinden die zo goed mogelijk bij de gegevens past.
+
+Voor de opzet van de spreadsheet gebruiken we de "data in tabellen"-aanpak:
+
+* we gebruiken een rij per meetresultaat
+* deze rij bestaat uit: de ingestelde parameters en de bijbehorende meetresultaten
+* in de eerste rij plaatsen we als kolomnamen de namen van de gegevens in die kolom.
+* we gebruiken als eerste kolom de waarden die we in de grafiek op de x-as willen plaatsen;
+  we zorgen ervoor dat de rijen (opklimmend) gesorteerd zijn voor de waarden in deze kolom.
+
+We gebruiken als voorbeeld de meetgegevens van een experiment om de wet van Ohm te demonstreren.
+We meten de stroom door een weerstand en de spanning over dezelfde weerstand,
+zie de onderstaande figuur.
+
+We krijgen dan bijvoorbeeld de volgende tabel:
+
+.. figure:: VIR-experiment-tabel.png
+   :width: 400px
+   :align: center
+
+Voor alle waarden in de tabel, zowel de ingestelde als de gemeten waarden,
+geldt dat we te maken hebben met een mogelijke meetfout.
+Maar de waarde voor 0V weten we heel precies: is de stroom ook 0 (A).
+
+*Opmerking* Soms wil je uit de gemeten waarden ook een waarde berekenen.
+Met spreadsheets is dat natuurlijk geen probleem: je kunt een extra kolom met formules toevoegen.
+
+Tekenen van de grafiek
+----------------------
+
+We willen een grafiek van de meetgegevens, met de volgende eigenschappen:
+
+* de meetpunten worden weergegeven als afzonderlijke punt (puntgrafiek);
+  een duidelijke vorm voor een punt is een kruisje (x):
+  dan kun je de grafiek goed aflezen.
+* op de x-as zetten we de spanning, op de y-as de stroom;
+  dit moeten we ook in de titels van de assen opnemen, inclusief de eenheid (V en mA).
+* het raster van de grafiek moet voldoende fijnmazig zijn om de meetwaarden uit de grafiek af te kunnen lezen.
+* door de meetpunten moet een lijn (trendlijn) getekend worden met de kleinste afwijking
+  (kleinste som van de kwadraten van de afstand tussen meetpunt en trendlijn).
+
+Aanmaken van de grafiek
+^^^^^^^^^^^^^^^^^^^^^^^
+
+De eerste stap is het selecteren van de data voor de grafiek.
+Vervolgens maken we een eerste versie van de grafiek aan.
+
+* Selecteer hiervoor de data inclusief de kolomtitels.
+* Maak de grafiek aan (Insert "chart", "grafiek", of "diagram")
+* Chart Type: puntgrafiek (XY - Scatter - points only)
+* Data Range: de geselecteerde data, "data in columns", "first row is label"
+* Data Series: voor elke series geef je de X- en de Y-waarden op.
+  Voor R1: X-waarden in A, Y-waarden in B; voor R2: X-waarden in A, Y-waarden in C.
+* Chart elements: titel van de grafiek, titels bij de X- en Y-as; "display grids" voor beide assen.
+
+We hebben nu een eerste versie van de grafiek.
+Deze kunnen we in een aantal stappen verder verfijnen.
+
+Aanpassen van de punten
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Zoals gezegd willen we de meetpunten weergeven als kruisjes.
+
+* Selecteer de grafiek (figuur);
+* Via de edit-functie, of via aanklikker van de punten van een reeks,
+  via Format selection of via ctrl-klik (of rechter muisknop): "format Data Series".
+  Kies vervolgens "Line" en als icon: "x".
+* doe dit voor beide reeksen meetpunten.
+
+Elk spreadsheetprogramma heeft zijn eigen "wizard" voor het tekenen van grafieken,
+maar deze onderdelen kom je in elk programma tegen.
+
+Raster
+^^^^^^
+
+* Selecteer de grafiek (figuur);
+* Edit->Object->Edit. Je krijgt nu andere "buttons" in het user interface.
+* Zet de X- en Y-grids aan via de buttons (of: Insert->Grids...)
+* Instellen van de grids, via buttons X-axis en Y-axis; of: format->X-axis,
+  format->Y-axis.
+
+  * kies voor X bijv. als major interval: 2 (elke V-eenheid), en als minor: 10.
+  * voor Y: major 50, minor 5
+
+..
+
+Trendlijn
+^^^^^^^^^
+
+Voor het tekenen van de trendlijnen door de meetpunten:
+
+* Selecteer de grafiek (figuur); Edit->Object->Edit
+* Selecteer de rij meetpunten voor R1 in de grafiek; deze veranderen van kleur.
+* Insert->Trend Line...
+
+  * Intercept: 0
+  * verder kun je de naam van de functie (lijn) opgeven, bijvoorbeeld: I_r1
+  * en je kunt de formule voor de functie in de grafiek laten zetten.
+
+"Intercept: 0" betekent dat de lijn de y-as (x=0) snijdt in het punt y=0.
+Met andere woorden: de lijn gaat door punt (0,0).
+Dit is een fysisch gegeven: bij een spanning van 0V is de stroom ook 0.
+Je maakt voor dit punt dus geen meetfout.
+
+
+In het geval van het bovengenoemde natuurkunde-experiment weten we dat het punt (0V, 0A) geen meetfout bevat:
+dit punt is precies.
+De trendlijn moet dan ook precies door punt (0,0) gaan.
+In veel spreadheetprogramma's kun je dit opgeven.
+
+Helaas kun je in Google Sheets niet opgeven dat de "intercept" 0 moet zijn.
+Dit maakt Google Sheets minder geschikt voor dergelijke grafieken.
+
+In Excel en in LibreOffice kun je wel opgeven dat deze intercept 0 moet zijn.
+Je krijgt dan inderdaad een iets andere (betere) waarde voor de helling (slope) dan wat de ``SLOPE``-functie aangeeft.
+
+
+Exporteren van de grafiek
+-------------------------
+
+Je kunt de grafiek exporteren naar een figuur die je bijvoorbeeld in een tekstdocument of in een webpagina kunt opnemen.
+
+*Opmerking:* Veranderingen in de data hebben geen invloed om de geëxporteerde grafiek.
+Als je de data aanpast, zul je de grafiek opnieuw moeten exporteren.
+
+.. figure:: grafiek-0.png
+  :width: 500px
+
+  Grafiek van de meetgegevens (LibreOffice)

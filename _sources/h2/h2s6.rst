@@ -1,0 +1,87 @@
+Groei van functies, functies van groei
+======================================
+
+We hebben in de voorgaande sectie steeds de volledige formule van een functie gebruikt.
+je kunt in veel gevallen de volgende functiewaarde ook uitrekenen uit de huidige en vorige waarden.
+
+Zoals we later zullen zien heeft dat een historische betekenis:
+voor het maken van tabellenboeken voor de praktijk, bijvoorbeeld voor het navigeren,
+werd een dergelijke aanpak gebruikt.
+
+Deze aanpak kun je ook zien als het modelleren van een groeimodel:
+het groeien van bijvoorbeeld een tak aan een boom betekent dat de "volgende waarde" van de tak bepaald wordt uit de "huidige waarde".
+
+Het eenvoudigste groeimodel is *nulgroei*: de volgende waarde is gelijk aan de huidige.
+De uitwerking hiervan laten we aan de lezer.
+
+Lineaire groei
+--------------
+
+Bij lineaire groei is de volgende waarde gelijk aan de huidige met een *constant verschil*.
+Dit model hebben we eerder gebruikt voor het uitrekenen van de x-kolom: ``A3``: ``=A2+delta0``.
+Hierbij hebben we een benoemd bereik gebruikt voor de "groeiconstante".
+
+1. definieer als benoemd bereik in ``H1``: ``delta0``; geef ``H1`` de waarde 1.
+2. maak als kop in ``A1``: ``linear``
+3. gebruik als startwaarde in ``A2``: 0
+4. gebruik als formule in ``A3``: ``=A2+delta0``
+5. kopieer deze formule naar ``A4:A42``
+
+Kwadratische groei
+------------------
+
+Bij kwadratische groei hangt de toename af van de waarde van ``x``,
+of, in biologische systemen, van de tijd ``t``.
+
+``B3``: ``=B2+A2*delta1``.
+
+1. definieer als benoemd bereik in ``H2``: ``delta1``; geef ``H2`` de waarde 1.
+2. maak als kop in ``B1``: ``quadratic``
+3. gebruik als startwaarde in ``B2``: 0
+4. gebruik als formule in ``B3``: ``=B3+A3*delta1``
+5. kopieer deze formule naar ``B4:B42``
+6. maar een grafiek van de twee functies.
+
+Exponentiële groei
+------------------
+
+Bij exponentiële groei hangt het verschil tussen de huidige en de volgende waarde af van de huidige waarde.
+
+1. definieer als benoemd bereik in ``H3``: ``delta2``; geef ``H3`` de waarde 0,2
+2. maak als kop in ``C1``: ``exponential``
+3. gebruik als startwaarde in ``C2``: 1
+4. gebruik als formule in ``C3``: ``=C2+C2*delta2``
+5. kopieer deze formule naar ``C4:C42``
+6. maak een grafiek van de drie functies.
+
+
+Dit groeimodel kom je bijvoorbeeld in de biologie tegen bij de groei van bacteriekolonies,
+of bij de verspreiding van besmettelijke ziektes (...).
+Als elke bacterie zich vrij kan vermenigvuldigen door celdeling in een periode delta-t,
+dan verdubbelt het aantal bacteriën in deze periode.
+
+(Stel je ziet dat 1/8 van een petrischaal bedekt is met de bacteriekolonie,
+en je weet dat de bacterie zich elke dag vermenigvuldigt,
+over hoeveel dagen is dan de hele schaal bedekt?
+)
+
+In de economie is dit het model van "rente op rente":
+als je een kapitaal uitleent tegen een vast percentage per jaar,
+dan groeit je kapitaal exponentieel.
+Het kapitaal groeit elk jaar met de rente, die weer afhangt van het kapitaal op dat moment.
+De snelheid waarmee je kapitaal verdubbelt hangt af van het rentepercentage.
+
+In een grafiek zie je deze groei vaak als een "hockeystick curve": er lijkt vrij lang weinig te gebeuren,
+en ineens schiet de grafiek omhoog.
+Dit zie je ook in de tabel en in de grafiek:
+de exponentiële functie blijft eerst onder de lineaire functie,
+en nog vrij lang onder de kwadratische functie,
+en schiet dan boven alles uit.
+
+
+Logaritmische groei
+-------------------
+
+De groeifuncties hierboven laten een steeds snellere groei zien.
+Maar er zijn ook extra-trage groeifuncties mogelijk.
+Een voorbeeld is de logaritmische groei.

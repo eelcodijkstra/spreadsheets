@@ -35,8 +35,8 @@ In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve 
 
 * je selecteert een cel door met de muis in de cel te klikken;
 * met de pijltjestoetsen selecteer je een buurcel (als actieve cel);
-* je selecteert een *reeks cellen* door de eerste cel te selecteren,
-  en dan met Shift-klik (of de rechter muisknop) in de laatste cel te klikken;
+* je selecteert een *reeks cellen* door de eerste cel (linksboven) te selecteren,
+  en dan met Shift-klik (of de rechter muisknop) in de laatste cel (rechtsonder) te klikken;
 * je selecteert een volledige rij door op het rij-nummer te klikken;
 * je selecteert een reeks rijen door de eerste rij te selecteren,
   en dan met Shift-klik (of de rechter muisknop) de laatste rij te selecteren.
@@ -44,8 +44,8 @@ In de formulebalk boven het eigenlijke rekenvel zie je de inhoud van de actieve 
 * je selecteert een reeks kolommen door de eerste kolom te selecteren,
   en dan met Shift-klik (of de rechter muisknop) de laatste kolom te selecteren.
 
-Een reeks cellen geven we aan door de eerste en de laatste cel gescheiden door een ``:``.
-Voorbeeld: cel ``A5`` is de som van ``A1:A4``.
+Een reeks cellen geven we aan door de eerste cel (linksboven) en de laatste cel (rechtsonder) gescheiden door een ``:``.
+Voorbeeld: ``A1:A4``.
 Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1:D4``.
 
 
@@ -153,10 +153,10 @@ Ook straatnummers wil je het liefst als tekst beschouwen.
 
 Later gaan we in op de manieren waarop je dit verschil kunt maken en kunt zien.
 
-Weergave van getallen: format
------------------------------
+Opmaak (format) van getallen
+----------------------------
 
-Een getal kun je op allerlei manieren weergeven:
+Een getal kun je op allerlei manieren opmaken (formatteren):
 
 * als geheel getal ``123``
 * als vaste-komma getal ``123,45``
@@ -166,48 +166,47 @@ Een getal kun je op allerlei manieren weergeven:
 * als datum of datum/tijd ``20-02-2020``
 
 
-Bovendien kun je een negatief getal op verschillende manieren weergeven:
+Bovendien kun je een negatief getal op verschillende manieren opmaken:
 met een - teken, of door dit tussen haakjes te zetten (een gewoonte van boekhouders),
 eventueel rood gekleurd.
 
-Het *format* van een cel geeft aan hoe de waarde in die cel op het scherm of op papier weergegeven wordt.
-Dit format verandert niets aan de waarde van het getal:
+De *opmaak* (*format*) van een cel geeft aan hoe de waarde in die cel op het scherm of op papier weergegeven wordt.
+De opmaak verandert niets aan de waarde van het getal:
 de computer rekent nog steeds op dezelfde manier met het getal in de cel.
 
-Je past het format van een cel aan door deze te selecteren
-en vervolgens in het format-menu het gewenste format te kiezen.
+Je past de opmaak van een cel aan door deze te selecteren
+en vervolgens in het opmaak-menu het gewenste format te kiezen.
 
 Opdracht:
 
-* Verander het format van A1 in: vaste-komma getal met 2 decimalen.
-* Verander het format van A2 in: zwevende-komma getal met 2 decimalen (wetenschappelijke notatie).
-* Verander het format van A3 in: valuta (Euro) met 2 decimalen.
-* Verander het format van A4 in een datum-formaat.
-* Selecteer alle cellen A1:A5 en verander het format in: geheel getal.
+* Verander de opmaak van A1 in: vaste-komma getal met 2 decimalen.
+* Verander de opmaak van A2 in: zwevende-komma getal met 2 decimalen (wetenschappelijke notatie).
+* Verander de opmaak van A3 in: valuta (Euro) met 2 decimalen.
+* Verander de opmaak van A4 in een datum-formaat.
+* Selecteer alle cellen A1:A5 en verander de opmaak in: geheel getal.
 * Wat gebeurt er in deze gevallen met de waarde van A5?
 
 
+.. note::
 
-
-*Van tekst naar getal?* Je kunt niet met behulp van "format" een waarde omzetten van tekst naar getal:
-daarvoor moet je de waarde opnieuw invoeren.
-
-*Decimale komma of punt?* In Nederland gebruiken we een *decimale komma* in getallen,
-andere landen gebruiken daarvoor een *decimale punt*.
-Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
-Verderop geven we aan hoe je deze instellingen kunt veranderen.
+  *Decimale komma of punt?*
+  In Nederland gebruiken we een *decimale komma* in getallen,
+  andere landen gebruiken daarvoor een *decimale punt*.
+  Als de instelling hiervoor niet goed staat kun je vreemde resultaten krijgen.
+  Verderop geven we aan hoe je deze instellingen kunt veranderen.
 
 Datumformaten
 -------------
 
 Een datum is een geheel getal dat op een bijzondere manier weergegeven wordt:
-via een datum-format.
+via een datumopmaak (datumformaat).
 Enkele voorbeelden van dataformaten: ``20-02-2020``, ``20-februari-2020``,
 ``20-feb.-2020``, ``2020-02-20``.
 Het getal stelt het aantal dagen voor sinds 30 december 1899.
 
-Een datum is een getal: dat betekent dat je het verschil tussen twee data kunt uitrekenen,
-als het aantal dagen (periode) tussen die data.
+.. note::
+  *Een datum is een getal*: dat betekent dat je het verschil tussen twee data kunt uitrekenen,
+  als het aantal dagen (periode) tussen die data.
 
 *Onzin-berekeningen*.
 Een spreadsheetprogramma heeft er ook geen moeite mee om data op te tellen of te vermenigvuldigen:
@@ -225,22 +224,23 @@ Opdracht:
 Tekstformaten
 -------------
 
-ToDo: mailadressen, URLs; tekst overflow
+Je kunt tekst op allerlei manieren opmaken:
+je kunt tekst vet of cursief zetten, het lettertype veranderen of de grootte.
 
-Voor een tekst die niet in een cel past zijn er verschillende mogelijkheden:
+Je kunt een tekst ook gebruiken als "link" (URL), naar een website (``https://...``),
+of naar een mailadres ``mailto:...``.
 
-* de tekst loopt door over de volgende cel
-* de tekst blijft in de cel, de cel wordt in de hoogte aangepast.
+Voor een tekst die niet in een cel past heb je verschillende mogelijkheden (Opmaak->Tekstomloop):
 
+* overloop: de tekst loopt door over de volgende cel;
+* omloop: de tekst blijft in de cel, de cel wordt in de hoogte aangepast;
+* afbreken: alleen het deel dat in de cel past is zichtbaar.
 
+Deze opmaak heeft geen gevolgen voor de waarde: ook al zie je maar een deel van de tekst,
+de tekst in de cel blijft onveranderd.
 
 Invoeren van waarden
 --------------------
-
-De notatie die je gebruikt bij het invoeren van een waarde bepaalt ook het format van de cel.
-Als je bijvoorbeeld invoert ``20-02-2020`` dan wordt dit gezien als een datum:
-een getal in datumformaat.
-Je kunt het format van de cel later weer aanpassen zoals je hierboven gezien hebt.
 
 Door een ``'`` als eerste teken geef je aan dat de volgende tekens een tekst-waarde vormen.
 Zo kun je ``'0612345678`` als telefoonnummer invoeren.
@@ -251,6 +251,11 @@ Opdracht:
 * voer als waarde in: ``1-2``. Wat is het type van deze waarde? Wat is de betekenis?
 * voer als waarde in: ``12-13``. Wat is het type van deze waarde?
 * voer als waarde in: ``'1-2``. Wat is het type van deze waarde?
+
+De notatie die je gebruikt bij het invoeren van een waarde bepaalt ook de opmaak van de cel.
+Als je bijvoorbeeld invoert ``20-02-2020`` dan wordt dit gezien als een datum:
+een getal in datumformaat.
+Je kunt de opmaak van de cel later weer aanpassen zoals je hierboven gezien hebt.
 
 De vulgreep
 -----------

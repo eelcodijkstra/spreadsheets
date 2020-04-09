@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>H3S4 &#8212; Spreadsheets</title>
+    <title>Analyseren van externe data (RIVM) &#8212; Spreadsheets</title>
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
@@ -127,7 +127,7 @@
     <script type="text/javascript" src="../_static/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hoofdstuk 4" href="../h4/toctree.html" />
+    <link rel="next" title="Data: selecteren en samenvatten" href="h3s1.html" />
     <link rel="prev" title="H3S3" href="h3s3.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -320,8 +320,8 @@
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - Hoofdstuk 4' data-toggle="tooltip" >              
-    <a href="../h4/toctree.html" >
+  <li id="relations-next" title='Next Chapter - Data: selecteren en samenvatten' data-toggle="tooltip" >              
+    <a href="h3s1.html" >
         <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
@@ -359,10 +359,83 @@
 
 <div class="container" id="main-content" role="main">
   
-  <div class="section" id="h3s4">
-<h1>H3S4<a class="headerlink" href="#h3s4" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="subkopje">
-<h2>Subkopje<a class="headerlink" href="#subkopje" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="analyseren-van-externe-data-rivm">
+<h1>Analyseren van externe data (RIVM)<a class="headerlink" href="#analyseren-van-externe-data-rivm" title="Permalink to this headline">¶</a></h1>
+<p>Je kunt spreadsheets gebruiken voor het analyseren van data uit andere bronnen.
+Veel data is beschikbaar in de vorm van CSV-bestanden (“comma separated values”).
+Een CSV-bestand is een tekstbestand waarin de data georganiseerd is als “records”,
+met op elke regel een record waarbij de waarden van de “velden” gescheiden zijn voor een komma
+of door een ander teken zoals een TAB of een puntkomma.
+Vaak geeft de eerste regel aan wat de betekenis is van de opeenvolgende velden;
+dit zijn eigenlijk de kolomkoppen.</p>
+<div class="section" id="importeren-van-een-csv-bestand">
+<h2>Importeren van een CSV-bestand<a class="headerlink" href="#importeren-van-een-csv-bestand" title="Permalink to this headline">¶</a></h2>
+<p>Als voorbeeld gebruiken we het CSV-bestand “in-ziekenhuis-opgenomen-patienten.csv”.
+Dit zijn de RIVM-data van 8-4-2020.
+Bekijk eventueel dit bestand in een editor voor platte tekst (Notepad o.i.d.).
+Je ziet dan welk scheidingsteken gebruikt wordt (“;”) en wat de structuur van het bestand is.</p>
+<ul class="simple">
+<li><p>open een leeg rekenblad</p></li>
+<li><p>importeer de data uit het CSV-bestand</p>
+<ul>
+<li><p>Excel: menu Archief-&gt;importeren</p></li>
+<li><p>Google Sheets: Bestand-&gt;importeren</p></li>
+</ul>
+</li>
+<li><p>geef in de dialoog aan wat het scheidingsteken is en wat de types van de kolommen zijn.
+De automatische detectie van de types van de kolommen is meestal goed genoeg.
+Eventueel kun je dat achteraf nog aanpassen.</p></li>
+</ul>
+</div>
+<div class="section" id="aanpassen-van-de-types-en-de-opmaak">
+<h2>Aanpassen van de types en de opmaak<a class="headerlink" href="#aanpassen-van-de-types-en-de-opmaak" title="Permalink to this headline">¶</a></h2>
+<p>Je kunt eventueel achteraf een kolom nog aanpassen van getal naar tekst of omgekeerd,
+of naar een bepaald dataformaat.
+Selecteer daarvoor eerst de kolom en kies dan de juiste opmaak.</p>
+</div>
+<div class="section" id="maken-van-een-grafiek">
+<h2>Maken van een grafiek<a class="headerlink" href="#maken-van-een-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>Maak van deze gegevens een kolomgrafiek waarbij de waarden gestapeld zijn.</p>
+<ul class="simple">
+<li><p>selecteer de data, inclusief de kolomkopjes</p></li>
+<li><p>maak de grafiek:</p>
+<ul>
+<li><p>Excel: menu Invoegen-&gt;Grafiek-&gt;kolom; en kies dan voor de gestapelde kolomgrafiek.</p></li>
+<li><p>Google Sheets: Invoegen-&gt;Diagram; en kies dan de gestapelde kolomgrafiek.</p></li>
+</ul>
+</li>
+<li><p>pas de grafiek aan: zorg voor de juiste titels, en kies de kleuren voor de reeksen die jij wilt hebben.</p></li>
+</ul>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/in-ziekenhuis-opgenomen-patienten.png"><img alt="../_images/in-ziekenhuis-opgenomen-patienten.png" src="../_images/in-ziekenhuis-opgenomen-patienten.png" style="width: 600px;" /></a>
+<p class="caption"><span class="caption-text">In ziekenhuis opgenomen patiënten (RIVM data)</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="importeer-de-actuele-data">
+<h2>Importeer de actuele data<a class="headerlink" href="#importeer-de-actuele-data" title="Permalink to this headline">¶</a></h2>
+<p>De data van het RIVM worden dagelijks bijgewerkt.
+Je kunt daarmee je spreadsheet actualiseren.</p>
+<p>Je vindt deze data via het menu van de grafiek op de RIVM website:
+<a class="reference external" href="https://www.rivm.nl/coronavirus-covid-19/grafieken">https://www.rivm.nl/coronavirus-covid-19/grafieken</a>.
+Zoek de grafiek “In ziekenhuis opgenomen patiënten”.
+Via het hamburgermenu rechtsboven kun je het CSV-bestand downloaden.</p>
+<p>Je kunt hiermee een nieuwe grafiek maken zoals hierboven, of de bestaande data overschrijven,
+via “alles vernieuwen”.
+Controleer of de hele reeks data meegenomen wordt; anders kun je deze aanpassen
+via menu Gegevens-&gt;brongegevens voor grafiek (Excel); of via de Diagrameditor-&gt;Reeksen (Google Sheets).</p>
+</div>
+<div class="section" id="modelleren">
+<h2>Modelleren<a class="headerlink" href="#modelleren" title="Permalink to this headline">¶</a></h2>
+<p>Je kunt een eenvoudig model maken van het totaal aantal besmettingen in de tijd,
+bijvoorbeeld met de aannames:</p>
+<ul class="simple">
+<li><p>het duurt gemiddeld een week tussen besmetting en eerste ziekteverschijnselen, en nog een week tot de eventuele ziekenhuisopname;</p></li>
+<li><p>ongeveer 5% van de besmette personen wordt in het ziekenhuis opgenomen.</p></li>
+</ul>
+<p>Let wel, dit zijn modelleringsaannames, en gemiddelden:
+de werkelijke aantallen kunnen nog aanzienlijk afwijken!</p>
+<p>Maar op basis van deze aannames een kolom met geschatte besmettingen,
+en voeg deze toe aan de grafiek.</p>
 </div>
 </div>
 
@@ -384,15 +457,15 @@
   <a class="navLinkBg" id="navLinkBgLeft"  href="h3s3.html" aria-label="H3S3"></a>
   
 <ul>
-  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - Hoofdstuk 4' data-toggle="tooltip" >
-    <a href="../h4/toctree.html" aria-label="Hoofdstuk 4">
+  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - Data: selecteren en samenvatten' data-toggle="tooltip" >
+    <a href="h3s1.html" aria-label="Data: selecteren en samenvatten">
       <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
           <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black; "></i>
       </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg navLink" id="navLinkBgRight" href="../h4/toctree.html" aria-label="Hoofdstuk 4">Next Section - Hoofdstuk 4</a>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="h3s1.html" aria-label="Data: selecteren en samenvatten">Next Section - Data: selecteren en samenvatten</a>
 
 <script type="text/javascript">
 

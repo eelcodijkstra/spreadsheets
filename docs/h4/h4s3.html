@@ -23,7 +23,6 @@
     <link rel="stylesheet" type="text/css" href="../_static/CodeChat.css" />
     <link rel="stylesheet" type="text/css" href="../_static/parsons.css?v=2F3E13EE" />
     <link rel="stylesheet" type="text/css" href="../_static/js_lib/prettify.css?v=2A364B6B" />
-    <link rel="stylesheet" type="text/css" href="../_static/shortanswer.css?v=7E18C432" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css?v=239FC54E" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css?v=8A1A42E4" />
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css?v=F471F95B" />
@@ -36,10 +35,10 @@
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/runestone-custom-sphinx-bootstrap.css?v=4.2.1" type="text/css" />
+    <link rel="stylesheet" href="../_static/runestone-custom-sphinx-bootstrap.css?v=4.2.0" type="text/css" />
     <link rel="stylesheet" href="../_static/theme-overrides.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../_static/runestonebase.js?v=4.2.1"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js?v=4.2.0"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
@@ -84,7 +83,7 @@
     <script type="text/javascript" src="../_static/timedmc.js?v=B010A457"></script>
     <script type="text/javascript" src="../_static/timed.js?v=FD1C5153"></script>
     <script type="text/javascript" src="../_static/mchoice-i18n.en.js?v=354E6CD"></script>
-    <script type="text/javascript" src="../_static/shortanswer.js?v=494C152E"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js?v=8FCEE330"></script>
     <script type="text/javascript" src="../_static/timed_shortanswer.js?v=B3A117D7"></script>
     <script type="text/javascript" src="../_static/d3.v2.min.js?v=836E01C"></script>
     <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js?v=B64CF0A8"></script>
@@ -96,8 +95,8 @@
     <script type="text/javascript" src="../_static/python.js?v=76B9CFA2"></script>
     <script type="text/javascript" src="../_static/sql.js?v=49D0BD74"></script>
     <script type="text/javascript" src="../_static/activecode-i18n.en.js?v=65CA0724"></script>
-    <script type="text/javascript" src="../_static/skulpt.min.js?v=A901CC2"></script>
-    <script type="text/javascript" src="../_static/skulpt-stdlib.js?v=24904821"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js?v=BDC8551F"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js?v=5731007D"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.2/build/vega.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@2.5.0/build/vega-lite.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@3.14.0/build/vega-embed.js"></script>
@@ -118,12 +117,12 @@
     <script type="text/javascript" src="../_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <script type="text/javascript" src="../_static/waypoints.min.js"></script>
-    <script type="text/javascript" src="../_static/user-highlights.js?v=4.2.1"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js?v=4.2.0"></script>
     <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
     <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
     <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
     <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../_static/presenter_mode.js?v=4.2.1"></script>
+    <script type="text/javascript" src="../_static/presenter_mode.js?v=4.2.0"></script>
     <script type="text/javascript" src="../_static/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -150,7 +149,7 @@
   eBookConfig.build_info = "unknown";
   eBookConfig.python3 = true;
   eBookConfig.acDefaultLanguage = 'python' ? 'python' : 'python'
-  eBookConfig.runestone_version = '4.2.1';
+  eBookConfig.runestone_version = '4.2.0';
   eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
   eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
   eBookConfig.proxyuri_files = '/jobe/index.php/restapi/files/';
@@ -391,6 +390,84 @@ Met spreadsheets is dat natuurlijk geen probleem: je kunt een extra kolom met fo
 </div>
 <div class="section" id="tekenen-van-de-grafiek">
 <h2>Tekenen van de grafiek<a class="headerlink" href="#tekenen-van-de-grafiek" title="Permalink to this headline">¶</a></h2>
+<p>We willen een grafiek van de meetgegevens, met de volgende eigenschappen:</p>
+<ul class="simple">
+<li><p>de meetpunten worden weergegeven als afzonderlijke punt (puntgrafiek);
+een duidelijke vorm voor een punt is een kruisje (x):
+dan kun je de grafiek goed aflezen.</p></li>
+<li><p>op de x-as zetten we de spanning, op de y-as de stroom;
+dit moeten we ook in de titels van de assen opnemen, inclusief de eenheid (V en mA).</p></li>
+<li><p>het raster van de grafiek moet voldoende fijnmazig zijn om de meetwaarden uit de grafiek af te kunnen lezen.</p></li>
+<li><p>door de meetpunten moet een lijn (trendlijn) getekend worden met de kleinste afwijking
+(kleinste som van de kwadraten van de afstand tussen meetpunt en trendlijn).</p></li>
+</ul>
+<div class="section" id="aanmaken-van-de-grafiek">
+<h3>Aanmaken van de grafiek<a class="headerlink" href="#aanmaken-van-de-grafiek" title="Permalink to this headline">¶</a></h3>
+<p>De eerste stap is het selecteren van de data voor de grafiek.
+Vervolgens maken we een eerste versie van de grafiek aan.</p>
+<ul class="simple">
+<li><p>Selecteer hiervoor de data inclusief de kolomtitels.</p></li>
+<li><p>Maak de grafiek aan</p>
+<ul>
+<li><p>LibreOffice: Insert-&gt;Chart (of button: Insert Chart)</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Chart Type: puntgrafiek (XY - Scatter - points only)</p></li>
+<li><p>Data Range: de geselecteerde data, “data in columns”, “first row is label”</p></li>
+<li><p>Data Series: voor elke series geef je de X- en de Y-waarden op.
+Voor R1: X-waarden in A, Y-waarden in B; voor R2: X-waarden in A, Y-waarden in C.</p></li>
+<li><p>Chart elements: titel van de grafiek, titels bij de X- en Y-as; “display grids” voor beide assen.</p></li>
+</ul>
+<p>We hebben nu een eerste versie van de grafiek.
+Deze kunnen we in een aantal stappen verder verfijnen.</p>
+</div>
+<div class="section" id="puntgrafiek">
+<h3>Puntgrafiek<a class="headerlink" href="#puntgrafiek" title="Permalink to this headline">¶</a></h3>
+<p>Zoals gezegd willen we de meetpunten weergeven als kruisjes.</p>
+<ul class="simple">
+<li><p>Selecteer de grafiek (figuur);</p></li>
+<li><p>(LibreOffice): klik tussen de meetpunten voor “Data Series”.
+Via Format selection of via ctrl-klik (of rechter muisknop): “format Data Series”.
+Kies vervolgens “Line” en als icon: “x”.</p></li>
+<li><p>doe dit voor beide reeksen meetpunten.</p></li>
+</ul>
+<p>Elk spreadsheetprogramma heeft zijn eigen “wizard” voor het tekenen van grafieken,
+maar deze onderdelen kom je in elk programma tegen.</p>
+</div>
+<div class="section" id="raster">
+<h3>Raster<a class="headerlink" href="#raster" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Selecteer de grafiek (figuur);</p></li>
+<li><p>Edit-&gt;Object-&gt;Edit. Je krijgt nu andere “buttons” in het user interface.</p></li>
+<li><p>Zet de X- en Y-grids aan via de buttons (of: Insert-&gt;Grids…)</p></li>
+<li><p>Instellen van de grids, via buttons X-axis en Y-axis; of: format-&gt;X-axis,
+format-&gt;Y-axis.</p>
+<ul>
+<li><p>kies voor X bijv. als major interval: 2 (elke V-eenheid), en als minor: 10.</p></li>
+<li><p>voor Y: major 50, minor 5</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="trendlijn">
+<h3>Trendlijn<a class="headerlink" href="#trendlijn" title="Permalink to this headline">¶</a></h3>
+<p>Voor het tekenen van de trendlijnen door de meetpunten:</p>
+<ul class="simple">
+<li><p>Selecteer de grafiek (figuur); Edit-&gt;Object-&gt;Edit</p></li>
+<li><p>Selecteer de rij meetpunten voor R1 in de grafiek; deze veranderen van kleur.</p></li>
+<li><p>Insert-&gt;Trend Line…</p>
+<ul>
+<li><p>Intercept: 0</p></li>
+<li><p>verder kun je de naam van de functie (lijn) opgeven, bijvoorbeeld: I_r1</p></li>
+<li><p>en je kunt de formule voor de functie in de grafiek laten zetten.</p></li>
+</ul>
+</li>
+</ul>
+<p>“Intercept: 0” betekent dat de lijn de y-as (x=0) snijdt in het punt y=0.
+Met andere woorden: de lijn gaat door punt (0,0).
+Dit is een fysisch gegeven: bij een spanning van 0V is de stroom ook 0.
+Je maakt voor dit punt dus geen meetfout.</p>
 <p>Als grafiek willen we een puntgrafiek gebruiken:
 elk meetpunt geven we met een kruisje in de grafiek weer.</p>
 <p>We kunnen ook “error bars” toevoegen om de foutgrenzen aan te geven.
@@ -427,6 +504,7 @@ onder “horizontal axis” en “vertical axis”.</p></li>
 Dat kun je aanpassen door de hele figuur smaller of breder te maken.</p></li>
 </ul>
 <p>(Een alternatief is om de gemeten waarden bij de punten zelf weer te geven.)</p>
+</div>
 </div>
 <div class="section" id="rechte-lijn-door-de-meetpunten">
 <h2>Rechte lijn door de meetpunten<a class="headerlink" href="#rechte-lijn-door-de-meetpunten" title="Permalink to this headline">¶</a></h2>
@@ -527,7 +605,7 @@ Als je de data aanpast, zul je de grafiek opnieuw moeten exporteren.</p>
     </p>
     <p>
         &copy; Copyright 2020 eelco.
-      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 4.2.1.
+      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 4.2.0.
     </p>
   </div>
 </footer>

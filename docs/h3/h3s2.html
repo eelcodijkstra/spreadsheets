@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>H3S2 &#8212; Spreadsheets</title>
+    <title>Samenvatten en groeperen &#8212; Spreadsheets</title>
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
@@ -359,10 +359,100 @@
 
 <div class="container" id="main-content" role="main">
   
-  <div class="section" id="h3s2">
-<h1>H3S2<a class="headerlink" href="#h3s2" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="subkopje">
-<h2>Subkopje<a class="headerlink" href="#subkopje" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="samenvatten-en-groeperen">
+<h1>Samenvatten en groeperen<a class="headerlink" href="#samenvatten-en-groeperen" title="Permalink to this headline">¶</a></h1>
+<p>Als voorbeeld gebruiken we een lijst met behaalde cijfers voor de verschillende vakken.
+We willen hieruit het gemiddelde per vak bepalen.
+Daarvan willen we een grafiek maken (staafdiagram).</p>
+<p>Gebruik de bladen: Toetsresultaten en Toetsresultaten-samengevat.</p>
+<p>We gebruiken de volgende aanpak:</p>
+<ul class="simple">
+<li><p>elk resultaat is een rij (record), met als kolommen (velden): datum, vak, cijfer.</p></li>
+<li><p>de eerste rij bevat de kolomkoppen.</p></li>
+<li><p>de resultaten kunnen in de loop van de tijd uitgebreid worden:
+we willen de datatabel “zuiver” houden, en geen berekeningen onderaan toevoegen.</p></li>
+<li><p>voor het samenvatten en groeperen van de data gebruiken daarom we een <em>afzonderlijk rekenblad</em>.</p></li>
+<li><p>data</p></li>
+</ul>
+<p>Voor het samenvatten en groeperen van dergelijke data kun je ook een “pivot table” (draaitabel) gebruiken.
+Dat behandelen we in een hoofdstuk voor gevorderden.</p>
+<div class="section" id="data-en-autofilter">
+<h2>Data en autofilter<a class="headerlink" href="#data-en-autofilter" title="Permalink to this headline">¶</a></h2>
+<p>Zoals gezegd gebruiken we data in rij=record formaat.</p>
+<p>Je kunt data in zo’n formaat eenvoudig filteren met een “autofilter”:</p>
+<ul class="simple">
+<li><p>selecteer de eerste rij, met de kolomkoppen;</p></li>
+<li><p>kies menu Gegevens-&gt;autofilter (Excel) of Gegevens-&gt;filter maken (Google Sheets).</p></li>
+</ul>
+<p>Je ziet nu naast de kolomkoppen driehoekjes staan waarmee je de filterfuncties in kunt stellen.</p>
+<ul class="simple">
+<li><p>je kunt de gegevens van een enkel vak weergeven: selecteer het filter van de kolom “vakken”,
+en vink alleen “engels” aan.</p></li>
+<li><p>je kunt de filteren op waarden, bijvoorbeeld alleen de cijfers onder de 7 (filter in de kolim “cijfers”).</p></li>
+<li><p>je kunt de gegevens sorteren op bijvoorbeeld de naam van de vakken.</p></li>
+</ul>
+<p>Met deze filters krijg je alleen een andere weergave, de gegevens zelf veranderen niet.
+Je kunt zien of er nog een filter actief is,
+doordat het driehoekje van een actief filter anders van kleur of vorm is.</p>
+<p>Dit autofilter is handig om te zoeken of om een eerste analyse met de hand te maken.
+Een volgende stap is het automatisch samenvatten en groeperen.</p>
+</div>
+<div class="section" id="id1">
+<h2>Samenvatten en groeperen<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Voor deze functies gebruiken we een ander (leeg) rekenblad.
+Om de gegevens van het data-blad eenvoudig in formules te kunnen gebruiken,
+geven we deze gegevens een naam.</p>
+<p>Je geeft data in de verschillende kolommen een naam:</p>
+<ul class="simple">
+<li><p>selecteer de kolom “vak” (<code class="docutils literal notranslate"><span class="pre">B:B</span></code>), en geef deze via Gegevens-&gt;Benoemd bereik (Google Sheets)
+of via Formules-&gt;Naam definiëren (Excel) de naam “vakdata”.</p></li>
+<li><p>selecteer de kolom “cijfer”, en geef deze de naam “cijferdata”.</p></li>
+</ul>
+<p>Deze namen kun je nu gebruiken in een formule op een ander rekenblad.</p>
+<p>Voorbeeld: het gemiddelde van alle cijfers reken je uit met de formule: <code class="docutils literal notranslate"><span class="pre">=GEMIDDELDE(cijferdata)</span></code>.</p>
+<ul class="simple">
+<li><p>Geef kolom <code class="docutils literal notranslate"><span class="pre">A</span></code> de kop: “vak”</p></li>
+<li><p>Zet daaronder in kolom <code class="docutils literal notranslate"><span class="pre">A</span></code> de namen van de verschillende vakken.</p></li>
+<li><p>Geef kolom <code class="docutils literal notranslate"><span class="pre">B</span></code> de kop: “gemiddelde”</p></li>
+<li><p>Definieer in <code class="docutils literal notranslate"><span class="pre">B2</span></code>: <code class="docutils literal notranslate"><span class="pre">=GEMIDDELDE.ALS(vakdata;A2;cijferdata)</span></code></p></li>
+</ul>
+<p>De betekenis van deze formule is: bereken het gemiddelde van de waarden in kolom <code class="docutils literal notranslate"><span class="pre">cijferdata</span></code>
+voor die rijen waarvoor <code class="docutils literal notranslate"><span class="pre">vakdata=A2</span></code>: de naam van het vak links van de formule.</p>
+<p>Voor alle samenvattingsfuncties (SOM, GEMIDDELDE, MAX, MIN) zijn vergelijkbare conditionele vormen (IF of ALS) beschikbaar.</p>
+</div>
+<div class="section" id="grafiek">
+<h2>Grafiek<a class="headerlink" href="#grafiek" title="Permalink to this headline">¶</a></h2>
+<p>Van deze gegroepeerde gegevens kun je nu een grafiek maken,
+bijvoorbeeld een staafdiagram.</p>
+<ul class="simple">
+<li><p>selecteer de samenvattingsdata, inclusief kolomkoppen;</p></li>
+<li><p>voeg een diagram (grafiek) in, en kies als type: staafdiagram ofwel kolomgrafiek.</p></li>
+<li><p>zorg ervoor dat de titels en de assen kloppen.</p></li>
+</ul>
+<p>Je kunt aan de grafiek ook een lijn toevoegen met het gemiddelde van alle vakken:</p>
+<ul class="simple">
+<li><p>voeg een kolom toe waarin je het gemiddelde van de vakgemiddelden uitrekent;
+deze heeft in elke rij dezelfde waarde;</p></li>
+<li><p>kies als soort diagram: Combinatiediagram;</p></li>
+<li><p>de ene reeks (vakgemiddelden) gebruik je als staafdiagram;</p></li>
+<li><p>de andere reeks (gemiddelde) gebruik je als lijngrafiek.</p></li>
+</ul>
+</div>
+<div class="section" id="uitbreidingen">
+<h2>Uitbreidingen<a class="headerlink" href="#uitbreidingen" title="Permalink to this headline">¶</a></h2>
+<p>Je kunt dit voorbeeld op allerlei manieren uitbreiden:</p>
+<ul class="simple">
+<li><p>gegevens tellen voor een bepaald rapport;
+het rapport kun je in een aparte kolom opnemen.</p></li>
+<li><p>niet alle cijfers tellen even zwaar;
+je kunt de wegingsfactor voor een bepaald cijfer in een aparte kolom opnemen.</p></li>
+<li><p>naast het gemiddelde wil je misschien ook weten welk cijfer je minimaal
+moet halen om uiteindelijk voldoende te staan.</p></li>
+</ul>
+<p>Dezelfde aanpak van data met een autofilter en samenvattingen/rapportages op een apart rekenblad
+is veel vaker bruikbaar.
+Een voorbeeld is het analyseren van de transactiegegevens van een bankrekening,
+bijvoorbeeld om na te gaan hoeveel je aan welke posten uitgegeven hebt.</p>
 </div>
 </div>
 

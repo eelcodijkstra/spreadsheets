@@ -127,7 +127,7 @@
     <script type="text/javascript" src="../_static/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="H1S4" href="h1s4.html" />
+    <link rel="next" title="Volgende stappen" href="h1s4.html" />
     <link rel="prev" title="Cellen en waarden" href="h1s2.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -320,7 +320,7 @@
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - H1S4' data-toggle="tooltip" >              
+  <li id="relations-next" title='Next Chapter - Volgende stappen' data-toggle="tooltip" >              
     <a href="h1s4.html" >
         <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
@@ -361,7 +361,7 @@
   
   <div class="section" id="formules-en-functies">
 <h1>Formules en functies<a class="headerlink" href="#formules-en-functies" title="Permalink to this headline">¶</a></h1>
-<p>Met een formule in een cel kun je de waarde van die cel laten uitrekenen uit de waarden van andere cellen:
+<p>Met een formule in een cel kun je de waarde van die cel uitrekenen uit de waarden van andere cellen:
 dat is het basisidee van spreadsheets.</p>
 <p class="rubric">leerdoelen</p>
 <ul class="simple">
@@ -389,8 +389,10 @@ bijvoorbeeld <code class="docutils literal notranslate"><span class="pre">A1:A10
 <div>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=1578771306&amp;
     single=true&amp;widget=true&amp;headers=true" width="600px" height="300px"></iframe>
-</div><p>In je eigen kopie van dit voorbeeld kun je zien de formules in de verschillende cellen bekijken:
-de formule van de actieve cel zie je (ook) in de formulebalk bovenin.</p>
+</div><p>Maak voor de volgende opdrachten een eigen kopie van dit voorbeeld,
+voor je eigen spreadsheetprogramma.</p>
+<p>In je kopie van dit voorbeeld kun je de formules in de verschillende cellen bekijken:
+de formule van de actieve cel zie je ook in de formulebalk bovenin.</p>
 <ul class="simple">
 <li><p>Wat is de formule in cel E2?</p></li>
 <li><p>Wat is de formule in cel E3?</p></li>
@@ -434,8 +436,8 @@ moet je in je spreadsheet ook de engelse namen gebruiken.</p>
 <cite>min</cite>, <cite>max</cite>, <cite>product</cite>, <cite>and</cite> (voor logische waarden).</p></li>
 </ul>
 </div>
-<div class="section" id="absolute-en-relatieve-celverwijzingen">
-<h2>Absolute en relatieve celverwijzingen<a class="headerlink" href="#absolute-en-relatieve-celverwijzingen" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="absolute-en-relatieve-celadressen">
+<h2>Absolute en relatieve celadressen<a class="headerlink" href="#absolute-en-relatieve-celadressen" title="Permalink to this headline">¶</a></h2>
 <p>Vaak gebruik je dezelfde berekening in meerdere cellen,
 denk bijvoorbeeld aan een kolom waarin je de BTW-waarde uitrekent van het bruto-bedrag,
 of waarin je het bruto-bedrag en de BTW optelt tot het netto-bedrag.
@@ -445,7 +447,7 @@ Het zou veel werk zijn als je voor de berekeningen in G2, G3, G4, enz.,
 steeds een nieuwe formule zou moeten invoeren.
 Maar gelukkig werkt het kopiëren van formules, inclusief het werken met de vulgreep,
 een stuk handiger.</p>
-<p><em>Relatieve verwijzingen.</em> In veel gevallen wil je bij het kopiëren van een formule, eventueel met de vulgreep,
+<p><em>Relatieve celadressen.</em> In veel gevallen wil je bij het kopiëren van een formule, eventueel met de vulgreep,
 de <em>afstanden</em> naar de andere cellen in de formule <em>gelijk houden</em>.
 De berekening van het bruto-totaal in cel E2 is <code class="docutils literal notranslate"><span class="pre">=C2*D2</span></code>.
 Bij het kopiëren hiervan naar E3 moet dit worden: <code class="docutils literal notranslate"><span class="pre">=C3*D3</span></code>;
@@ -455,9 +457,9 @@ Dat is ook precies wat er gebeurt als je deze formules kopieert:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">=C2*D2</span></code> in cel <cite>E2</cite> zegt eigenlijk: vermenigvuldig de twee celwaarden links van deze cel.</p></li>
 <li><p>als je deze formule kopieert naar cel <cite>E3</cite> wordt dit: <code class="docutils literal notranslate"><span class="pre">=C3*D3</span></code>.</p></li>
 </ul>
-<p>De celverwijzingen in deze formules zijn <em>relatieve verwijzingen</em>:
+<p>De celadressen in deze formules zijn <em>relatieve adressen</em>:
 bij kopiëren blijven de afstanden tussen de invoercellen van de berekening en de resultaatcel gelijk.</p>
-<p><em>Absolute verwijzingen.</em>
+<p><em>Absolute adressen.</em>
 Het BTW-percentage is voor alle BTW-formules gelijk.
 Alle BTW-formules moeten naar dezelfde cel verwijzen:
 dit moet bij het kopiëren niet veranderen.
@@ -469,27 +471,13 @@ Een dergelijke vaste verwijzing noemen we een <em>absolute verwijzing</em>.</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">$D$2</span></code> - absolute kolom en absolute rij (absolute celverwijzing).</p></li>
 <li><p>de formule voor de BTW-berekening in cel F2 <code class="docutils literal notranslate"><span class="pre">=E2*$I$1</span></code>.</p></li>
 </ul>
-<p><em>Namen.</em> Een waarde die je met een absolute verwijzing aangeeft kun je ook een naam geven.
+<p><em>Namen: benoemd bereik</em> Een waarde die je met een absolute verwijzing aangeeft kun je ook een naam geven.
 In een formule gebruik je dan de naam in plaats van de celverwijzing.
 Hiermee maak je je formules beter leesbaar en voorkom je fouten door het vergeten van een <cite>$</cite>.</p>
 <p><em>Opmerking:</em> ga na dat we als formule voor de bruto-totaalprijs ook hadden kunnen gebruiken: <code class="docutils literal notranslate"><span class="pre">=$C2*$D2</span></code></p>
-<p><em>Concept</em>:</p>
-<ul class="simple">
-<li><p>het verschil tussen absolute en relatieve verwijzingen kom je op meer plaatsen in de informatica tegen;</p></li>
-<li><p>het gebruik van relatieve verwijzingen zorgt ervoor dat een berekening gelijk blijft bij verplaatsing.</p>
-<ul>
-<li><p>gebruik van relatieve padnamen in een hiërarchish filesysteem: <code class="docutils literal notranslate"><span class="pre">./x/y</span></code> of <code class="docutils literal notranslate"><span class="pre">../x/y</span></code></p></li>
-<li><p>gebruik van relatieve adressen in machinecode;</p></li>
-</ul>
-</li>
-<li><p>het gebruik van absolute verwijzingen zorgt ervoor dat je een (gedeeld) gegeven kunt vinden vanaf elke plek.</p>
-<ul>
-<li><p>gebruik van absolute padnamen in een hiërarchisch filesysteem: <code class="docutils literal notranslate"><span class="pre">/var/www/html</span></code> (begint met <code class="docutils literal notranslate"><span class="pre">/</span></code>)</p></li>
-<li><p>gebruik van absolute adressering in machinecode;</p></li>
-</ul>
-</li>
-</ul>
-<p><em>Opdrachten</em></p>
+</div>
+<div class="section" id="opdrachten">
+<h2>Opdrachten<a class="headerlink" href="#opdrachten" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>selecteer cel D3 en vul cellen D4 en D5 met de vulgreep;
 wat is de formule in cel D3? wat is de formule in cel D5?</p></li>
@@ -505,6 +493,20 @@ wat is de formule in cel D3? wat is de formule in cel D5?</p></li>
 controleer de formules in de gekopieerde rij; en in de totaal-som.
 pas de rangnummers aan met de vulgreep.</p></li>
 <li><p>verwijderen van een rij; controleer weer de formules van de laatste rij.</p></li>
+</ul>
+</div>
+<div class="section" id="algemeen-concept-absolute-en-relatieve-adressen">
+<h2>Algemeen concept: absolute en relatieve adressen<a class="headerlink" href="#algemeen-concept-absolute-en-relatieve-adressen" title="Permalink to this headline">¶</a></h2>
+<p>Het onderscheid tussen absolute en relatieve adressering kom je op veel meer plaatsen in de informatica tegen.</p>
+<p>Het gebruik van relatieve adressen zorgt ervoor dat een berekening of formule gelijk blijft bij verplaatsing.</p>
+<ul class="simple">
+<li><p>gebruik van relatieve padnamen in een hiërarchish filesysteem: <code class="docutils literal notranslate"><span class="pre">./x/y</span></code> of <code class="docutils literal notranslate"><span class="pre">../x/y</span></code></p></li>
+<li><p>gebruik van relatieve adressen in machinecode;</p></li>
+</ul>
+<p>Het gebruik van absolute adressen zorgt ervoor dat je een (gedeeld) gegeven kunt vinden vanaf elke plek.</p>
+<ul class="simple">
+<li><p>gebruik van absolute padnamen in een hiërarchisch filesysteem: <code class="docutils literal notranslate"><span class="pre">/var/www/html</span></code> (begint met <code class="docutils literal notranslate"><span class="pre">/</span></code>)</p></li>
+<li><p>gebruik van absolute adressering in machinecode;</p></li>
 </ul>
 </div>
 </div>
@@ -527,15 +529,15 @@ pas de rangnummers aan met de vulgreep.</p></li>
   <a class="navLinkBg" id="navLinkBgLeft"  href="h1s2.html" aria-label="Cellen en waarden"></a>
   
 <ul>
-  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - H1S4' data-toggle="tooltip" >
-    <a href="h1s4.html" aria-label="H1S4">
+  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - Volgende stappen' data-toggle="tooltip" >
+    <a href="h1s4.html" aria-label="Volgende stappen">
       <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
           <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black; "></i>
       </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg navLink" id="navLinkBgRight" href="h1s4.html" aria-label="H1S4">Next Section - H1S4</a>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="h1s4.html" aria-label="Volgende stappen">Next Section - Volgende stappen</a>
 
 <script type="text/javascript">
 
