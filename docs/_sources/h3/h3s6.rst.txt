@@ -1,0 +1,105 @@
+Lichaamsmetingen
+================
+
+In deze opdracht onderzoek je of er een verband (correlatie) is tussen verschillende waarden die je gemeten hebt.
+Bijvoorbeeld: is er in een groep mensen een verband tussen armlengte en beenlengte.
+Hiervoor gebruik geef je deze gegevens weer in een spreidingsdiagram,
+waarin je het verband in de vorm van een trendlijn probeert te ontdekken.
+De correlatiecoefficient R^2 geeft aan hoe sterk het verband is.
+
+De data
+-------
+
+De data is al in de vorm van een tabel in een rekenblad gegeven, zie hieronder:
+
+.. figure:: lichaamsmetingen-data.png
+   :width: 500px
+   :align: center
+
+*Opmerking* Met Google Forms of Microsoft Forms kun je een eenvoudig een vragenlijst maken.
+Als resultaat krijg je een spreadsheet: zo kun je voor een grote groep mensen zulke gegevens verzamelen.
+
+Het spreidingsdiagram
+---------------------
+
+Maak een spreidingsdiagram om na te gaan of er een verband is tussen armlengte en beenlengte.
+
+1. Selecteer de kolommen voor armlengte en beenlengte.
+2. Maak de grafiek: menu Invoegen->Grafiek->Spreiding (Excel).
+3. Pas beide assen aan (Grafiek element toevoegen->Assen->Meer opties voor assen):
+   pas voor elke as het minimum en het maximum aan zodat de gegevens er net in passen.
+   Pas eventueel de lijnen voor de eenheden aan.
+4. Voeg de titels voor de assen toe, met de eenheden (Grafiek element toevoegen->Astitels)
+5. Pas eventueel de titel van de grafiek aan (Grafiek element toevoegen->Grafiektitel)
+
+Probeer een grafiek te maken zoals de figuur hieronder:
+
+.. figure:: lichaamsmetingen-punten.png
+   :width: 500px
+   :align: center
+
+De trendlijn en de correlatiecoëfficient :math:`R^2`
+----------------------------------------------------
+
+Met behulp van de trendlijn en de bijbehorende correlatiecoëfficiënt kun je nagaan
+hoe sterk het verband is tussen de arm- en beenlengte.
+
+1. Teken de trendlijn (Grafiekontwerp->Grafiekelement toevoegen->Trendlijn->Lineair)
+2. Zet nu de correlatiecoëfficiënt erbij (selecteer in de grafiek de trendlijn, en kies met de rechtermuisknop "trendlijn opmaken").
+   Vink bij Opties voor trendlijn het vakje voor R-kwadraat in grafiek weergeven aan.
+   Pas zo nodig de kleur van de trendlijn aan (onder de verfpot).
+3. Als je het mooi wilt maken, stel je het aantal decimalen voor :math:`R^2` in op 2, en maak je de tekst daarvan iets groter.
+
+*Opmerking* We gebruiken hier een lineaire trendlijn, omdat we een lineair verband zoeken.
+Zoals uit de keuzemogelijkheden blijkt, kun je ook trendlijnen voor andere soorten verbanden weergeven.
+
+Als het goed is ziet het diagram er nu ongeveer zo uit:
+
+.. figure:: lichaamsmetingen-trendlijn.png
+   :width: 500px
+   :align: center
+
+Aan de hand van de vuistregels hieronder kun je nu concluderen:
+Er bestaat een matig positief verband tussen de arm- en beenlengte.
+
++---------------------+---------------------------------+
+| :math:`R^2`         | sterkte van het verband         |
++---------------------+---------------------------------+
+| :math:`< 0,1`       | zeer zwak                       |
++---------------------+---------------------------------+
+| :math:`0,1 - 0,25`  | zwak                            |
++---------------------+---------------------------------+
+| :math:`0,25 - 0,5`  | matig                           |
++---------------------+---------------------------------+
+| :math:`0,5 - 0,75`  | sterk                           |
++---------------------+---------------------------------+
+| :math:`0,75 - 0,9` | zeer sterk                       |
++---------------------+---------------------------------+
+| :math:`> 0,9`       | uitzonderlijk sterk (verdacht!) |
++---------------------+---------------------------------+
+
+Zelf doen
+---------
+
+*Hebben langere mensen een grotere longinhoud?*
+
+Maak nu zelf een spreidingsdiagram met trendlijn die hoort bij deze onderzoeksvraag.
+In de tabel staat de longinhoud in de kolom Vitale capaciteit.
+Zorg dat je voldoet aan de gestelde eisen in de vorige twee opgaven.
+Plak het diagram in een Word-document.
+Zet de onderzoeksvraag erboven en de conclusie (zoals in opgave 2e) eronder.
+
+Een technisch puntje: we kijken hier hoe de longinhoud afhangt van de lengte.
+Longinhoud is dan de zogenaamde afhankelijke variabele.
+De afspraak is dat deze op de verticale as (Y-as) komt.
+Excel en andere spreadsheetprogramma's gebruiken automatisch de gegevens van de meest linker kolom van je selectie als waarden op de x-as en die van de volgende kolom(men) als waarden op de op de y-as.
+Je kunt dat in de grafiek wel aanpassen, maar dat is vaak ingewikkeld.
+Het is dan eenvoudiger om de kolommen om te wisselen.
+Dat kun je in de oorspronkelijke tabel doen, of in een kopie op een nieuw tabblad.
+
+
+Een eigen onderzoek
+-------------------
+
+Onderzoek nu zelf een verband wat je speciale interesse heeft.
+Doe dit op dezelfde wijze als in de vorige opgave.

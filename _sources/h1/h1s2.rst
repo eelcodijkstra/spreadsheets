@@ -84,7 +84,7 @@ of in een Nederlandse versie, ``WAAR`` of ``ONWAAR``).
     <div style="align: center;">
       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=286497481&amp;single=true&amp;widget=true&amp;headers=true"
       width="600px" height="200px"></iframe>
-    </div<
+    </div>
 
 Opdracht:
 

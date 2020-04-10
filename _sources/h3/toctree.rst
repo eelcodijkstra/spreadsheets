@@ -17,6 +17,6 @@ Nog weer een andere mogelijkheid is om deze gegevens te importeren vanuit bestan
    :maxdepth: 2
 
    h4s3.rst
+   h3s6.rst 
    h3s4.rst
    h3s2.rst
-   
