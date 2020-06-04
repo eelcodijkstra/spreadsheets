@@ -70,6 +70,7 @@ Spreadsheet-vragen
 
 Soms bestaat een vraag uit het invullen van een eenvoudige spreadsheet.
 
+Verander in onderstaande spreadsheet de waarde in cel B3 in ``10``, en in D3 in ``Hello``.
 
 .. codeblock:
 
@@ -94,39 +95,6 @@ Soms bestaat een vraag uit het invullen van een eenvoudige spreadsheet.
    assert C3 == 100
    assert D3 == Hello
 
-..
 
-En dit is de tekst na de spreadsheet...
-
-
-.. activecode:: sql1
-    :language: sql
-    :dburl: /test.db
-
-    select *
-    from COUNTRIES
-    limit 5;
 
 ..
-
-
-.. code-block:: SQL
-
-    .. activecode:: sql1
-        :language: sql
-        :autograde: unittest
-        :dburl: test.db
-
-        select bike_number, max(duration)
-        from trip_data
-        group by bike_number
-        order by max(duration) desc
-        limit 4;
-
-        ====
-        assert 0,0 == W00379
-        assert 0,1 == 86355
-        assert 2,1 == 86336
-
-.. datafile:: country_data.csv
-    :fromfile: world_countries.csv
