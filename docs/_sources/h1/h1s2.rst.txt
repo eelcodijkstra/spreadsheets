@@ -52,7 +52,7 @@ Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1
 .. fillintheblank:: h1s2q1
    :casei:
 
-   Het adres van de geselecteerde cel is: ``|blank|``.
+   Het adres van de geselecteerde cel is: |blank|.
 
    -   :C4: Correct.
        :x: Try again.
@@ -62,7 +62,7 @@ Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1
 .. fillintheblank:: h1s2q2
    :casei:
 
-   Selecteer cel ``A5``; wat zie je nu in de formulebalk (formula bar) bovenin? ``|blank|``.
+   Selecteer cel ``A5``. Vul in wat je ziet in de formulebalk (formula bar) bovenin: |blank|.
    Vergeet het eerste teken niet!
 
    -   :=S[OU]M\(A1:\A4\): Correct.
@@ -95,8 +95,8 @@ Opdracht:
 .. fillintheblank:: h1s2q5
    :casei:
 
-   Vul in cel A3 in: ``187``. In cel A5 zie je nu de waarde: ``|blank|``.
-   Deze cel heeft nu als kleur: ``|blank|``
+   Vul in cel A3 in: ``187``. In cel A5 zie je nu de waarde: |blank|.
+   Deze cel heeft nu als kleur: |blank|
 
    -   :1000: Correct.
        :x: Niet juist.
@@ -108,7 +108,7 @@ Opdracht:
 .. fillintheblank:: h1s2q6
    :casei:
 
-   Vul in cel C4 in: ``Hello``. In cel D4 zie je nu de waarde: ``|blank|``.
+   Vul in cel C4 in: ``Hello``. In cel D4 zie je nu de waarde: |blank|.
 
    -   :World!: Correct.
        :x: Helaas.
@@ -118,7 +118,7 @@ Opdracht:
 .. fillintheblank:: h1s2q7
    :casei:
 
-   Vul in cel C5 in: ``True``. In cel D5 zie je nu de waarde: ``|blank|``.
+   Vul in cel C5 in: ``True``. In cel D5 zie je nu de waarde: |blank|.
 
    -   :OK!: Correct.
        :x: Niet juist.

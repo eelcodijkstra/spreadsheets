@@ -1,0 +1,132 @@
+Toetsvragen
+===========
+
+In sommige lessen kun je toetsvragen tegenkomen.
+Hiermee kun je zelf controleren of je de behandelde stof begrijpt.
+Bovendien helpen deze vragen je om de belangrijke punten te onthouden.
+
+Door op "Check me" te klikken kun je je antwoord controleren.
+
+We gebruiken de volgende soorten toetsvragen:
+
+Multiple choice vragen
+----------------------
+
+Kies het alternatief dat volgens jou het best past bij de gestelde vraag.
+
+.. mchoice:: question1_1
+   :answer_a: Python
+   :answer_b: Java
+   :answer_c: C
+   :answer_d: ML
+   :correct: a
+   :feedback_a: Yes, Python is a great language to learn, whether you are a beginner or an experienced programmer.
+   :feedback_b: Java is a good object oriented language but it has some details that make it hard for the beginner.
+   :feedback_c: C is an imperative programming language that has been around for a long time, but it is not the one that we use.
+   :feedback_d: No, ML is a functional programming language.  You can use Python to write functional programs as well.
+
+   What programming language does this site help you to learn?
+
+..
+
+.. mchoice:: question1_2
+   :multiple_answers:
+   :answer_a: red
+   :answer_b: yellow
+   :answer_c: black
+   :answer_d: green
+   :correct: a,b,d
+   :feedback_a: Red is a definitely on of the colors.
+   :feedback_b: Yes, yellow is correct.
+   :feedback_c: Remember the acronym...ROY G BIV.  B stands for blue.
+   :feedback_d: Yes, green is one of the colors.
+
+   Which colors might be found in a rainbow? (choose all that are correct)
+
+..
+
+Fill in the blanks
+------------------
+
+In dit geval moet je in de invulvelden aangeven wat ingevuld moet worden in de gaten in de tekst,
+aangegeven door `|blank|`.
+De antwoorden moet je in dezelfde volgorde geven als de gaten in de tekst.
+
+Voorbeelden:
+
+.. fillintheblank:: fill1512
+
+    Hoe schrijf je 9 als binair getal? |blank|
+    En 10?
+
+    - :1001: Juist!
+      :9: Dat is decimaal (of hexadecimaal)
+      :.*: 9 als binair getal, graag.
+    - :1010: OK
+      :?: ??
+
+Spreadsheet-vragen
+------------------
+
+Soms bestaat een vraag uit het invullen van een eenvoudige spreadsheet.
+
+
+.. codeblock:
+
+  .. spreadsheet:: uniqueid
+       :fromcsv: path/to/csv/file
+       :colwidths: list of column widths
+       :coltitles: list of column names
+       :mindimensions: mincols, minrows  -- minDimensions:[10,5]
+
+       A1,B1,C1,D1...
+       A2,B2,C2,D2...
+
+       0,2,3,4
+       1,3,"=A2+B2","hi"
+..
+
+.. spreadsheet:: spread123
+   :fromcsv: demo.csv
+   :mindimensions: 4,4
+
+   ====
+   assert C3 == 100
+   assert D3 == Hello
+
+..
+
+En dit is de tekst na de spreadsheet...
+
+
+.. activecode:: sql1
+    :language: sql
+    :dburl: /test.db
+
+    select *
+    from COUNTRIES
+    limit 5;
+
+..
+
+
+.. code-block:: SQL
+
+    .. activecode:: sql1
+        :language: sql
+        :autograde: unittest
+        :dburl: test.db
+
+        select bike_number, max(duration)
+        from trip_data
+        group by bike_number
+        order by max(duration) desc
+        limit 4;
+
+        ====
+        assert 0,0 == W00379
+        assert 0,1 == 86355
+        assert 2,1 == 86336
+
+.. datafile:: country_data.csv
+    :fromfile: world_countries.csv

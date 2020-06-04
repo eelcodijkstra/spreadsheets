@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Groei van functies, functies van groei &#8212; Spreadsheets</title>
+    <title>2.2. Groei van functies, functies van groei &#8212; Spreadsheets</title>
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
@@ -32,6 +32,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/accessibility.css?v=DB047029" />
     <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css?v=1FF7F927" />
     <link rel="stylesheet" type="text/css" href="../_static/poll.css?v=E220AC33" />
+    <link rel="stylesheet" type="text/css" href="../_static/theme-overrides.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
@@ -126,8 +128,8 @@
     <script type="text/javascript" src="../_static/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Historie: produceren van tabellen" href="h2s7.html" />
-    <link rel="prev" title="Van functie naar tabel en grafiek" href="h2s5.html" />
+    <link rel="next" title="2.3. Historie: produceren van tabellen" href="h2s7.html" />
+    <link rel="prev" title="2.1. Van functie naar tabel en grafiek" href="h2s5.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -313,13 +315,13 @@
         
         <!-- 
           
-  <li id="relations-prev" title="Previous Chapter - Van functie naar tabel en grafiek" data-toggle="tooltip">
+  <li id="relations-prev" title="Previous Chapter - <span class="section-number">2.1. </span>Van functie naar tabel en grafiek" data-toggle="tooltip">
     <a href="h2s5.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - Historie: produceren van tabellen' data-toggle="tooltip" >              
+  <li id="relations-next" title='Next Chapter - <span class="section-number">2.3. </span>Historie: produceren van tabellen' data-toggle="tooltip" >              
     <a href="h2s7.html" >
         <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
@@ -359,7 +361,7 @@
 <div class="container" id="main-content" role="main">
   
   <div class="section" id="groei-van-functies-functies-van-groei">
-<h1>Groei van functies, functies van groei<a class="headerlink" href="#groei-van-functies-functies-van-groei" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">2.2. </span>Groei van functies, functies van groei<a class="headerlink" href="#groei-van-functies-functies-van-groei" title="Permalink to this headline">¶</a></h1>
 <p>We hebben in de voorgaande sectie steeds de volledige formule van een functie gebruikt.
 je kunt in veel gevallen de volgende functiewaarde ook uitrekenen uit de huidige en vorige waarden.</p>
 <p>Zoals we later zullen zien heeft dat een historische betekenis:
@@ -370,7 +372,7 @@ het groeien van bijvoorbeeld een tak aan een boom betekent dat de “volgende wa
 <p>Het eenvoudigste groeimodel is <em>nulgroei</em>: de volgende waarde is gelijk aan de huidige.
 De uitwerking hiervan laten we aan de lezer.</p>
 <div class="section" id="lineaire-groei">
-<h2>Lineaire groei<a class="headerlink" href="#lineaire-groei" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2.1. </span>Lineaire groei<a class="headerlink" href="#lineaire-groei" title="Permalink to this headline">¶</a></h2>
 <p>Bij lineaire groei is de volgende waarde gelijk aan de huidige met een <em>constant verschil</em>.
 Dit model hebben we eerder gebruikt voor het uitrekenen van de x-kolom: <code class="docutils literal notranslate"><span class="pre">A3</span></code>: <code class="docutils literal notranslate"><span class="pre">=A2+delta0</span></code>.
 Hierbij hebben we een benoemd bereik gebruikt voor de “groeiconstante”.</p>
@@ -383,7 +385,7 @@ Hierbij hebben we een benoemd bereik gebruikt voor de “groeiconstante”.</p>
 </ol>
 </div>
 <div class="section" id="kwadratische-groei">
-<h2>Kwadratische groei<a class="headerlink" href="#kwadratische-groei" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2.2. </span>Kwadratische groei<a class="headerlink" href="#kwadratische-groei" title="Permalink to this headline">¶</a></h2>
 <p>Bij kwadratische groei hangt de toename af van de waarde van <code class="docutils literal notranslate"><span class="pre">x</span></code>,
 of, in biologische systemen, van de tijd <code class="docutils literal notranslate"><span class="pre">t</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">B3</span></code>: <code class="docutils literal notranslate"><span class="pre">=B2+A2*delta1</span></code>.</p>
@@ -397,7 +399,7 @@ of, in biologische systemen, van de tijd <code class="docutils literal notransla
 </ol>
 </div>
 <div class="section" id="exponentiele-groei">
-<h2>Exponentiële groei<a class="headerlink" href="#exponentiele-groei" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2.3. </span>Exponentiële groei<a class="headerlink" href="#exponentiele-groei" title="Permalink to this headline">¶</a></h2>
 <p>Bij exponentiële groei hangt het verschil tussen de huidige en de volgende waarde af van de huidige waarde.</p>
 <ol class="arabic simple">
 <li><p>definieer als benoemd bereik in <code class="docutils literal notranslate"><span class="pre">H3</span></code>: <code class="docutils literal notranslate"><span class="pre">delta2</span></code>; geef <code class="docutils literal notranslate"><span class="pre">H3</span></code> de waarde 0,2</p></li>
@@ -428,7 +430,7 @@ en nog vrij lang onder de kwadratische functie,
 en schiet dan boven alles uit.</p>
 </div>
 <div class="section" id="logaritmische-groei">
-<h2>Logaritmische groei<a class="headerlink" href="#logaritmische-groei" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2.4. </span>Logaritmische groei<a class="headerlink" href="#logaritmische-groei" title="Permalink to this headline">¶</a></h2>
 <p>De groeifuncties hierboven laten een steeds snellere groei zien.
 Maar er zijn ook extra-trage groeifuncties mogelijk.
 Een voorbeeld is de logaritmische groei.</p>
@@ -442,26 +444,26 @@ Een voorbeeld is de logaritmische groei.</p>
   
       
 <ul>
-  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - Van functie naar tabel en grafiek' data-toggle="tooltip">
-    <a href="h2s5.html" aria-label="Van functie naar tabel en grafiek">
+  <li id="relations-prev" style="opacity:0.4" onmouseover="mouseOverPrev()" onmouseout="mouseOutPrev()"class="navLink" title='Previous Section - <span class="section-number">2.1. </span>Van functie naar tabel en grafiek' data-toggle="tooltip">
+    <a href="h2s5.html" aria-label="<span class="section-number">2.1. </span>Van functie naar tabel en grafiek">
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
             <i class='prevNav glyphicon glyphicon-chevron-left'  style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black;"></i>
         </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="h2s5.html" aria-label="Van functie naar tabel en grafiek"></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="h2s5.html" aria-label="<span class="section-number">2.1. </span>Van functie naar tabel en grafiek"></a>
   
 <ul>
-  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - Historie: produceren van tabellen' data-toggle="tooltip" >
-    <a href="h2s7.html" aria-label="Historie: produceren van tabellen">
+  <li id="relations-next" style="opacity:0.4" onmouseover="mouseOverNext()" onmouseout="mouseOutNext()" class="navLink" title='Next Section - <span class="section-number">2.3. </span>Historie: produceren van tabellen' data-toggle="tooltip" >
+    <a href="h2s7.html" aria-label="<span class="section-number">2.3. </span>Historie: produceren van tabellen">
       <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">
           <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%; color:black; "></i>
       </div>
     </a>
   </li>
 </ul>
-  <a class="navLinkBg navLink" id="navLinkBgRight" href="h2s7.html" aria-label="Historie: produceren van tabellen">Next Section - Historie: produceren van tabellen</a>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="h2s7.html" aria-label="<span class="section-number">2.3. </span>Historie: produceren van tabellen">Next Section - <span class="section-number">2.3. </span>Historie: produceren van tabellen</a>
 
 <script type="text/javascript">
 

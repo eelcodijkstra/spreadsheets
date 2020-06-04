@@ -5,7 +5,7 @@ In deze opdracht onderzoek je of er een verband (correlatie) is tussen verschill
 Bijvoorbeeld: is er in een groep mensen een verband tussen armlengte en beenlengte.
 Hiervoor gebruik geef je deze gegevens weer in een spreidingsdiagram,
 waarin je het verband in de vorm van een trendlijn probeert te ontdekken.
-De correlatiecoefficient R^2 geeft aan hoe sterk het verband is.
+De correlatiecoefficient :math:`R^2` geeft aan hoe sterk het verband is.
 
 De data
 -------
@@ -73,7 +73,7 @@ Er bestaat een matig positief verband tussen de arm- en beenlengte.
 +---------------------+---------------------------------+
 | :math:`0,5 - 0,75`  | sterk                           |
 +---------------------+---------------------------------+
-| :math:`0,75 - 0,9` | zeer sterk                       |
+| :math:`0,75 - 0,9`  | zeer sterk                      |
 +---------------------+---------------------------------+
 | :math:`> 0,9`       | uitzonderlijk sterk (verdacht!) |
 +---------------------+---------------------------------+
@@ -86,8 +86,6 @@ Zelf doen
 Maak nu zelf een spreidingsdiagram met trendlijn die hoort bij deze onderzoeksvraag.
 In de tabel staat de longinhoud in de kolom Vitale capaciteit.
 Zorg dat je voldoet aan de gestelde eisen in de vorige twee opgaven.
-Plak het diagram in een Word-document.
-Zet de onderzoeksvraag erboven en de conclusie (zoals in opgave 2e) eronder.
 
 Een technisch puntje: we kijken hier hoe de longinhoud afhangt van de lengte.
 Longinhoud is dan de zogenaamde afhankelijke variabele.

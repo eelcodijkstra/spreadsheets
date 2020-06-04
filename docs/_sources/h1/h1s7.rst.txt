@@ -1,0 +1,79 @@
+Grafieken
+=========
+
+
+*Opmerking.* Een grafiek heet soms ook *diagram*, zoals in *taardiagram* of *staafdiagram*.
+
+Soorten grafieken
+-----------------
+
+Er zijn heel veel verschillende soorten grafieke en diagrammen.
+We behandelen hier enkele van de meeste voorkomende.
+
+* staafdiagrammen
+* deze gebruik je om verschillende groepen onderling te vergelijken,
+  bijvoorbeeld het aantal elementen per groep.
+* taartdiagrammen
+* Deze gebruik je om aan te geven "hoe de taart verdeeld wordt":
+  de verdeling van het totaal (100%) in verschillende groepen.
+*
+
+Elementen van een grafiek
+-------------------------
+
+Een grafiek bestaat uit de volgende onderdelen:
+
+* Grafieksoort
+* Datareeksen
+* Grafiektitel
+* Assen
+* Rasterlijnen
+* Astitels
+* Trendlijnen
+* Legenda
+
+Bij het aanmaken kun je sommige van deze onderdelen selecteren.
+Achteraf kun je deze onderdelen aanpassen om de gewenste grafiek te krijgen.
+
+Datareeksen
+-----------
+
+Je begint meestal met het selecteren van de data waarvan je de grafiek wilt maken.
+Deze data bestaat uit een aantal "parallelle" reeksen van gelijke lengte,
+meestal kolommen.
+De eerste reeks vormt de data voor de x-as,
+de volgende reeks(en) zijn de data voor de y-as.
+
+Voorbeelden:
+
+* x-as: provincies (categorieën) , y-as: inwonersaantallen (data per categorie)
+*
+
+Als je de koptitels onderdeel maakt van reeksen, dan worden deze ook gebruikt voor de verschillende titels.
+
+Assen
+-----
+
+Rasterlijnen
+------------
+
+
+
+Grafiektitel
+------------
+
+De titel van de grafiek wordt in eerste instantie afgeleid van 
+
+Soorten data
+------------
+
+Je kunt niet elk soort grafiek maken bij elk soort data:
+
+* Voor een staafdiagram heb je een indeling in groepen of klassen nodig.
+
+
+Een veel gebruikte indeling in soorten data is de volgende:
+
+* nominatieve data: de verschillende klassen of groepen hebben een naam.
+  Je kunt daar geen numerieke waarde aan koppelen, of de klassen onderling vergelijken.
+*

@@ -1,0 +1,26 @@
+Spreadsheet-patronen
+====================
+
+Bij het werken met spreadsheets zijn er verschillende patronen die je vaak tegenkomt:
+
+* data: records in rijen ("tabel als relatie")
+* data-analyse: data-analyse/dashboard op apart rekenblad
+* tijdreeksen (simulatie; metingen?)
+* simulatie
+
+* scheiden van data en analyse/rekenwerk
+* rekening houden met uitbreiden/vervangen van data
+* onderscheid tussen parameters en input-data
+* gebruik van kleur
+* verticaal scrollen gemakkelijker dan horizontaal scrollen: laat de data naar beneden groeien.
+
+.rubric Scheiden van data en rekenwerk
+
+Een belangrijke regel is om data en rekenwerk (formules) te scheiden,
+in het bijzonder als deze data van een externe bron afkomstig is.
+De reden is dat je dan eenvoudig de data kunt aanpassen of verversen,
+zonder dat je het rekenwerk daarvoor hoeft aan te passen.
+Je kunt het rekenwerk op een ander rekenblad doen dan de data die je daarmee analyseert.
+
+
+*Gebruik van kleur.* Soms kun je kleur gebruiken om de verschillende soorten onderdelen van je spreadsheet aan te geven.

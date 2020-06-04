@@ -11,11 +11,18 @@ De nadruk ligt daarbij op de principes van spreadsheets,
 zoals je die in de verschillende programma’s (zoals Excel, Google Spreadsheets, Apple Numbers, enz.) tegenkomt.
 Daarnaast geven we tips voor het gebruik van de “knoppen” van een specifiek programma tegenkomt.
 
+
+.. toctree::
+   :maxdepth: 2
+
+   h0/toctree.rst 
+
 .. toctree::
    :maxdepth: 3
+   :numbered:
 
    h1/toctree.rst
    h2/toctree.rst
    h3/toctree.rst
    h4/toctree.rst
-   h5/toctree.rst 
+   h5/toctree.rst

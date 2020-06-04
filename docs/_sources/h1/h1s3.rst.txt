@@ -1,5 +1,5 @@
-Formules en functies
-====================
+Formules, adressen en functies
+==============================
 
 Met een formule in een cel kun je de waarde van die cel uitrekenen uit de waarden van andere cellen:
 dat is het basisidee van spreadsheets.

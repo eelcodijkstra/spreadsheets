@@ -1,0 +1,90 @@
+Inleiding data-analyse
+======================
+
+Dit hoofdstuk bevat voorbeeld-lessen voor data-analyse.
+Spreadsheets zijn vaak een eerste middel voor het analyseren van data:
+je kunt er eenvoudig aan rekenen, er snel wat statistiek op loslaten, en er grafieken van maken.
+
+Data-bronnen
+------------
+
+De data kan uit allerlei bronnen afkomstig zijn:
+
+* meetgegevens, met de hand ingevuld of automatisch gemeten (Arduino);
+* resultaten van vragenlijsten, bijvoorbeeld via Google Forms of Microsoft Forms;
+* externe databestanden, bijvoorbeeld in CSV-formaat;
+* externe databases;
+* ...
+
+De gegevens van externe bronnen zijn niet altijd direct bruikbaar:
+soms moet je die opschonen, bijvoorbeeld door "waarschijnlijk foute gegevens" te verwijderen.
+
+Bij je onderzoek moet je altijd de bron van je data vermelden,
+en wat je met deze data gedaan hebt.
+
+Open data
+---------
+
+Steeds meer data komt beschikbaar als *open data*:
+gegevens die via het web te vinden zijn en door iedereen gebruikt mogen worden.
+Vooral gegevens van overheden zijn als open data beschikbaar.
+
+Enkele voorbeelden van bronnen van open data:
+
+* https://data.amsterdam.nl - open data van de gemeente Amsterdam
+* https://duo.nl/open_onderwijsdata/ - open data over onderwijs
+* https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data - CBS-data
+* https://www.gapminder.org - data over de ontwikkelingen in de wereld
+
+Het CBS biedt ook materiaal aan speciaal voor het onderwijs, zie: https://www.cbs.nl/nl-nl/onze-diensten/in-de-klas
+
+Gapminder biedt interessante data, maar ook leuke manieren om die data te analyseren en te presenteren.
+De presentaties van Hans Rosling (helaas te jong overleden) zijn onvergetelijk!
+
+Open science
+------------
+
+Wetenschap dient "open" te zijn, zowel met betrekking tot de data die voor een onderzoek gebruikt zijn,
+als met betrekking tot de resultaten die bereikt zijn, en die voor een deel op deze data berusten.
+Alleen als onderzoekers over elkaars data beschikken, kunnen ze controleren of het bewuste onderzoek betrouwbaar is.
+En omdat vrijwel alle onderzoek door de overheid betaald wordt, moeten ook de resultaten en de publicaties voor iedereen beschikbaar zijn (open access).
+
+.. rubric Open science
+
+  Open science is het beoefenen van wetenschap op een dusdanige manier dat anderen de gelegenheid hebben om mee te werken en
+  bij te dragen aan en gebruik te maken van het wetenschappelijk proces.
+  Zo kunnen gebruikers 'van buiten de wetenschap’ de onderzoekswereld beïnvloeden met vragen en ideeën en onderzoeksgegevens helpen verzamelen.
+
+* https://www.openscience.nl
+* https://www.openaccess.nl
+
+Publiceren van data-analyse resultaten
+--------------------------------------
+
+De traditionele manier van publiceren van een data-analyse resultaat is in de vorm van een papieren rapport met tabellen en grafieken.
+Tegenwoordig zijn daarvoor betere manieren.
+
+Door het publiceren van de resultaten op het web kan de gebruiker meer te weten komen over de data
+en over de manier van analyseren.
+Vaak is een belangrijk onderdeel van deze analyse een "dashboard" met de belangrijkste grafieken en samenvattingen.
+Bovendien kun je deze analyses actueel houden door steeds de actuele data te gebruiken.
+
+Spreadsheetprogramma's maken het mogelijk om rekenbladen, tabellen en grafieken te publiceren op het web.
+Deze kun je dan ook automatisch aanpassen als de data in de rekenbladen verandert.
+
+Hieronder zie je een voorbeeld uit de les over lichaamsmetingen zoals die gepubliceerd zijn naar het web.
+In dit geval kun je als gebruiker de waarden van de verschillende punten opvragen.
+
+.. raw:: html
+
+  <iframe width="664" height="410" seamless frameborder="0" scrolling="no"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFF3NgAhe1_wWmwADEdyJB9PD2IASikHQ9HcA3poFv8ZWXRFPQVrzAhr0AafGHxgNqCv4ViPq2XFNi/pubchart?oid=338817447&amp;format=interactive">
+  </iframe>
+
+Scheiden van data en analyse
+----------------------------
+
+Een belangrijke regel is dat je de data en de analyse van die data (de formules) gescheiden houdt,
+in verschillende rekenbladen.
+Je kunt dan de gegevens aanpassen, bijvoorbeeld door de actuele data te importeren,
+zonder dat je in de analyse iets hoeft te veranderen.

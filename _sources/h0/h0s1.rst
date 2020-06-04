@@ -1,0 +1,108 @@
+Opzet en motivatie 
+==================
+
+Dit lesmateriaal is bedoeld voor leerlingen in het VO, van onderbouw tot bovenbouw HAVO/VWO.
+
+Digitale geletterdheid: apart, of geïntegreerd in andere vakken?
+----------------------------------------------------------------
+
+De *basisprincipes* van Digitale geletterdheid kun je beter als apart vak geven,
+verzorgd door een docent met voldoende achtergrondkennis.
+Het *toepassen van deze principes* kun je vaak (beter) doen in de context van de andere vakken.
+Bijvoorbeeld door spreadsheets bij verschillende vakken te gebruiken leren leerlingen
+hun kennis toe te passen (transfer) en hun vaardigheden te vergroten.
+Voor een deel kan dit toepassen in andere vakken al plaatsvinden direct na de behandeling van de basisprincipes,
+bijvoorbeeld door een docent van een ander vak een les Digitale geletterdheid te later verzorgen.
+
+  Door docenten van andere vakken enige (speel)ruimte te geven bij Digitale geletterdheid
+  kan de overladenheid van het curriculum beperkt worden.
+
+Over de organisatie van het materiaal
+-------------------------------------
+
+Het materiaal bestaat uit een reeks inleidende lessen over de basisprincipes van spreadsheets,
+en een verzameling lessen met thema's die voor de verschillende vakken van belang zijn.
+De inleidende lessen vormen de basiskennis voor de meeste van de andere lessen.
+Deze lessen kunnen het best in een apart blok Digitale geletterdheid verzorgd worden,
+eventueel aangevul met enkele meer vakgerichte lessen uit de volgende hoofdstukken.
+(Het is de bedoeling dat het materiaal grotendeels geschikt is voor zelfstudie.)
+
+Docenten van de verschillende (Bèta)vakken kunnen een selectie maken uit de andere lessen,
+om deze in hun eigen vak aan te bieden.
+
+
+
+Doorlopende leerlijnen
+----------------------
+
+De enige manier waarop je vaardigheid krijgt in het werken met spreadsheets,
+is door het herhaaldelijk toepassen en oefenen in het gebruik daarvan in een zinvolle context.
+De herhaling moet voldoende vaak gebeuren om niet elke keer weer vanaf het begin te beginnen.
+Dit zal in het begin wat vaker zijn, bijvoorbeeld elke week, gedurende een periode van 8-10 weken.
+Later kan dit bijvoorbeeld enkele keren per jaar zijn.
+De verschillende vakken, in het bijzonder de Bètavakken,
+bieden genoeg mogelijkheden om met spreadsheets aan de slag te gaan.
+En omgekeerd: door het gebruik van spreadsheets kunnen deze vakken winnen aan relevantie en aantrekkelijkheid.
+
+In het overzicht van het materiaal hebben we aangegeven voor welke doelgroep dit geschikt is,
+en wat de voorkennis is wat betreft spreadsheets en kennis van het betreffende vakgebied.
+
+Een mogelijke aanpak is de volgende:
+
+* In klas 1 of 2 wordt een inleidende cursus spreadsheets gegeven, gedurende een blok van ca. 8 weken;
+  een minimale inspanning daarvoor is 1 uur per week les met 1 uur per week huiswerk.
+* Deze cursus kan bestaan uit de inleidende lessen aangevuld met toepassingslessen vanuit verschillende vakken.
+  Dit laatste biedt docenten van andere vakken de ruimte om hun eigen materiaal aan te dragen voor de toepassingen.
+* In de daarop volgende jaren wordt tenminste 2 keer per jaar het toepassen van spreadsheets geoefend in de context
+  van een ander vak dan Digitale geletterdheid.
+* Waar nodig kan in de latere jaren in het kader van het vak Digitale geletterdheid een specialistisch
+  onderwerp uit de lessenreeks gekozen worden, om te voorkomen dat de principes
+
+Nadruk op principes van spreadsheets
+------------------------------------
+
+Dit materiaal is niet bedoeld als een cursus Excel of Google Spreadsheets.
+De nadruk ligt op de principes, niet op de gebruikersinterfaces (de "knoppen").
+Deze basiskennis is toepasbaar bij alle soorten spreadsheetprogramma's,
+nu en in de toekomst.
+
+  De verschillende spreadsheetprogramma's verschillen vooral in hun gebruikersinterface.
+  Bovendien verandert dit gebruikersinterface vaak van versie tot versie.
+
+Daarnaast gebruiken we het materiaal ook om een aantal informatica-basisprincipes te verduidelijken.
+
+Handigheid met de knoppen
+-------------------------
+
+Het gebruikersinterface is wel belangrijk om *handig* te kunnen werken.
+Daarom hebben we een aantal veelgebruikte handige opdrachten in een apart document ondergebracht.
+
+Daarnaast moeten leerlingen leren om dit soort informatie op te zoeken op het web:
+ook dat is Digitale geletterdheid.
+Voor de verschillende spreadsheetprogramma's zijn veel video's beschikbaar,
+met enige handigheid heb je snel een handige en relevante video gevonden.
+
+Nog uit te werken suggesties
+----------------------------
+
+Om de leerlingen in het begin snel vaardig te laten worden,
+kunnen ze kleine dagelijkse oefenopdrachten gebruiken:
+(bijna) elke dag 10-15 minuten aan de stof werken is beter dan eens per week 2 uren.
+
+Bij het lesmateriaal proberen we ook eenvoudige formatieve toetsopdrachten te formuleren.
+Deze zijn in eerste instantie bedoeld om leerlingen zichzelf te laten controleren
+of ze e.e.a. goed onthouden en begrepen hebben.
+
+Enkele open einden
+------------------
+
+Hoe kijk je het huiswerk voor deze lessen na?
+Voor de inleidende lessen kan dat aan de hand van de vragen die in de lessen gesteld worden.
+
+Voor de volgende lessen is het resultaat in de meeste gevallen een uitgewerkte spreadsheet.
+Deze moet ingeleverd worden en nagekeken.
+
+* kunnen leerlingen elkaars werk nakijken?
+* kan dat anoniem?
+* kan bijvoorbeeld een opdracht door meerdere leerlingen nagekeken worden?
+* kun je voor het nakijken ook punten krijgen?
