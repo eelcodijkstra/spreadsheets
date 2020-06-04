@@ -15,6 +15,9 @@ rekenvel, cel, rij, kolom, actieve cel, waarde, getal, tekst, logische waarde,
 invoeren van waarde, formatteren van waarde,
 datumformat, rekenen met data, ...
 
+.. rubric:: Video
+
+Zie de `inleidende video <https://vimeo.com/408395964>`_
 
 Rekenvel: cellen, rijen, kolommen
 ---------------------------------
@@ -52,12 +55,24 @@ Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1
 .. fillintheblank:: h1s2q1
    :casei:
 
-   Het adres van de geselecteerde cel is: |blank|.
+   Het adres van de geselecteerde cel in de figuur hierboven is: |blank|.
 
    -   :G7: Correct.
        :x: Try again.
 
 ..
+
+Gebruik voor de volgende opdrachten de spreadsheet "hoofdstuk1.xlsx" (of
+de variant in OfficeLibre of `Google Spreadsheets <https://docs.google.com/spreadsheets/d/1-tDdLGB4DldkDlqNat1VylEvB8fwRcbvTmnS62X3W10/edit?usp=sharing>`_)
+Voor Google Spreadsheets: maak een kopie voor eigen gebruik, via menu: Bestand->een kopie maken.
+Je moet dan wel ingelogd zijn.
+
+.. raw:: html
+
+    <div style="align: center;">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=286497481&amp;single=true&amp;widget=true&amp;headers=true"
+      width="600px" height="200px"></iframe>
+    </div>
 
 .. fillintheblank:: h1s2q2
    :casei:
@@ -79,12 +94,7 @@ Een cel kan een waarde of een formule bevatten. (Later meer over formules.)
 Een waarde is een getal, een tekst, of een logische waarde (``TRUE`` of ``FALSE``,
 of in een Nederlandse versie, ``WAAR`` of ``ONWAAR``).
 
-.. raw:: html
 
-    <div style="align: center;">
-      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLoapfL__oCIfg-5pIEnqabhh1GvtPy78olWjoOB9FQLig05FlpgRLsjyAdwV269LrxbY5VD6bXib0/pubhtml?gid=286497481&amp;single=true&amp;widget=true&amp;headers=true"
-      width="600px" height="200px"></iframe>
-    </div>
 
 Opdracht:
 
