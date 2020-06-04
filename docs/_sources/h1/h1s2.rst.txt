@@ -54,7 +54,7 @@ Je kunt ook een rechthoek van cellen op deze manier aangeven, bijvoorbeeld: ``A1
 
    Het adres van de geselecteerde cel is: |blank|.
 
-   -   :C4: Correct.
+   -   :G7: Correct.
        :x: Try again.
 
 ..
